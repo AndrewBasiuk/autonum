@@ -29,7 +29,11 @@ gulp.task('all-js', function() {
 // Common
 gulp.task('common-js', function() {
 	return gulp.src([
-		'src/js/libs/*.js',
+		'src/js/libs/jquery.js',
+		//'src/js/libs/popper.js',
+		//'src/js/libs/bootstrap.min.js',
+		'src/js/libs/slick.min.js',
+
 		'src/js/common.js'
 		])
 	.pipe(concat('common.js'))
@@ -38,21 +42,20 @@ gulp.task('common-js', function() {
 });
 // Common
 
-// header start
-gulp.task('header-js', function() {
+// Home
+gulp.task('home-js', function() {
 	return gulp.src([
-		'src/js/header.js',
+		'src/js/home.js'
 		])
-	.pipe(concat('header.min.js'))
+	.pipe(concat('home.js'))
 	//.pipe(uglify())
 	.pipe(gulp.dest('dist/js'));
 });
-// header end
-
+// Home
 
 gulp.task('js', [
 	'common-js',
-	'header-js'
+	'home-js'
 	], function() {
 	return gulp.src([
 		'src/js/common.js',
