@@ -1,7 +1,7 @@
 <div class="head">
 	<div class="container">
-		<img class="logo" src="img/head-auto.jpg" alt="logo">
-		<img class="logo_mob" src="img/head-auto_mob.jpg" alt="logo">
+		<img class="logo" src="img/head-auto.jpg" title="logo" alt="logo">
+		<img class="logo_mob" src="img/head-auto_mob.jpg" title="logo" alt="logo">
 
 		<nav class="header__nav_bottom">
 			<ul>
@@ -32,7 +32,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="hamburger">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 				viewBox="0 0 396.667 396.667" style="enable-background:new 0 0 396.667 396.667;" xml:space="preserve">
 						<g>
 							<g>
@@ -41,8 +41,9 @@
 								<path d="M17,342.833h362.667c9.35,0,17-7.65,17-17s-7.65-17-17-17H17c-9.35,0-17,7.65-17,17S7.65,342.833,17,342.833z"/>
 							</g>
 						</g>
-					</svg>
-					<span>MENU</span>
+					</svg> -->
+					<img src="img/icons/icon_menu_gamburger.png" title="hamburger-icon" alt="hamburger-icon">
+					<span>МЕНЮ</span>
 				</div>
 				<div class="col-md-8 nav-wrap">
 					<div class="hamburger-close">
@@ -54,7 +55,8 @@
 					</div>
 					<div class="lang">
 						<button>
-							<i class="fas fa-globe"></i>
+							<!-- <i class="fas fa-globe"></i> -->
+							<img src="img/icons/earth.svg" title="icon" alt="icon">
 							<span>Русский</span>
 						</button>
 						<ul>
@@ -76,9 +78,24 @@
 				</div>
 				<div class="offset-md-1 col-md-3 header__contact">
 					<ul>
-						<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fab fa-viber"></i></a></li>
-						<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+						<li>
+							<a href="#">
+								<!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
+								<img src="img/icons/icon_phone.png" title="phone-icon" alt="phone-icon">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<!-- <i class="fab fa-viber"></i> -->
+								<img src="img/icons/viber.png" title="viber-icon" alt="viber-icon">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<!-- <i class="fab fa-whatsapp"></i> -->
+								<img src="img/icons/whatsapp.png" title="whatsapp-icon" alt="whatsapp-icon">
+							</a>
+						</li>
 					</ul>
 					<a href="#">(097) 455 55 77</a>
 				</div>

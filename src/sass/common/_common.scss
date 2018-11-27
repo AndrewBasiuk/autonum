@@ -54,6 +54,10 @@ b {
 		min-height: 50px;
 		border-bottom: 1px solid #BDBCB9;
 		display: flex;
+
+		&:hover {
+			background-color: #AEBAD2 !important;
+		}
 	}
 
 	&-type {
@@ -101,7 +105,7 @@ b {
 			transition: all 0.3s;
 			
 			&:hover {
-				background-color: $blue;
+				background-color: #D36B38;
 			}
 		}
 	}
@@ -152,7 +156,7 @@ b {
 		}
 
 		span {
-			color: #BDBCB9;
+			color: #474747;
 			font-family: Verdana, sans-serif;
 			font-size: 11px;
 		}
@@ -219,7 +223,7 @@ b {
 		font-family: Verdana, sans-serif;
 		font-size: 13px;
 		box-sizing: border-box;
-		padding-left: 50px;
+		padding-left: 35px;
 		margin-bottom: 20px;
 		line-height: 1.3;
 

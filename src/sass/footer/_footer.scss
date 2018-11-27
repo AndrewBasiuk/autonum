@@ -1,6 +1,8 @@
 .footer {
 	padding: 25px 0;
 	background-color: $yellow;
+	position: relative;
+	overflow: hidden;
 
 	&__logo {
 		margin-bottom: 30px;
@@ -11,6 +13,13 @@
 		font-family: Verdana, sans-serif;
 		font-size: 13px;
 	}
+}
+
+.decore-image {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .footer-contact {
@@ -70,5 +79,10 @@
 
 	.footer-contact {
 		margin-bottom: 60px;
+	}
+
+	.decore-image {
+		width: 200%;
+		max-width: 200%;
 	}
 }

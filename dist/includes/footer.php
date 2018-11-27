@@ -1,9 +1,10 @@
 
 <footer class="footer">
+	<img src="img/decor.png" alt="decore-line" class="decore-image">
 	<div class="container">
 		<div class="row">
 			<div class="footer-block_1 order-2 order-md-0 col-md-4">
-				<img class="footer__logo" src="img/footer-logo.png" alt="logo">
+				<img class="footer__logo" src="img/footer-logo.png" title="logo" alt="logo">
 				<ul class="footer-contact">
 					<li>
 						<i class="fa fa-phone" aria-hidden="true"></i>

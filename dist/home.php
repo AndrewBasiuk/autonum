@@ -39,7 +39,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="table-image">
-                <img src="img/num_1.jpg" alt="avto-num">
+                <img src="img/num_1.jpg" title="avto-num" alt="avto-num">
               </div>
               <div class="table-link">
                 <a href="#">Легковые, грузовые и прицепы  2004-2015</a>
@@ -48,7 +48,7 @@
             <div class="table-price">
               <p class="table__text">
                 <span class="table__text_mobile">1 шт - </span>
-                <span class="table__text_big">239</span>
+                <span class="table__text_big"> 239 </span>
                 грн
               </p>
             </div>
@@ -56,7 +56,7 @@
               <p class="table__text">
                 <p class="table__text">
                   <span class="table__text_mobile">2 шт - </span>
-                  <span class="table__text_big">239</span>
+                  <span class="table__text_big"> 239 </span>
                   грн
                 </p>
               </p>
@@ -68,7 +68,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="table-image">
-                <img src="img/num_2.jpg" alt="avto-num">
+                <img src="img/num_2.jpg" title="avto-num" alt="avto-num">
               </div>
               <div class="table-link">
                 <a href="#">Легковые, грузовые и прицепы с 2015 (под Евро)</a>
@@ -98,7 +98,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="table-image">
-                <img src="img/num_3.jpg" alt="avto-num">
+                <img src="img/num_3.jpg" alt="avto-num" alt="avto-num">
               </div>
               <div class="table-link">
                 <a href="#">Американский номер  2004-2015</a>
@@ -108,7 +108,7 @@
             <div class="table-price">
               <p class="table__text">
                 <span class="table__text_mobile">1 шт - </span>
-                <span class="table__text_big">239</span>
+                <span class="table__text_big"> 239 </span>
                 грн
               </p>
             </div>
@@ -116,7 +116,7 @@
               <p class="table__text">
                 <p class="table__text">
                   <span class="table__text_mobile">2 шт - </span>
-                  <span class="table__text_big">239</span>
+                  <span class="table__text_big"> 239 </span>
                   грн
                 </p>
               </p>
@@ -128,7 +128,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="table-image">
-                <img src="img/num_4.jpg" alt="avto-num">
+                <img src="img/num_4.jpg" alt="avto-num" alt="avto-num">
               </div>
               <div class="table-link">
                 <a href="#">Польские номера</a>
@@ -163,7 +163,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 content-block-image">
-            <img src="img/atention.jpg" alt="doc-image">
+            <img src="img/atention.jpg" title="doc-image" alt="doc-image">
           </div>
           <div class="col-md-8">
             <p class="paragraph">
@@ -181,7 +181,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 content-block-image">
-            <img src="img/doc.jpg" alt="doc-image">
+            <img src="img/doc.jpg" title="doc-image" alt="doc-image">
           </div>
           <div class="col-md-8">
             <h2 class="h2">
@@ -212,7 +212,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 content-block-image">
-            <img src="img/num_img.jpg" alt="doc-image">
+            <img src="img/num_img.jpg" title="doc-image" alt="doc-image">
           </div>
           <div class="col-md-8">
             <h2 class="h2">
@@ -248,7 +248,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 content-block-image">
-            <img src="img/postman.jpg" alt="doc-image">
+            <img src="img/postman.jpg" title="doc-image" alt="doc-image">
           </div>
           <div class="col-md-8">
             <h2 class="h2">
@@ -273,7 +273,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 content-block-image">
-            <img src="img/img_1.jpg" alt="doc-image">
+            <img src="img/img_1.jpg" title="doc-image" alt="doc-image">
           </div>
           <div class="col-md-8">
             <h2 class="h2">
@@ -303,7 +303,7 @@
           <div class="col">
             <div class="row">
               <div class="col-md-6">
-                <img src="img/article_1.jpg" alt="article_image">
+                <img src="img/article_1.jpg" title="article_image" alt="article_image">
               </div>
               <div class="col-md-6">
                 <p class="paragraph article__heading"> 
@@ -318,7 +318,7 @@
           <div class="col">
             <div class="row">
               <div class="col-md-6">
-                <img src="img/article_2.jpg" alt="article_image">
+                <img src="img/article_2.jpg" title="article_image" alt="article_image">
               </div>
               <div class="col-md-6">
                 <p class="paragraph article__heading"> 
@@ -338,7 +338,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 content-block-image">
-            <img src="img/ukraine-map.jpg" alt="ukraine-map">
+            <img src="img/ukraine-map.jpg" title="ukraine-map" alt="ukraine-map">
           </div>
           <div class="col-md-8">
             <h2 class="h2">
