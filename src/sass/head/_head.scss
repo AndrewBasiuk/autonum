@@ -49,8 +49,8 @@
 	right: 15px;
 
 	svg {
-		width: 30px;
-		height: 30px;
+		width: 25px;
+		height: 25px;
 		fill: #fff;
 		stroke: #fff;
 	}
@@ -69,6 +69,28 @@
 .nav-wrap {
 	display: flex;
 	align-items: center;
+}
+
+.mobile-contact {
+	order: 3;
+	width: 100%;
+	display: none;
+
+	li {
+		border-bottom: 1px solid #999;
+	}
+	a {
+		display: inline-block;
+		color: #fff;
+		font-family: Arial, sans-serif;
+		font-size: 1.2rem;
+		padding: 20px;
+	}
+
+	i {
+		color: #fff;
+		margin-right: 10px;
+	}
 }
 
 .lang {

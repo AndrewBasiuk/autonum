@@ -32,16 +32,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="hamburger">
-					<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 				viewBox="0 0 396.667 396.667" style="enable-background:new 0 0 396.667 396.667;" xml:space="preserve">
-						<g>
-							<g>
-								<path d="M17,87.833h362.667c9.35,0,17-7.65,17-17s-7.65-17-17-17H17c-9.35,0-17,7.65-17,17C0,80.183,7.65,87.833,17,87.833z"/>
-								<path d="M17,215.333h362.667c9.35,0,17-7.65,17-17s-7.65-17-17-17H17c-9.35,0-17,7.65-17,17S7.65,215.333,17,215.333z"/>
-								<path d="M17,342.833h362.667c9.35,0,17-7.65,17-17s-7.65-17-17-17H17c-9.35,0-17,7.65-17,17S7.65,342.833,17,342.833z"/>
-							</g>
-						</g>
-					</svg> -->
 					<img src="img/icons/icon_menu_gamburger.png" title="hamburger-icon" alt="hamburger-icon">
 					<span>МЕНЮ</span>
 				</div>
@@ -75,24 +65,37 @@
 							<li><a href="#">Контакты</a></li>
 						</ul>
 					</nav>
+					<div class="mobile-contact">
+						<ul>
+							<li>
+								<a href="tel:+380974555577">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+									+38 (097) 455-55-77
+								</a>
+							</li>
+							<li>
+								<a href="mailto:info@avtonomera.net.ua">
+									<i class="far fa-envelope"></i>
+									info@avtonomera.net.ua
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div class="offset-md-1 col-md-3 header__contact">
 					<ul>
 						<li>
 							<a href="#">
-								<!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
 								<img src="img/icons/icon_phone.png" title="phone-icon" alt="phone-icon">
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<!-- <i class="fab fa-viber"></i> -->
 								<img src="img/icons/viber.png" title="viber-icon" alt="viber-icon">
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<!-- <i class="fab fa-whatsapp"></i> -->
 								<img src="img/icons/whatsapp.png" title="whatsapp-icon" alt="whatsapp-icon">
 							</a>
 						</li>
