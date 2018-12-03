@@ -45,7 +45,7 @@
 .hamburger-close {
 	display: none;
 	position: absolute;
-	top: 15px;
+	top: 11px;
 	right: 15px;
 
 	svg {
@@ -83,8 +83,8 @@
 		display: inline-block;
 		color: #fff;
 		font-family: Arial, sans-serif;
-		font-size: 1.2rem;
-		padding: 20px;
+		font-size: 1rem;
+		padding: 16px;
 	}
 
 	i {
@@ -330,6 +330,9 @@
 			border-bottom: 2px solid #E5BBAD;
 		}*/
 	}
+}
+.header__nav_top .header__nav_mobile {
+	display: none;
 }
 
 .social {

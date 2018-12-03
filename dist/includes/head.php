@@ -47,7 +47,7 @@
 						<button>
 							<!-- <i class="fas fa-globe"></i> -->
 							<img src="img/icons/earth.svg" title="icon" alt="icon">
-							<span>Русский</span>
+							<span>Язык</span>
 						</button>
 						<ul>
 							<li><a href="#">Украинский</a></li>
@@ -64,6 +64,18 @@
 							<li><a href="#">Статьи</a></li>
 							<li><a href="#">Контакты</a></li>
 						</ul>
+						<ul class="header__nav_mobile">
+							<li><a href="#">Заказ Онлайн</a></li>
+							<li><a href="#">Дубликаты номеров</a></li>
+							<li><a href="#">Утеря номеров?</a></li>
+							<li><a href="#">Востановление номеров</a></li>
+							<li><a href="#">Американский размер</a></li>
+							<li><a href="#">Сувенирные номера</a></li>
+							<li><a href="#">Именные номера</a></li>
+							<li><a href="#">Блатные номера</a></li>
+							<li><a href="#">Рамки</a></li>
+						</ul>
+
 					</nav>
 					<div class="mobile-contact">
 						<ul>
@@ -78,6 +90,17 @@
 									<i class="far fa-envelope"></i>
 									info@avtonomera.net.ua
 								</a>
+							</li>
+							<li>
+								<div class="soc-wrap soc-wrap_mobile">
+									<ul class="social">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#"><i class="fab fa-vk"></i></a></li>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+										<li><a href="#"><i class="fas fa-envelope"></i></a></li>
+									</ul>
+								</div>
 							</li>
 						</ul>
 					</div>
