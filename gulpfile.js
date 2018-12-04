@@ -68,7 +68,7 @@ gulp.task('js', [
 
 gulp.task('browser-sync', function() {
 	browserSync({
-		proxy: "avtonum/dist",
+		proxy: "num/dist",
     	notify: false // Отключаем уведомления
 	});
 });
