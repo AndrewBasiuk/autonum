@@ -68,6 +68,12 @@
 		font-size: 70px;
 		font-weight: bold;
 		text-transform: uppercase;
+
+		&::-webkit-input-placeholder {color: #e3e3e3;};
+		&::-moz-placeholder          {color: #e3e3e3;};
+		&:-moz-placeholder           {color: #e3e3e3;};
+		&:-ms-input-placeholder      {color: #e3e3e3;};
+
 	}
 }
 

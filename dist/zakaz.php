@@ -21,6 +21,10 @@
     <div class="table-wrap">
       <div class="container">
         <div class="table table_check">
+          <div class="table-heading">
+            <p class="label label_star">Выберите тип номерного знака</p>
+            <span class="error">Выберите тип номеров</span>
+          </div>
           <div class="table-row table-head">
             <div class="table-type">
               <p class="table__text">Тип номера</p>
@@ -158,10 +162,92 @@
             </div>
           </div>
         </div>
+        <div class="table table_check">
+          <div class="table-heading">
+            <p class="label label_star">Рамка / крепление:</p>
+          </div>
+          <div class="table-row table-head">
+            <div class="table-type">
+              <p class="table__text">Тип рамки</p>
+            </div>
+            <div class="table-price">
+              <p class="table__text">Количество</p>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                Цена
+              </p>
+            </div>
+          </div>
+          <div class="table-row">
+            <div class="table-type">
+              <div class="checkbox-wrap">
+                <input type="checkbox" class="radio" id="1_1">
+                <label for="1_1"></label>
+              </div>
+              <div class="table-image">
+                <img src="img/ramka-long.jpg" title="avto-num" alt="avto-num">
+              </div>
+              <div class="table-link">
+                <a href="#">Рамка для номерного знака - без надписей</a>
+              </div>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <span class="table__text_big"> 239 </span>
+                грн
+              </p>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <p class="table__text">
+                  <span class="table__text_big"> 60 </span>
+                  грн
+                </p>
+              </p>
+            </div>
+          </div>
+          <div class="table-row">
+            <div class="table-type">
+              <div class="checkbox-wrap">
+                <input type="checkbox" class="radio" id="2_1">
+                <label for="2_1"></label>
+              </div>
+              <div class="table-image">
+                <img src="img/ramka-amer.jpg" title="avto-num" alt="avto-num">
+              </div>
+              <div class="table-link">
+                <a href="#">Рамка для амер, японских, арабских номеров - без надписей</a>
+                <span>(300х150 мм)</span>
+              </div>
+            </div>
+            <div class="table-price">
+              <!-- <select name="" id="">
+                <options>0</options>
+                <options>1</options>
+                <options>2</options>
+              </select> -->
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <p class="table__text">
+                  <span class="table__text_big">0</span>
+                  грн
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-
+    <form class="form">
+      <div class="container">
+        <div class="form-majore">
+          
+        </div>
+      </div>
+    </form>
 
     <div class="ukraine-order">
       <div class="container">

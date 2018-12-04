@@ -294,7 +294,7 @@
         <div class="calc-input">
           <img src="img/calc.png" title="image" alt="image">
           <form action="">
-            <input type="text" placeholder="ВАСЯ">
+            <input type="text" placeholder="ИМЯ">
           </form>
         </div>
         <p class="calc__heading">Стоимость: <span class="calc__heading_orange">6500 грн</span></p>

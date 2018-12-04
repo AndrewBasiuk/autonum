@@ -1,11 +1,22 @@
+.table_check {
+    margin-bottom: 35px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .table-type {
+        width: 75%;
+    }
+}
+
 .checkbox {
     display: none;
     
     & + label {
         position: relative;
         content: " ";
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
         background-color: #fff;
         border-radius: 50%;
         border: 2px solid #a09f9c;
@@ -18,8 +29,8 @@
         opacity: 0;
         position: absolute;
         content: " ";
-        width: 10px;
-        height: 10px;
+        width: 9px;
+        height: 9px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -29,5 +40,91 @@
 
     &:checked + label:before {
         opacity: 1;
+    }
+}
+
+.radio {
+    display: none;
+    
+    & + label {
+        position: relative;
+        content: " ";
+        width: 18px;
+        height: 18px;
+        background-color: #fff;
+        border-radius: 2px;
+        border: 2px solid #a09f9c;
+        box-sizing: border-box;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    & + label:before {
+        opacity: 0;
+        position: absolute;
+        content: " ";
+        width: 18px;
+        height: 18px;
+        top: 0px;
+        left: 0px;
+        /*background-color: #1655D6;*/
+        background: url(../img/check.png) no-repeat;
+        border-radius: 2px;
+    }
+
+    &:checked + label:before {
+        opacity: 1;
+    }
+}
+
+.error {
+    position: relative;
+    color: #cf0000;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+    &:before {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -30px;
+        content: url("../img/error.png");
+    }
+}
+
+.label {
+    position: relative;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+}
+.label_star:before {
+    &:after {
+        position: absolute;
+        top: 0;
+        right: -12px;
+        color: #EE470D;
+        content: "*";
+    }
+}
+
+.table-heading {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 10px;
+
+    .label {
+        position: relative;
+        margin-right: 70px;
+        margin-bottom: 0;
+
+        &:after {
+            position: absolute;
+            top: 0;
+            right: -12px;
+            color: #EE470D;
+            content: "*";
+        }
     }
 }
