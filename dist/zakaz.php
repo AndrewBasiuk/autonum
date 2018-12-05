@@ -41,7 +41,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="checkbox-wrap">
-                <input type="radio" class="checkbox" id="1">
+                <input type="radio" name="num-type" class="radio" id="1">
                 <label for="1"></label>
               </div>
               <div class="table-image">
@@ -71,7 +71,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="checkbox-wrap">
-                <input type="radio" class="checkbox" id="2">
+                <input type="radio" name="num-type" class="radio" id="2">
                 <label for="2"></label>
               </div>
               <div class="table-image">
@@ -102,7 +102,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="checkbox-wrap">
-                <input type="radio" class="checkbox" id="3">
+                <input type="radio" name="num-type" class="radio" id="3">
                 <label for="3"></label>
               </div>
               <div class="table-image">
@@ -133,7 +133,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="checkbox-wrap">
-                <input type="checkbox" class="checkbox" id="4">
+                <input type="radio" name="num-type" class="radio" id="4">
                 <label for="4"></label>
               </div>
               <div class="table-image">
@@ -164,7 +164,7 @@
         </div>
         <div class="table table_check">
           <div class="table-heading">
-            <p class="label label_star">Рамка / крепление:</p>
+            <p class="label">Рамка / крепление:</p>
           </div>
           <div class="table-row table-head">
             <div class="table-type">
@@ -182,7 +182,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="checkbox-wrap">
-                <input type="checkbox" class="radio" id="1_1">
+                <input type="checkbox" class="checkbox" id="1_1">
                 <label for="1_1"></label>
               </div>
               <div class="table-image">
@@ -192,11 +192,12 @@
                 <a href="#">Рамка для номерного знака - без надписей</a>
               </div>
             </div>
-            <div class="table-price">
-              <p class="table__text">
-                <span class="table__text_big"> 239 </span>
-                грн
-              </p>
+            <div class="table-price small-select-wrap">
+              <select name="" id="">
+                <option value="">0</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
             </div>
             <div class="table-price">
               <p class="table__text">
@@ -210,7 +211,7 @@
           <div class="table-row">
             <div class="table-type">
               <div class="checkbox-wrap">
-                <input type="checkbox" class="radio" id="2_1">
+                <input type="checkbox" class="checkbox" id="2_1">
                 <label for="2_1"></label>
               </div>
               <div class="table-image">
@@ -221,12 +222,12 @@
                 <span>(300х150 мм)</span>
               </div>
             </div>
-            <div class="table-price">
-              <!-- <select name="" id="">
-                <options>0</options>
-                <options>1</options>
-                <options>2</options>
-              </select> -->
+            <div class="table-price small-select-wrap">
+             <select name="" id="">
+                <option value="">0</option>
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
             </div>
             <div class="table-price">
               <p class="table__text">
@@ -243,8 +244,77 @@
 
     <form class="form">
       <div class="container">
-        <div class="form-majore">
-          
+        <div class="form-block">
+          <div class="row big-select-wrap">
+            <p class="label col-sm-3">Количество номеров:</p>
+              <select name="" id="">
+                <option value="">1 номер</option>
+                <option value="">2 номера</option>
+                <option value="">3 номера</option>
+              </select>
+          </div>
+          <div class="row input-wrap">
+            <div class="col-sm-3">
+              <label for="num" class="label label_star">Номерной знак:</label>
+            </div>
+            <input type="text" id="num" class="col-sm-7 input input_error" placeholder="который заказываете, например АА 1234 АА">
+            <span class="offset-sm-3 error_small">необходимо заполнить</span>
+          </div>
+          <div class="row input-wrap">
+            <div class="col-sm-3">
+              <label for="name" class="label label_star">Ваше имя:</label>
+            </div>
+            <input type="text" id="name" class="col-sm-7 input input_error" placeholder="для доставки по Украине ФИО напишите полностью">
+            <span class="offset-sm-3 error_small">необходимо заполнить</span>
+          </div>
+          <div class="row input-wrap">
+            <div class="col-sm-3">
+              <label for="mail" class="label">E-mail:</label>
+            </div>
+            <input type="text" id="mail" class="col-sm-7 input" placeholder="не обязательно">
+          </div>
+          <div class="row input-wrap">
+            <div class="col-sm-3">
+              <label for="tel" class="label label_star">Контактный телефон:</label>
+            </div>
+            <input type="text" id="tel" class="col-sm-7 input input_error" placeholder="который заказываете, например АА 1234 АА">
+            <span class="offset-sm-3 error_small">необходимо заполнить</span>
+          </div>
+        </div>
+
+        <div class="form-block">
+          <div class="form-block-heading">
+            <p class="label label_star">Способ оплаты</p>
+            <span class="error">Выберите cпособ оплаты</span>
+          </div>
+          <div class="radio-wrap">
+              <input type="radio" name="pay-type" class="radio" id="10">
+              <label for="10"></label>
+              <div class="radio-text">
+                <p class="label">При получении</p>
+              </div>
+          </div>
+          <div class="radio-wrap">
+              <input type="radio" name="pay-type" class="radio" id="11">
+              <label for="11"></label>
+              <div class="radio-text">
+                <p class="label">Он-лайн оплата через сайт <span>(после оформления заказа)</span></p>
+              </div>
+          </div>
+          <div class="radio-wrap">
+              <input type="radio" name="pay-type" class="radio" id="12">
+              <label for="12"></label>
+              <div class="radio-text">
+                <p class="label">На карту Приватбанка <span>(номер карты 5363 5423 0661 7631)</span></p>
+              </div>
+          </div>
+          <div class="radio-wrap">
+              <input type="radio" name="pay-type" class="radio" id="13">
+              <label for="13"></label>
+              <div class="radio-text">
+                <p class="label">По безналичному расчету <span>(счет будет сформирован и выслан после оформления заказа)</span></p>
+              </div>
+          </div>
         </div>
       </div>
     </form>
