@@ -291,3 +291,53 @@
     box-sizing: border-box;
     resize: none;
 }
+
+.pay {
+    background-color: #E7E6E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0;
+
+    p {
+        color: #000;
+        font-family: Arial, sans-serif;
+        font-size: 22px;
+        margin-right: 40px;
+    }
+
+    button {
+        width: 142px;
+        color: #fff;
+        line-height: 40px;
+        font-family: Verdena, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #737E8E;
+        border: none;
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: #BD4E2C;
+            cursor: pointer;
+        }
+    }
+}
+
+.inform {
+
+    padding-top: 20px;
+
+    span {
+        font-size: 30px;
+        color: #EE470D;
+        margin-right: 3px;
+    }
+
+    p {
+        color: #000;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+    }
+}

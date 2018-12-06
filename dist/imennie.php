@@ -297,7 +297,7 @@
             <input type="text" placeholder="ИМЯ">
           </form>
         </div>
-        <p class="calc__heading">Стоимость: <span class="calc__heading_orange">6500 грн</span></p>
+        <p class="calc__heading">Стоимость: <span class="orange">6500 грн</span></p>
         <p class="paragraph calc__text">в стоимость входит: <br> комплект именных номеров <br>разрешительное письмо из департамента ГАИ</p>
         <button class="button">заказать</button>
       </div>

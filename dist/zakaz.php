@@ -374,7 +374,18 @@
           <textarea name="" id="" class="textarea"></textarea>
         </div>
       </div>
+
+      <div class="pay">
+        <p>Сумма к оплате:  <span class="orange">450 грн</span></p>
+        <button type="submit">Заказать</button>
+      </div>
     </form>
+
+    <div class="inform">
+      <div class="container">
+        <p><span class="orange">*</span> - поля обязательные для заполнения</p>
+      </div>
+    </div>
 
     <div class="ukraine-order">
       <div class="container">
