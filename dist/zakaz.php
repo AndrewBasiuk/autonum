@@ -179,7 +179,7 @@
               </p>
             </div>
           </div>
-          <div class="table-row">
+          <div class="table-row frame_mob">
             <div class="table-type">
               <div class="checkbox-wrap">
                 <input type="checkbox" class="checkbox" id="1_1">
@@ -208,7 +208,7 @@
               </p>
             </div>
           </div>
-          <div class="table-row">
+          <div class="table-row frame_mob">
             <div class="table-type">
               <div class="checkbox-wrap">
                 <input type="checkbox" class="checkbox" id="2_1">
