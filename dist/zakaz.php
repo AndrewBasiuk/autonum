@@ -284,37 +284,94 @@
 
         <div class="form-block">
           <div class="form-block-heading">
-            <p class="label label_star">Способ оплаты</p>
-            <span class="error">Выберите cпособ оплаты</span>
+            <p class="label label_star">Способ доставки</p>
+            <span class="error">Выберите cпособ доставки</span>
           </div>
           <div class="radio-wrap">
-              <input type="radio" name="pay-type" class="radio" id="10">
+              <input type="radio" name="deliver-type" class="radio" id="10">
               <label for="10"></label>
               <div class="radio-text">
-                <p class="label">При получении</p>
+                <p class="label">Самовывоз <span>(г.Киев, ул.Святошинская 1, офис 11)</span></p>
               </div>
           </div>
           <div class="radio-wrap">
-              <input type="radio" name="pay-type" class="radio" id="11">
+              <input type="radio" name="deliver-type" class="radio" id="11">
               <label for="11"></label>
               <div class="radio-text">
-                <p class="label">Он-лайн оплата через сайт <span>(после оформления заказа)</span></p>
+                <p class="label">Доставка по Киеву <span>(курьером, +50 грн)</span></p>
+                <div class="input-wrap">
+                  <label for="tel" class="label label_star">адрес доставки:</label>
+                  <input type="text" id="tel" class="col-sm-7 input input_error">
+                  <span class="error_small">необходимо заполнить</span>
+                </div>
               </div>
           </div>
           <div class="radio-wrap">
-              <input type="radio" name="pay-type" class="radio" id="12">
+              <input type="radio" name="deliver-type" class="radio" id="12">
               <label for="12"></label>
               <div class="radio-text">
-                <p class="label">На карту Приватбанка <span>(номер карты 5363 5423 0661 7631)</span></p>
+                <p class="label">Доставка по Украине <span>(Новой Почтой)</span></p>
+                <div class="input-wrap">
+                  <label for="tel" class="label label_star">Город / населенный пункт:</label>
+                  <input type="text" id="tel" class="col-sm-7 input input_error">
+                  <span class="error_small">необходимо заполнить</span>
+                </div>
+                <div class="big-select-wrap">
+                  <p class="label">Служба доставки:</p>
+                    <select name="" id="">
+                      <option value="">Новая почта</option>
+                      <option value="">2 номера</option>
+                      <option value="">3 номера</option>
+                    </select>
+                </div>
+                <div class="input-wrap">
+                  <label for="tel" class="label">Адрес отделения или номер склада:</label>
+                  <input type="text" id="tel" class="col-sm-7 input">
+                </div>
               </div>
+          </div>
+        </div>
+
+        <div class="form-block">
+          <div class="form-block-heading">
+            <p class="label label_star">Способ оплаты</p>
+            <span class="error">Выберите cпособ оплаты</span>
           </div>
           <div class="radio-wrap">
               <input type="radio" name="pay-type" class="radio" id="13">
               <label for="13"></label>
               <div class="radio-text">
+                <p class="label">При получении</p>
+              </div>
+          </div>
+          <div class="radio-wrap">
+              <input type="radio" name="pay-type" class="radio" id="14">
+              <label for="14"></label>
+              <div class="radio-text">
+                <p class="label">Он-лайн оплата через сайт <span>(после оформления заказа)</span></p>
+              </div>
+          </div>
+          <div class="radio-wrap">
+              <input type="radio" name="pay-type" class="radio" id="15">
+              <label for="15"></label>
+              <div class="radio-text">
+                <p class="label">На карту Приватбанка <span>(номер карты 5363 5423 0661 7631)</span></p>
+              </div>
+          </div>
+          <div class="radio-wrap">
+              <input type="radio" name="pay-type" class="radio" id="16">
+              <label for="16"></label>
+              <div class="radio-text">
                 <p class="label">По безналичному расчету <span>(счет будет сформирован и выслан после оформления заказа)</span></p>
               </div>
           </div>
+        </div>
+
+        <div class="form-block textarea-block">
+          <div class="form-block-heading">
+            <p class="label">Дополнительная информация к вашему заказу</p>
+          </div>
+          <textarea name="" id="" class="textarea"></textarea>
         </div>
       </div>
     </form>

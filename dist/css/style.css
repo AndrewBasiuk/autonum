@@ -1161,6 +1161,11 @@ b {
   color: #000;
   font-family: Arial, sans-serif;
   font-size: 20px; }
+  .label span {
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #8b8b8b; }
 
 .label_star {
   position: relative; }
@@ -1245,7 +1250,9 @@ b {
   padding: 8px 17px;
   font-family: Arial, sans-serif;
   font-size: 20px;
-  border: 1px solid #c5c6c6; }
+  border: 1px solid #c5c6c6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .input::-webkit-input-placeholder {
     color: #e3e3e3; }
   .input::-moz-placeholder {
@@ -1276,11 +1283,53 @@ b {
 .radio-text {
   position: relative;
   width: 90%; }
-  .radio-text span {
-    margin-left: 15px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #8b8b8b; }
+  .radio-text .input-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 25px; }
+    .radio-text .input-wrap .label {
+      margin-bottom: 5px; }
+  .radio-text .big-select-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 20px; }
+    .radio-text .big-select-wrap .label {
+      margin-bottom: 5px; }
+
+.textarea-block {
+  padding-bottom: 44px;
+  border-bottom: 0; }
+  .textarea-block .form-block-heading {
+    margin-bottom: 18px; }
+
+.textarea {
+  width: 100%;
+  height: 130px;
+  padding: 8px 17px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  border: 1px solid #c5c6c6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: none; }
 
 @media screen and (max-width: 990px) {
   .header__nav_bottom {
