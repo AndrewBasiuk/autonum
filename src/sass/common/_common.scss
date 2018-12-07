@@ -59,8 +59,12 @@ b {
 		border-bottom: 1px solid #BDBCB9;
 		display: flex;
 
-		&:hover {
+		&_active {
 			background-color: #AEBAD2 !important;
+			
+			.table-type, .table-price, .table-button {
+				background-color: #AEBAD2;
+			}
 		}
 	}
 

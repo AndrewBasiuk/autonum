@@ -21,26 +21,23 @@ $(".lang").on("click", function() {
 $(".table-row").hover(
 	function() {
 		if(!$(this).hasClass("table-head")) {
-			$(this).find(".table-type").css("background-color", "#AEBAD2");
-			$(this).find(".table-price").css("background-color", "#AEBAD2");
-			$(this).find(".table-button").css("background-color", "#AEBAD2");
+			$(this).addClass("table-row_active");
 		}
 	},
 	function() {
-		var screenWidth = window.innerWidth;
-		if(screenWidth >= 769) {
-			if(!$(this).hasClass("table-head")) {
-				$(this).find(".table-type").css("background-color", "#D6D5D1");
-				$(this).find(".table-price").css("background-color", "#DFDEDB");
-				$(this).find(".table-button").css("background-color", "#DFDEDB");
-			}
-		} else {
-			if(!$(this).hasClass("table-head")) {
-				$(this).find(".table-type").css("background-color", "#D6D5D1");
-				$(this).find(".table-price").css("background-color", "#D6D5D1");
-				$(this).find(".table-button").css("background-color", "#D6D5D1");
-			}
+		if(!$(this).hasClass("table-head")) {
+			$(this).removeClass("table-row_active");
 		}
 	}
 );
+var screenWidth = window.innerWidth;
+$(".table-row").on("click",function() {
+	$(this).find(".radio").prop("checked", true);
+
+	if($(this).find(".checkbox").prop("checked") == false) {
+		$(this).find(".checkbox").prop("checked", true);
+	} else if($(this).find(".checkbox").prop("checked") == true) {
+		$(this).find(".checkbox").prop("checked", false);
+	}
+});
 //end__change table row background

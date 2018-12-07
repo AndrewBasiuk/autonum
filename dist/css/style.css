@@ -304,8 +304,10 @@ b {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  .table-row:hover {
+  .table-row_active {
     background-color: #AEBAD2 !important; }
+    .table-row_active .table-type, .table-row_active .table-price, .table-row_active .table-button {
+      background-color: #AEBAD2; }
 
 .table-type {
   padding: 5px 0 5px 15px;
@@ -1161,7 +1163,8 @@ b {
 .label {
   color: #000;
   font-family: Arial, sans-serif;
-  font-size: 20px; }
+  font-size: 16px;
+  font-weight: bold; }
   .label span {
     margin-left: 10px;
     font-family: Arial, sans-serif;
@@ -1264,6 +1267,20 @@ b {
     color: #e3e3e3; }
   .input_error {
     border: 2px solid #dd0000; }
+
+input[type="file"] {
+  margin-top: 25px;
+  width: 325px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background-color: #7c7c7c;
+  color: #ffffff;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer; }
+  input[type="file"]:hover {
+    background-color: #BD4E2C; }
 
 .radio-wrap {
   display: -webkit-box;
@@ -1585,7 +1602,7 @@ b {
     .table-type, .table-price, .table-button {
       width: 100%;
       padding: 0;
-      background-color: transparent; }
+      background-color: #D6D5D1; }
     .table-type {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -1710,6 +1727,10 @@ b {
     margin-right: 15px; } }
 
 @media screen and (max-width: 767px) {
+  .radio + label {
+    margin-right: 0; }
+  .checkbox + label {
+    margin-right: 0; }
   .table_check .table-type {
     width: 100%; }
   .table_check .table-row {
@@ -1733,7 +1754,9 @@ b {
     .frame_mob .table-price {
       width: auto; }
     .frame_mob .small-select-wrap {
-      margin-right: 20px; } }
+      margin-right: 20px; }
+  .form-block {
+    padding-bottom: 40px 0; } }
 
 @media screen and (max-width: 600px) {
   .table-heading, .form-block-heading {
@@ -1765,10 +1788,12 @@ b {
     padding-left: 5px; }
     .radio-wrap label {
       margin-right: 20px; }
-  .big-select-wrap select {
-    margin-left: 15px; }
-  /*.input-wrap {
-		.input {
-			width: calc(100% - 30px);
-		}
-	}*/ }
+  .pay {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .pay p {
+      margin-right: 0;
+      margin-bottom: 17px; } }

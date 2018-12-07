@@ -247,38 +247,56 @@
         <div class="form-block">
           <div class="row big-select-wrap">
             <p class="label col-sm-3">Количество номеров:</p>
+            <div class="col">
               <select name="" id="">
                 <option value="">1 номер</option>
                 <option value="">2 номера</option>
                 <option value="">3 номера</option>
               </select>
+            </div>
           </div>
           <div class="row input-wrap">
             <div class="col-sm-3">
               <label for="num" class="label label_star">Номерной знак:</label>
             </div>
-            <input type="text" id="num" class="col-sm-7 input input_error" placeholder="который заказываете, например АА 1234 АА">
-            <span class="offset-sm-3 error_small">необходимо заполнить</span>
+            <div class="col">
+              <input type="text" id="num" class="col-sm-7 input input_error" placeholder="который заказываете, например АА 1234 АА">
+              <span class="col error_small">необходимо заполнить</span>
+            </div>
           </div>
           <div class="row input-wrap">
             <div class="col-sm-3">
               <label for="name" class="label label_star">Ваше имя:</label>
             </div>
-            <input type="text" id="name" class="col-sm-7 input input_error" placeholder="для доставки по Украине ФИО напишите полностью">
-            <span class="offset-sm-3 error_small">необходимо заполнить</span>
+            <div class="col">
+              <input type="text" id="name" class="col-sm-7 input input_error" placeholder="для доставки по Украине ФИО напишите полностью">
+              <span class="col error_small">необходимо заполнить</span>
+            </div>
           </div>
           <div class="row input-wrap">
             <div class="col-sm-3">
               <label for="mail" class="label">E-mail:</label>
             </div>
-            <input type="text" id="mail" class="col-sm-7 input" placeholder="не обязательно">
+            <div class="col">
+              <input type="text" id="mail" class="col-sm-7 input" placeholder="не обязательно">
+            </div>
           </div>
           <div class="row input-wrap">
             <div class="col-sm-3">
               <label for="tel" class="label label_star">Контактный телефон:</label>
             </div>
-            <input type="text" id="tel" class="col-sm-7 input input_error" placeholder="который заказываете, например АА 1234 АА">
-            <span class="offset-sm-3 error_small">необходимо заполнить</span>
+            <div class="col">
+              <input type="text" id="tel" class="col-sm-7 input input_error">
+              <span class="col error_small">необходимо заполнить</span>
+            </div>
+          </div>
+          <div class="row input-wrap">
+            <div class="col-sm-3">
+              <label for="tel" class="label label_star">Фото/сканы документов:</label>
+            </div>
+            <div class="col">
+              <input type="file" name="pic[]" multiple="">
+            </div>
           </div>
         </div>
 
@@ -447,7 +465,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 
     <script src="js/common.js"></script>
-    <script src="js/home.js"></script>
+    <!-- <script src="js/home.js"></script> -->
 
     <script src="js/custom.js"></script>
 

@@ -1,4 +1,7 @@
 @media screen and (max-width: 767px) {
+	.radio + label {margin-right: 0;}
+	.checkbox + label {margin-right: 0;}
+
 	.table_check .table-type {
 		width: 100%;
 	}
@@ -23,6 +26,10 @@
 		.small-select-wrap {
 			margin-right: 20px;
 		}
+	}
+
+	.form-block {
+		padding-bottom: 40px 0;
 	}
 }
 
@@ -58,15 +65,12 @@
 		}
 	}
 
-	.big-select-wrap {
-		select {
-			margin-left: 15px;
+	.pay {
+		flex-direction: column;
+
+		p {
+			margin-right: 0;
+			margin-bottom: 17px;
 		}
 	}
-
-	/*.input-wrap {
-		.input {
-			width: calc(100% - 30px);
-		}
-	}*/
 }
