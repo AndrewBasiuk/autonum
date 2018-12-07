@@ -53,9 +53,21 @@ gulp.task('home-js', function() {
 });
 // Home
 
+// zakaz-imennie
+gulp.task('zakaz_imennie-js', function() {
+	return gulp.src([
+		'src/js/zakaz_imennie.js'
+		])
+	.pipe(concat('zakaz_imennie.js'))
+	//.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// zakaz-imennie
+
 gulp.task('js', [
 	'common-js',
-	'home-js'
+	'home-js',
+	'zakaz_imennie-js'
 	], function() {
 	return gulp.src([
 		'src/js/common.js',

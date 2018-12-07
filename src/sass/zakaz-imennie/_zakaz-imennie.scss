@@ -1,0 +1,61 @@
+.zakaz-imennie {
+	background-color: #BBBAB5;
+
+	.calc  {
+		margin-bottom: 60px;
+	}
+
+	.label {
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+
+	.calc-input {
+		margin-top: 10px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	&-car {
+		margin-top: 25px;
+		height: auto;
+		position: relative;
+
+		&__number {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 170px;
+			color: #fff;
+		}
+
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.zakaz-imennie-car {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 884px) {
+	.zakaz-imennie-car {
+		display: none;
+	}
+
+	.zakaz-imennie {
+
+		.calc {
+			max-width: 100%;
+			flex: 1;
+			margin-bottom: 50px;
+		}
+		.calc-input {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}

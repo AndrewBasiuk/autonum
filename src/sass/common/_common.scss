@@ -325,3 +325,21 @@ b {
     }
 }
 /*END__MAIN*/
+
+.button_big {
+    width: 142px;
+    color: #fff;
+    line-height: 40px;
+    font-family: Verdena, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #737E8E;
+    border: none;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: #BD4E2C;
+        cursor: pointer;
+    }
+}
