@@ -64,10 +64,22 @@ gulp.task('zakaz_imennie-js', function() {
 });
 // zakaz-imennie
 
+// zakaz-imennie
+gulp.task('card-js', function() {
+	return gulp.src([
+		'src/js/card.js'
+		])
+	.pipe(concat('card.js'))
+	//.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// zakaz-imennie
+
 gulp.task('js', [
 	'common-js',
 	'home-js',
-	'zakaz_imennie-js'
+	'zakaz_imennie-js',
+	'card-js'
 	], function() {
 	return gulp.src([
 		'src/js/common.js',

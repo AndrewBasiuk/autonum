@@ -29,16 +29,17 @@
             <div class="calc-input">
               <img src="img/calc.png" title="image" alt="image">
               <form action="">
-                <input type="text" placeholder="ИМЯ">
+                <input type="text" maxlength="8" placeholder="ИМЯ">
               </form>
             </div>
             <p class="calc__heading">Стоимость: <span class="orange">6500 грн</span></p>
             <p class="paragraph calc__text">в стоимость входит: <br> комплект именных номеров <br>разрешительное письмо из департамента ГАИ</p>
           </div>
           <div class="zakaz-imennie-car">
-            <img src="img/Car---Range-Rover.jpg" title="image" alt="image">
+            <img src="img/Car---Range-Rover.jpg" title="car-image" alt="car-image">
             <div class="zakaz-imennie-car__number">
-              ksfbvksbfvk
+              <img src="img/calc.png" alt="image">
+              <p></p>
             </div>
           </div>
         </div>
