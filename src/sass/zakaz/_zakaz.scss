@@ -115,6 +115,9 @@
         font-weight: normal;
     }
 }
+.label_big {
+    font-size: 22px;
+}
 
 .label_star {
     position: relative;
@@ -215,6 +218,7 @@
     margin-bottom: 23px;
     &:last-child {
         margin-bottom: 0;
+        margin-top: 50px;
     }
 }
 .input {
@@ -236,7 +240,7 @@
 }
 
 input[type="file"] {
-    margin-top: 25px;
+    // margin-top: 25px;
     width: 325px;
     font-size: 16px;
     font-family: Arial, sans-serif;

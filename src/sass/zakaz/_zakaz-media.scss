@@ -7,12 +7,21 @@
 	}
 
 	.table_check .table-row {
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 	}
 
 	.table-heading {
 		width: 100%;
 		margin-bottom: 15px;
+
+		&__frame {
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	.label {
+		font-size: 18px;
 	}
 
 	.frame_mob {
@@ -29,7 +38,7 @@
 	}
 
 	.form-block {
-		padding-bottom: 40px 0;
+		padding-bottom: 40px;
 	}
 }
 
@@ -50,11 +59,32 @@
 			left: 0px;
 		}
 	}
+
+	.input {
+		font-size: 15px;
+	}
+
+	.textarea-block {
+	    padding-bottom: 44px;
+	    .form-block-heading {
+	        margin-bottom: 0px;
+	    }
+	}
+
+	.inform {
+	    margin-bottom: 100px;
+	}
 }
 
 @media screen and (max-width: 575px) {
 	.label {
 		margin-bottom: 8px;
+
+		span {
+			margin-top: 5px;
+			margin-left: 0;
+			display: block;
+		}
 	}
 
 	.radio-wrap {

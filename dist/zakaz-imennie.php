@@ -32,7 +32,7 @@
                 <input type="text" maxlength="8" placeholder="ИМЯ">
               </form>
             </div>
-            <p class="calc__heading">Стоимость: <span class="orange">6500 грн</span></p>
+            <p class="calc__heading">Стоимость: <b class="orange">6500 грн</b></p>
             <p class="paragraph calc__text">в стоимость входит: <br> комплект именных номеров <br>разрешительное письмо из департамента ГАИ</p>
           </div>
           <div class="zakaz-imennie-car">
@@ -87,7 +87,7 @@
 
         <div class="form-block">
           <div class="form-block-heading">
-            <p class="label label_star">Способ доставки</p>
+            <p class="label label_big label_star">Способ доставки</p>
             <span class="error">Выберите cпособ доставки</span>
           </div>
           <div class="radio-wrap">
@@ -137,7 +137,7 @@
 
         <div class="form-block">
           <div class="form-block-heading">
-            <p class="label label_star">Способ оплаты</p>
+            <p class="label label_big label_star">Способ оплаты</p>
             <span class="error">Выберите cпособ оплаты</span>
           </div>
           <div class="radio-wrap">
@@ -179,7 +179,7 @@
       </div>
 
       <div class="pay">
-        <p>Сумма к оплате:  <span class="orange">450 грн</span></p>
+        <p>Сумма к оплате:  <b class="orange">450 грн</b></p>
         <button class="button_big" type="submit">Заказать</button>
       </div>
     </form>

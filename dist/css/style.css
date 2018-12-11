@@ -945,7 +945,8 @@ b {
   color: #000;
   font-family: Arial, sans-serif;
   font-size: 22px;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
 
 /*END__HEAD*/
 .footer {
@@ -1244,6 +1245,9 @@ b {
     color: #8b8b8b;
     font-weight: normal; }
 
+.label_big {
+  font-size: 22px; }
+
 .label_star {
   position: relative; }
   .label_star:after {
@@ -1322,7 +1326,8 @@ b {
           align-items: center;
   margin-bottom: 23px; }
   .input-wrap:last-child {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-top: 50px; }
 
 .input {
   padding: 8px 17px;
@@ -1343,7 +1348,6 @@ b {
     border: 2px solid #dd0000; }
 
 input[type="file"] {
-  margin-top: 25px;
   width: 325px;
   font-size: 16px;
   font-family: Arial, sans-serif;
@@ -1457,7 +1461,8 @@ input[type="file"] {
     font-size: 20px; }
 
 .thanks {
-  padding: 40px 0; }
+  padding: 40px 0 400px 0;
+  background-color: #E7E6E2; }
   .thanks-content {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1479,7 +1484,8 @@ input[type="file"] {
     font-family: Arial, sans-serif;
     font-size: 20px;
     margin-bottom: 30px;
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
     .thanks p:last-child {
       font-size: 22px;
       margin-bottom: 0; }
@@ -1487,6 +1493,8 @@ input[type="file"] {
     margin: 45px 0 15px 0; }
 
 @media screen and (max-width: 500px) {
+  .thanks {
+    padding-bottom: 150px; }
   .thanks .button_big {
     margin-top: 15px; } }
 
@@ -1515,7 +1523,7 @@ input[type="file"] {
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 140px;
-  font-size: 1rem;
+  padding-bottom: 3px;
   height: 15px;
   width: 88px;
   background-color: #fff;
@@ -1531,13 +1539,14 @@ input[type="file"] {
           border-radius: 3px;
   border: 1px solid #000;
   -webkit-box-sizing: content-box;
-          box-sizing: content-box; }
+          box-sizing: content-box;
+  text-transform: uppercase; }
   .zakaz-imennie-car__number img {
     height: 100%; }
   .zakaz-imennie-car__number p {
-    margin-top: 1.5px;
+    margin-top: 3px;
     font-family: Arial, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     width: 100%;
     text-align: center; }
@@ -1879,6 +1888,9 @@ input[type="file"] {
       width: 47.91667%;
       margin-bottom: 20px;
       background-color: #D6D5D1; }
+      .table-row:hover {
+        -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
+                box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15); }
     .table-type, .table-price, .table-button {
       width: 100%;
       padding: 0;
@@ -1998,11 +2010,11 @@ input[type="file"] {
 @media screen and (max-width: 600px) {
   .calc-input {
     width: 100%;
-    padding: 7px 7px 7px 45px; }
+    padding: 7px 7px 7px 37px; }
     .calc-input img {
-      width: 40px; }
+      width: 27px; }
     .calc-input input {
-      font-size: 50px; }
+      font-size: 35px; }
   .steps .num {
     margin-right: 15px; } }
 
@@ -2014,10 +2026,15 @@ input[type="file"] {
   .table_check .table-type {
     width: 100%; }
   .table_check .table-row {
-    padding-bottom: 50px; }
+    padding-bottom: 20px; }
   .table-heading {
     width: 100%;
     margin-bottom: 15px; }
+    .table-heading__frame {
+      margin-bottom: 0;
+      padding-bottom: 0; }
+  .label {
+    font-size: 18px; }
   .frame_mob {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2036,7 +2053,7 @@ input[type="file"] {
     .frame_mob .small-select-wrap {
       margin-right: 20px; }
   .form-block {
-    padding-bottom: 40px 0; } }
+    padding-bottom: 40px; } }
 
 @media screen and (max-width: 600px) {
   .table-heading, .form-block-heading {
@@ -2059,11 +2076,23 @@ input[type="file"] {
   .error {
     padding-left: 30px; }
     .error:before {
-      left: 0px; } }
+      left: 0px; }
+  .input {
+    font-size: 15px; }
+  .textarea-block {
+    padding-bottom: 44px; }
+    .textarea-block .form-block-heading {
+      margin-bottom: 0px; }
+  .inform {
+    margin-bottom: 100px; } }
 
 @media screen and (max-width: 575px) {
   .label {
     margin-bottom: 8px; }
+    .label span {
+      margin-top: 5px;
+      margin-left: 0;
+      display: block; }
   .radio-wrap {
     padding-left: 5px; }
     .radio-wrap label {

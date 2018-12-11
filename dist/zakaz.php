@@ -163,7 +163,7 @@
           </div>
         </div>
         <div class="table table_check">
-          <div class="table-heading">
+          <div class="table-heading table-heading__frame">
             <p class="label">Рамка / крепление:</p>
           </div>
           <div class="table-row table-head">
@@ -302,7 +302,7 @@
 
         <div class="form-block">
           <div class="form-block-heading">
-            <p class="label label_star">Способ доставки</p>
+            <p class="label label_big label_star">Способ доставки</p>
             <span class="error">Выберите cпособ доставки</span>
           </div>
           <div class="radio-wrap">
@@ -352,7 +352,7 @@
 
         <div class="form-block">
           <div class="form-block-heading">
-            <p class="label label_star">Способ оплаты</p>
+            <p class="label label_big label_star">Способ оплаты</p>
             <span class="error">Выберите cпособ оплаты</span>
           </div>
           <div class="radio-wrap">
@@ -387,7 +387,7 @@
 
         <div class="form-block textarea-block">
           <div class="form-block-heading">
-            <p class="label">Дополнительная информация к вашему заказу</p>
+            <p class="label label_big">Дополнительная информация к вашему заказу</p>
           </div>
           <textarea name="" id="" class="textarea"></textarea>
         </div>
