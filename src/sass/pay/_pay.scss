@@ -1,0 +1,18 @@
+.pay {
+	padding: 65px 0 200px 0;
+
+	.h2 {
+		margin-bottom: 15px;
+	}
+
+	.list__item {
+		margin-bottom: 15px;
+	}
+}
+
+.pay__item {
+	margin-bottom: 70px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

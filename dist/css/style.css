@@ -1659,6 +1659,18 @@ input[type="file"] {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.pay {
+  padding: 65px 0 200px 0; }
+  .pay .h2 {
+    margin-bottom: 15px; }
+  .pay .list__item {
+    margin-bottom: 15px; }
+
+.pay__item {
+  margin-bottom: 70px; }
+  .pay__item:last-child {
+    margin-bottom: 0; }
+
 @media screen and (max-width: 990px) {
   .header__nav_bottom {
     width: 100%; }

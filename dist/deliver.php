@@ -18,80 +18,55 @@
     
     <?php include_once "includes/head.php"; ?>
 
-    <div class="content-block articles">
+    <div class="content-block content-block_gray pay">
       <div class="container">
-        <div class="row articles__item">
-          <div class="col-md-3 content-block-image">
-            <img src="img/articles_1.jpg" title="image" alt="image">
+        <div class="row pay__item">
+          <div class="col-md-4 content-block-image">
+            <img src="img/icon-Curier.png" title="icon" alt="icon">
           </div>
-          <div class="col-md-9 articles-descript">
-            <div>
-              <h2 class="h2">
-                <b>Регистрация скутеров в Украине</b>
-              </h2>
-              <p class="paragraph">
-                10 июня 2010 года ГАИ официально начал регистрацию мопедов и регистрацию скутеров. Уже с 1 ноября 2010 года начнут штрафовать владельцев скутеров, чьи транспортные средства не зарегистрированы. Штраф за езду без регистрации скутера будет составлять от 170 до 255 грн, без прав – от 510 до 595 грн...
-              </p>
-            </div>
-            <button class="button">читать</button>
-          </div>
-        </div>
-        <div class="row articles__item">
-          <div class="col-md-3 content-block-image">
-            <img src="img/articles_2.jpg" title="image" alt="image">
-          </div>
-          <div class="col-md-9 articles-descript">
-            <div>
-              <h2 class="h2">
-                <b>Транзитные номера, штраф за просроченные транзитные номера, продление транзитных номеров</b>
-              </h2>
-              <p class="paragraph">
-                Транзитные номера (красные автономера) - это автомобильные номера, которые выдаются для разовых поездок после снятия авто с учета в органах МРЕО (ВРЕР ДАI). Ездить на красных номерах согласно законодательству (Постановление Кабинета Министров Украины от 7 сентября 1998 года № 1388) можно до 3 месяцев, после чего владелец автотранспортного средства обязан поставить авто на учет и получить взамен транзитных номеров постоянные (белые) номерные знаки.
-              </p>
-            </div>
-            <button class="button">читать</button>
+          <div class="col-md-8">
+            <h2 class="h2">
+              <b>Наличными</b>
+            </h2>
+            <ul class="list">
+              <li class="list__item">стоимость доставки: <b>50 грн</b></li>
+              <li class="list__item">заказы оформленные до 16:00, доставляются в этот же день, заказы оформленные после 16:00 будет доставлены на следующий день, оплата при получении</li>
+              <li class="list__item">оплата наличными курьеру при получении или по предоплате</li>
+              <li class="list__item">курьер может снять или установить рамки и номера, стоимость - 50 грн (одна сторона машины)</li>
+            </ul>
           </div>
         </div>
-        <div class="row articles__item">
-          <div class="col-md-3 content-block-image">
-            <img src="img/articles_3.jpg" title="image" alt="image">
+        <div class="row pay__item">
+          <div class="col-md-4 content-block-image">
+            <img src="img/icon-Samovivoz.png" title="icon" alt="icon">
           </div>
-          <div class="col-md-9 articles-descript">
-            <div>
-              <h2 class="h2">
-                <b>Коды автомобильных номеров - как узнать регион по номеру, номера регионов авто и определить регион по номеру</b>
-              </h2>
-              <p class="paragraph">
-                Коды автомобильных номеров в Украине приведены в таблице, по которой вы можете узнать регион по номеру автомобиля. Номера регионов авто обозначены на номерном знаке слева в виде 2 цифр, например 11 для Киева (автономера Киев). Запомнить все коды автомобильных номеров в Украине сложно. С помощью таблицы вы сможете легко определить регион по номеру...
-              </p>
-            </div>
-            <button class="button">читать</button>
-          </div>
-        </div>
-        <div class="row articles__item">
-          <div class="col-md-3 content-block-image">
-            <img src="img/articles_4.jpg" title="image" alt="image">
-          </div>
-          <div class="col-md-9 articles-descript">
-            <div>
-              <h2 class="h2">
-                <b>Надпись (или голограмма) ФОРТ на номерных знаках Украины</b>
-              </h2>
-              <p class="paragraph">
-                Очень частый вопрос от наших клиентов - откуда на номерных знаках автомобилей, выданных при регистрации авто в ГАИ, голограмма ФОРТ и почему ее нет на дубликатах? Считается ли такой дубликат без надписи (голограммы) ФОРТ легальным? 
-              </p>
-            </div>
-            <button class="button">читать</button>
+          <div class="col-md-8">
+            <h2 class="h2">
+              <b>Забрать самостоятельно в Киеве</b>
+            </h2>
+            <ul class="list">
+              <li class="list__item">адрес: <b>г.Киев, ул.Святошинская 1, офис 11</b></li>
+              <li class="list__item">заказы оформленные до 16:00 можно забрать в этот же день до 18:00</li>
+              <li class="list__item">оплата наличными курьеру при получении или по предоплате</li>
+              <li class="list__item">оплатить можно <b>наличкой</b> или через терминал <b>банковской картой</b></li>
+            </ul>
           </div>
         </div>
-        <div class="pagination">
-          <ul>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li class="active"><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-          </ul>
+        <div class="row pay__item">
+          <div class="col-md-4 content-block-image">
+            <img src="img/icon-Nova-Posta.png" title="icon" alt="icon">
+          </div>
+          <div class="col-md-8">
+            <h2 class="h2">
+              <b>Доставка по Украине</b>
+            </h2>
+            <ul class="list">
+              <li class="list__item">по Украине доставляем службой доставки: Новая Почта</li>
+              <li class="list__item">вы можете выбрать адресную доставку или на ближайший пункт выдачи</li>
+              <li class="list__item">срок доставки: 1-2 дня</li>
+              <li class="list__item">оплатить можно заранее: он-лайн через сайт или на карту приватбанка либо при получении: оплата наложенным платежем</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
