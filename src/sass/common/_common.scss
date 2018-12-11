@@ -361,3 +361,40 @@ b {
         cursor: pointer;
     }
 }
+
+.pagination {
+	ul {
+		display: flex;
+		margin: 0 auto;
+	}
+
+	li {
+		margin-right: 6px;
+		background-color: #737E8E;
+		transition: all 0.2s;
+
+		&:hover {
+			background-color: #BD4E2C;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	li.active {
+		background-color: #B0B5BA;
+	} 
+
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 32px;
+		height: 27px;
+		color: #fff;
+		font-family: Verdena, sans-serif;
+    	font-size: 12px;
+    	text-decoration: none;
+	}
+}
