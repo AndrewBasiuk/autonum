@@ -104,14 +104,15 @@
 .label {
     color: #000;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
-
+    
     span {
         margin-left: 10px;
         font-family: Arial, sans-serif;
         font-size: 16px;
         color: #8b8b8b;
+        font-weight: normal;
     }
 }
 
@@ -120,8 +121,9 @@
     &:after {
         position: absolute;
         top: 0;
-        right: -12px;
+        right: -17px;
         color: #EE470D;
+        font-size: 30px;
         content: "*";
     }
 }
@@ -218,15 +220,15 @@
 .input {
     padding: 8px 17px;
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid #c5c6c6;
     box-sizing: border-box;
 
 
-    &::-webkit-input-placeholder {color: #e3e3e3;};
-    &::-moz-placeholder          {color: #e3e3e3;};
-    &:-moz-placeholder           {color: #e3e3e3;};
-    &:-ms-input-placeholder      {color: #e3e3e3;};
+    &::-webkit-input-placeholder {color: #b6b6b6;};
+    &::-moz-placeholder          {color: #b6b6b6;};
+    &:-moz-placeholder           {color: #b6b6b6;};
+    &:-ms-input-placeholder      {color: #b6b6b6;};
 
     &_error {
         border: 2px solid #dd0000;
@@ -325,8 +327,8 @@ input[type="file"] {
 }
 
 .inform {
-
     padding-top: 20px;
+    margin-bottom: 400px;
 
     span {
         font-size: 30px;

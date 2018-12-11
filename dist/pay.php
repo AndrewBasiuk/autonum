@@ -18,9 +18,9 @@
     
     <?php include_once "includes/head.php"; ?>
 
-    <div class="content-block content-block_gray pay">
+    <div class="content-block content-block_gray pay-page">
       <div class="container">
-        <div class="row pay__item">
+        <div class="row pay-page__item">
           <div class="col-md-4 content-block-image">
             <img src="img/icon-Cash.png" title="icon" alt="icon">
           </div>
@@ -36,7 +36,7 @@
             </ul>
           </div>
         </div>
-        <div class="row pay__item">
+        <div class="row pay-page__item">
           <div class="col-md-4 content-block-image">
             <img src="img/icon-Card.png" title="icon" alt="icon">
           </div>
@@ -52,7 +52,7 @@
             </ul>
           </div>
         </div>
-        <div class="row pay__item">
+        <div class="row pay-page__item">
           <div class="col-md-4 content-block-image">
             <img src="img/icon-Privat.png" title="icon" alt="icon">
           </div>
@@ -68,14 +68,14 @@
             </ul>
           </div>
         </div>
-        <div class="row pay__item">
+        <div class="row pay-page__item">
           <div class="col-md-4 content-block-image">
             <img src="img/icon-Check.png" title="icon" alt="icon">
           </div>
           <div class="col-md-8">
           </div>
         </div>
-        <div class="row pay__item">
+        <div class="row pay-page__item">
           <div class="col-md-4 content-block-image">
             <img src="img/icon-Nova-Posta.png" title="icon" alt="icon">
           </div>

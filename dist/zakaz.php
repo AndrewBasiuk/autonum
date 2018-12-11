@@ -292,7 +292,7 @@
           </div>
           <div class="row input-wrap">
             <div class="col-sm-3">
-              <label for="tel" class="label label_star">Фото/сканы документов:</label>
+              <label for="tel" class="label">Фото/сканы документов:</label>
             </div>
             <div class="col">
               <input type="file" name="pic[]" multiple="">
@@ -394,7 +394,7 @@
       </div>
 
       <div class="pay">
-        <p>Сумма к оплате:  <span class="orange">450 грн</span></p>
+        <p>Сумма к оплате:  <b class="orange">450 грн</b></p>
         <button class="button_big" type="submit">Заказать</button>
       </div>
     </form>

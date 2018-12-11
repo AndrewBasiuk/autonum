@@ -1235,21 +1235,23 @@ b {
 .label {
   color: #000;
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold; }
   .label span {
     margin-left: 10px;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    color: #8b8b8b; }
+    color: #8b8b8b;
+    font-weight: normal; }
 
 .label_star {
   position: relative; }
   .label_star:after {
     position: absolute;
     top: 0;
-    right: -12px;
+    right: -17px;
     color: #EE470D;
+    font-size: 30px;
     content: "*"; }
 
 .table-heading, .form-block-heading {
@@ -1325,18 +1327,18 @@ b {
 .input {
   padding: 8px 17px;
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   border: 1px solid #c5c6c6;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
   .input::-webkit-input-placeholder {
-    color: #e3e3e3; }
+    color: #b6b6b6; }
   .input::-moz-placeholder {
-    color: #e3e3e3; }
+    color: #b6b6b6; }
   .input:-moz-placeholder {
-    color: #e3e3e3; }
+    color: #b6b6b6; }
   .input:-ms-input-placeholder {
-    color: #e3e3e3; }
+    color: #b6b6b6; }
   .input_error {
     border: 2px solid #dd0000; }
 
@@ -1443,7 +1445,8 @@ input[type="file"] {
     margin-right: 40px; }
 
 .inform {
-  padding-top: 20px; }
+  padding-top: 20px;
+  margin-bottom: 400px; }
   .inform span {
     font-size: 30px;
     color: #EE470D;
@@ -1659,16 +1662,16 @@ input[type="file"] {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.pay {
+.pay-page {
   padding: 65px 0 200px 0; }
-  .pay .h2 {
+  .pay-page .h2 {
     margin-bottom: 15px; }
-  .pay .list__item {
+  .pay-page .list__item {
     margin-bottom: 15px; }
 
-.pay__item {
+.pay-page__item {
   margin-bottom: 70px; }
-  .pay__item:last-child {
+  .pay-page__item:last-child {
     margin-bottom: 0; }
 
 @media screen and (max-width: 990px) {
@@ -1697,6 +1700,8 @@ input[type="file"] {
     padding-bottom: 30px; }
   .header {
     margin-bottom: 30px; }
+  .header__contact a {
+    font-size: 13px; }
   .hamburger, .hamburger-close, .mobile-contact {
     display: block; }
   .nav-wrap {
