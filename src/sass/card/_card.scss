@@ -38,3 +38,56 @@
 		transform: translateY(-50%);
 	}
 }
+
+.card-descript-top {
+	position: relative;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #d0cfcb;
+
+	p {
+		font-family: Verdana, sans-serif;
+		font-size: 18px;
+		margin-bottom: 18px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.big {
+		font-size: 22px;
+	}
+
+	.button {
+		position: absolute;
+		top: 3px;
+		right: 30px;
+	}
+}
+
+.card-descript-list {
+	&-wrap {
+		padding-top: 23px;
+	}
+
+	li {
+		display: flex;
+		margin-bottom: 16px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.paragraph {
+		margin-bottom: 0;
+
+		&:first-child {
+			width: 30%;
+			margin-right: 20%;
+			white-space: pre-line;
+		}
+		&:last-child {
+			max-width: 50%;
+		}
+	}
+}

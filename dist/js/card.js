@@ -6,7 +6,14 @@ $('.card-slider').slick({
   	autoplaySpeed: 500,
   	arrows: false,
   	dots: false,
-  	asNavFor: '.card-slider-nav'
+    responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        dots: true
+      }
+    }],
+  	asNavFor: '.card-slider-nav',
 });
 
 $('.card-slider-nav').slick({

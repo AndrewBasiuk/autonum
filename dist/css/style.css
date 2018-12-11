@@ -547,6 +547,22 @@ b {
     background-color: #AEACA6; }
 
 /*END__MAIN*/
+.button {
+  width: 96px;
+  max-width: 100%;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  line-height: 23px;
+  border: none;
+  background-color: #737E8E;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  .button:hover {
+    background-color: #D36B38; }
+
 .button_big {
   width: 142px;
   color: #fff;
@@ -1538,6 +1554,44 @@ input[type="file"] {
         -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
 
+.card-descript-top {
+  position: relative;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #d0cfcb; }
+  .card-descript-top p {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom: 18px; }
+    .card-descript-top p:last-child {
+      margin-bottom: 0; }
+  .card-descript-top .big {
+    font-size: 22px; }
+  .card-descript-top .button {
+    position: absolute;
+    top: 3px;
+    right: 30px; }
+
+.card-descript-list-wrap {
+  padding-top: 23px; }
+
+.card-descript-list li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px; }
+  .card-descript-list li:last-child {
+    margin-bottom: 0; }
+
+.card-descript-list .paragraph {
+  margin-bottom: 0; }
+  .card-descript-list .paragraph:first-child {
+    width: 30%;
+    margin-right: 20%;
+    white-space: pre-line; }
+  .card-descript-list .paragraph:last-child {
+    max-width: 50%; }
+
 @media screen and (max-width: 990px) {
   .header__nav_bottom {
     width: 100%; }
@@ -1941,3 +1995,21 @@ input[type="file"] {
       margin-bottom: 17px; }
   input[type="file"] {
     width: 100%; } }
+
+@media screen and (max-width: 767px) {
+  .card {
+    padding: 17px 0 37px 0; }
+  .card-slider-wrap {
+    width: 70%;
+    margin: 0 auto 25px auto; }
+  .card-slider-nav-wrap {
+    display: none; }
+  .card-descript-top {
+    padding-top: 20px;
+    border-top: 1px solid #d0cfcb; }
+    .card-descript-top .button {
+      top: 23px; } }
+
+@media screen and (max-width: 600px) {
+  .card-slider-wrap {
+    width: 98%; } }
