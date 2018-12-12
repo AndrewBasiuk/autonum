@@ -259,6 +259,14 @@ b {
 		margin-bottom: 10px;
 	}	
 }
+.list__item a {
+	color: #000;
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
 
 .ukraine-order {
 	padding: 80px 0 114px 0;
