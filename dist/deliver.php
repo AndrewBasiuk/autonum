@@ -18,9 +18,9 @@
     
     <?php include_once "includes/head.php"; ?>
 
-    <div class="content-block content-block_gray pay">
+    <div class="content-block content-block_gray pay-page">
       <div class="container">
-        <div class="row pay__item">
+        <div class="row pay-page__item">
           <div class="col-md-4 content-block-image">
             <img src="img/icon-Curier.png" title="icon" alt="icon">
           </div>
@@ -36,7 +36,7 @@
             </ul>
           </div>
         </div>
-        <div class="row pay__item">
+        <div class="row pay-page__item">
           <div class="col-md-4 content-block-image">
             <img src="img/icon-Samovivoz.png" title="icon" alt="icon">
           </div>
@@ -52,7 +52,7 @@
             </ul>
           </div>
         </div>
-        <div class="row pay__item">
+        <div class="row pay-page__item">
           <div class="col-md-4 content-block-image">
             <img src="img/icon-Nova-Posta.png" title="icon" alt="icon">
           </div>
@@ -131,7 +131,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 
     <script src="js/common.js"></script>
-    <script src="js/home.js"></script>
 
     <script src="js/custom.js"></script>
 
