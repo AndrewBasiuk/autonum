@@ -75,11 +75,23 @@ gulp.task('card-js', function() {
 });
 // zakaz-imennie
 
+// contact
+gulp.task('contact-js', function() {
+	return gulp.src([
+		'src/js/contact.js'
+		])
+	.pipe(concat('contact.js'))
+	//.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// contact
+
 gulp.task('js', [
 	'common-js',
 	'home-js',
 	'zakaz_imennie-js',
-	'card-js'
+	'card-js',
+	'contact-js'
 	], function() {
 	return gulp.src([
 		'src/js/common.js',

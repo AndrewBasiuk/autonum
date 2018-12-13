@@ -1,4 +1,19 @@
 
+function mobileSlickInit() {
+	var screenWidth = window.innerWidth;
+  	if(screenWidth <= 767) {
+		$('.mobile-slider').slick({
+		    autoplay: false,
+		    slidesToShow: 1,
+		  	slidesToScroll: 1,
+		  	speed: 1200,
+		  	autoplaySpeed: 500,
+		  	arrows: false,
+		  	dots: true
+		});
+	}
+}
+
 // menu
 $(".hamburger").on("click", function() {
 	$(".nav-wrap").css("left", "0");

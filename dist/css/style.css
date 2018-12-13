@@ -863,6 +863,7 @@ b {
   max-width: 100%; }
 
 .logo_mob {
+  width: 100%;
   max-width: 100%;
   display: none; }
 
@@ -1734,6 +1735,79 @@ input[type="file"] {
 .faq-block_3 .paragraph {
   margin-bottom: 0; }
 
+.contact {
+  background-color: #E7E6E2;
+  padding: 75px 0 55px 0; }
+  .contact-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .contact-left {
+    width: 34.94624%;
+    margin-right: 50px; }
+  .contact-right {
+    width: 60.86022%; }
+  .contact .h2 {
+    margin-bottom: 20px; }
+
+.contact-list {
+  width: 100%; }
+  .contact-list li {
+    width: 100%;
+    margin-bottom: 55px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .contact-list li:last-child {
+      margin-bottom: 0; }
+  .contact-list a {
+    display: block;
+    color: #000;
+    text-decoration: underline; }
+    .contact-list a:hover {
+      text-decoration: none; }
+  .contact-list .icon {
+    width: 60px;
+    height: 65px;
+    margin-right: 9.23077%;
+    background: url(../img/contact-iconsl.jpg) no-repeat; }
+    .contact-list .icon_1 {
+      background-position: -2px -5px; }
+    .contact-list .icon_2 {
+      background-position: -2px -175px; }
+    .contact-list .icon_3 {
+      background-position: -2px -303px; }
+    .contact-list .icon_4 {
+      background-position: -2px -430px; }
+    .contact-list .icon_5 {
+      background-position: -2px -554px; }
+  .contact-list .paragraph {
+    margin-bottom: 0; }
+  .contact-list .paragraph_mb {
+    margin-bottom: 17px; }
+
+.map {
+  width: 100%;
+  height: 580px;
+  border: 1px solid #bfbeb9;
+  margin-bottom: 40px; }
+
+.contact-slider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .contact-slider li {
+    width: 28.62191%; }
+  .contact-slider img {
+    width: 100%; }
+
 @media screen and (max-width: 990px) {
   .header__nav_bottom {
     width: 100%; }
@@ -2193,3 +2267,36 @@ input[type="file"] {
       display: none; }
   .faq-block_2 {
     margin-bottom: 100px; } }
+
+@media screen and (max-width: 767px) {
+  .contact {
+    padding: 55px 0 115px 0; }
+    .contact-content {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    .contact-left {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 70px; }
+    .contact-right {
+      width: 100%; }
+    .contact .h2 {
+      text-align: left; }
+  .contact-list {
+    width: 340px;
+    margin: 0 auto; }
+    .contact-list .icon {
+      margin-right: 15px; }
+  .map {
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 767px) {
+  .contact-list {
+    width: 100%; } }

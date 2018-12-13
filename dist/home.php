@@ -299,7 +299,7 @@
         <h2 class="h2">
           <b>Статьи</b>
         </h2>
-        <div class="row slider article-slider">
+        <div class="row slider mobile-slider article-slider">
           <div class="col">
             <div class="row">
               <div class="col-md-6">
