@@ -1,0 +1,27 @@
+@media screen and (max-width: 767px) {
+	.faq {
+		padding: 50px 0 280px 0;
+	}
+
+	.faq-block_1 {
+		margin-bottom: 75px;
+
+		.h2 {text-align: center;}
+	}
+
+	.docs__image {
+		width: 100%;
+
+		&_mob {
+			display: block;
+		}
+
+		&_1, &_2 {
+			display: none;
+		}
+	}
+
+	.faq-block_2 {
+		margin-bottom: 100px;
+	}
+}

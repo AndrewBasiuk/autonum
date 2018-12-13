@@ -101,11 +101,13 @@
           <p class="paragraph p_2">
             для ТС зарегистрированных на частное лицо, необходимые документы:
           </p>
-          <img src="img/docs_1.jpg" title="docs-image" alt="docs-image" class="docs docs_1">
+          <img src="img/docs_1.jpg" title="docs-image" alt="docs-image" class="docs__image docs__image_1">
+          <img src="img/docs_mob_1.jpg" title="docs-image" alt="docs-image" class="docs__image_mob docs__image_mob_1">
           <p class="paragraph p_3">
             для ТС зарегистрированных на юридическое лицо (организацию): кроме техпаспорта необходима копия свидетельства гос. регистрации юридического лица, если нет возможность предоставить свидетельство гос. регистрации можно предоставить паспорт или права заказчика:
           </p>
-          <img src="img/docs_2.jpg" title="docs-image" alt="docs-image" class="docs docs_2">
+          <img src="img/docs_2.jpg" title="docs-image" alt="docs-image" class="docs__image docs__image_2">
+          <img src="img/docs_mob_2.jpg" title="docs-image" alt="docs-image" class="docs__image_mob">
         </div>
 
         <div class="content-block faq-block_2">
