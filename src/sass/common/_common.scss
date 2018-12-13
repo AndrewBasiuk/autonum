@@ -324,7 +324,11 @@ b {
             width: 15px;
             height: 15px;
             outline: none;
-            content: " ";
+            content: "";
+
+            &:before {
+            	content: "";
+            }
         }
 
         .slick-active button {

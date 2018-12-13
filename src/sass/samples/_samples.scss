@@ -1,0 +1,38 @@
+.samples {
+	padding: 60px 0 150px 0;
+	background-color: #F6F6F6;
+
+	.h2 {
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	&__text {
+		line-height: 1.4;
+		color: #838383;
+		font-family: Arial, sans-serif;
+		font-size: 18px;
+	}
+}
+
+.samples-block-1 {
+	margin-bottom: 110px;
+}
+
+.samples-slider {
+	margin-top: 20px;
+
+	li {
+		margin-bottom: 15px;
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 676px) {
+	.samples-block-1 {
+		margin-bottom: 85px;
+	}
+}
