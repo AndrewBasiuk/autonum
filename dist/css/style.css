@@ -1247,6 +1247,11 @@ b {
   font-family: Arial, sans-serif;
   font-size: 20px;
   font-weight: bold; }
+  .label span.star {
+    display: inline;
+    color: #EE470D;
+    font-size: 30px;
+    margin-left: 5px; }
   .label span {
     margin-left: 10px;
     font-family: Arial, sans-serif;
@@ -1256,16 +1261,6 @@ b {
 
 .label_big {
   font-size: 22px; }
-
-.label_star {
-  position: relative; }
-  .label_star:after {
-    position: absolute;
-    top: 0;
-    right: -17px;
-    color: #EE470D;
-    font-size: 30px;
-    content: "*"; }
 
 .table-heading, .form-block-heading {
   display: -webkit-box;
@@ -1871,7 +1866,7 @@ input[type="file"] {
   .header {
     margin-bottom: 30px; }
   .header__contact a {
-    font-size: 13px; }
+    font-size: 14px; }
   .hamburger, .hamburger-close, .mobile-contact {
     display: block; }
   .nav-wrap {

@@ -22,7 +22,7 @@
       <div class="container">
         <div class="table table_check">
           <div class="table-heading">
-            <p class="label label_star">Выберите тип номерного знака</p>
+            <p class="label">Выберите тип номерного знака <span class="star">*</span></p>
             <span class="error">Выберите тип номеров</span>
           </div>
           <div class="table-row table-head">
@@ -257,7 +257,7 @@
           </div>
           <div class="row input-wrap">
             <div class="col-sm-3">
-              <label for="num" class="label label_star">Номерной знак:</label>
+              <label for="num" class="label">Номерной знак:<span class="star">*</span></label>
             </div>
             <div class="col">
               <input type="text" id="num" class="col-sm-7 input input_error" placeholder="который заказываете, например АА 1234 АА">
@@ -266,7 +266,7 @@
           </div>
           <div class="row input-wrap">
             <div class="col-sm-3">
-              <label for="name" class="label label_star">Ваше имя:</label>
+              <label for="name" class="label">Ваше имя:<span class="star">*</span></label>
             </div>
             <div class="col">
               <input type="text" id="name" class="col-sm-7 input input_error" placeholder="для доставки по Украине ФИО напишите полностью">
@@ -283,7 +283,7 @@
           </div>
           <div class="row input-wrap">
             <div class="col-sm-3">
-              <label for="tel" class="label label_star">Контактный телефон:</label>
+              <label for="tel" class="label">Контактный телефон:<span class="star">*</span></label>
             </div>
             <div class="col">
               <input type="text" id="tel" class="col-sm-7 input input_error">
@@ -302,7 +302,7 @@
 
         <div class="form-block">
           <div class="form-block-heading">
-            <p class="label label_big label_star">Способ доставки</p>
+            <p class="label label_big">Способ доставки<span class="star">*</span></p>
             <span class="error">Выберите cпособ доставки</span>
           </div>
           <div class="radio-wrap">
@@ -318,7 +318,7 @@
               <div class="radio-text">
                 <p class="label">Доставка по Киеву <span>(курьером, +50 грн)</span></p>
                 <div class="input-wrap">
-                  <label for="tel" class="label label_star">адрес доставки:</label>
+                  <label for="tel" class="label">адрес доставки:<span class="star">*</span></label>
                   <input type="text" id="tel" class="col-sm-7 input input_error">
                   <span class="error_small">необходимо заполнить</span>
                 </div>
@@ -330,7 +330,7 @@
               <div class="radio-text">
                 <p class="label">Доставка по Украине <span>(Новой Почтой)</span></p>
                 <div class="input-wrap">
-                  <label for="tel" class="label label_star">Город / населенный пункт:</label>
+                  <label for="tel" class="label">Город / населенный пункт:<span class="star">*</span></label>
                   <input type="text" id="tel" class="col-sm-7 input input_error">
                   <span class="error_small">необходимо заполнить</span>
                 </div>
@@ -352,7 +352,7 @@
 
         <div class="form-block">
           <div class="form-block-heading">
-            <p class="label label_big label_star">Способ оплаты</p>
+            <p class="label label_big">Способ оплаты<span class="star">*</span></p>
             <span class="error">Выберите cпособ оплаты</span>
           </div>
           <div class="radio-wrap">
@@ -401,7 +401,7 @@
 
     <div class="inform">
       <div class="container">
-        <p><span class="orange">*</span> - поля обязательные для заполнения</p>
+        <p><span class="star">*</span> - поля обязательные для заполнения</p>
       </div>
     </div>
 

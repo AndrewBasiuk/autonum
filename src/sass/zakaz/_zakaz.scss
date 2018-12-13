@@ -106,6 +106,13 @@
     font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
+
+    span.star {
+        display: inline;
+        color: #EE470D;
+        font-size: 30px;
+        margin-left: 5px;
+    }
     
     span {
         margin-left: 10px;
@@ -119,17 +126,18 @@
     font-size: 22px;
 }
 
-.label_star {
-    position: relative;
-    &:after {
-        position: absolute;
-        top: 0;
-        right: -17px;
-        color: #EE470D;
-        font-size: 30px;
-        content: "*";
-    }
-}
+// .label_star {
+//     position: relative;
+//     &:after {
+//         position: absolute;
+//         top: 0;
+//         right: -17px;
+//         color: #EE470D;
+//         font-size: 30px;
+//         content: "*";
+//     }
+// }
+
 
 .table-heading, .form-block-heading {
     display: flex;
