@@ -134,15 +134,51 @@
             <div class="souvenir-slider-wrap">
               <p class="paragraph"><b>Примеры и образцы сувенирных номеров:</b></p>
               <ul class="row slider mobile-slider souvenir-slider">
-                <li class="col-md-3"><img src="img/samples/1_1.jpg" title="num-image" alt="num-image"></li>
-                <li class="col-md-3"><img src="img/samples/1_2.jpg" title="num-image" alt="num-image"></li>
-                <li class="col-md-3"><img src="img/samples/1_3.jpg" title="num-image" alt="num-image"></li>
-                <li class="col-md-3"><img src="img/samples/1_4.jpg" title="num-image" alt="num-image"></li>
-                <li class="col-md-3"><img src="img/samples/1_1.jpg" title="num-image" alt="num-image"></li>
-                <li class="col-md-3"><img src="img/samples/1_2.jpg" title="num-image" alt="num-image"></li>
-                <li class="col-md-3"><img src="img/samples/1_3.jpg" title="num-image" alt="num-image"></li>
-                <li class="col-md-3"><img src="img/samples/1_4.jpg" title="num-image" alt="num-image"></li>
-                <li class="col-md-3"><img src="img/samples/1_1.jpg" title="num-image" alt="num-image"></li>
+                <li class="col-md-3">
+                  <a href="img/samples/1_1.jpg" data-fancybox="images">
+                    <img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/samples/1_2.jpg" data-fancybox="images">
+                    <img src="img/samples/1_2.jpg" title="map-photo" alt="map-photo">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/samples/1_3.jpg" data-fancybox="images">
+                    <img src="img/samples/1_3.jpg" title="map-photo" alt="map-photo">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/samples/1_4.jpg" data-fancybox="images">
+                    <img src="img/samples/1_4.jpg" title="map-photo" alt="map-photo">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/samples/1_1.jpg" data-fancybox="images">
+                    <img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/samples/1_3.jpg" data-fancybox="images">
+                    <img src="img/samples/1_3.jpg" title="map-photo" alt="map-photo">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/samples/1_3.jpg" data-fancybox="images">
+                    <img src="img/samples/1_3.jpg" title="map-photo" alt="map-photo">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/samples/1_4.jpg" data-fancybox="images">
+                    <img src="img/samples/1_4.jpg" title="map-photo" alt="map-photo">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/samples/1_1.jpg" data-fancybox="images">
+                    <img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo">
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -261,7 +297,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 
     <script src="js/common.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/souvenir.js"></script>
 
     <script src="js/custom.js"></script>
 

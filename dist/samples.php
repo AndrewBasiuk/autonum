@@ -24,15 +24,51 @@
           <h2 class="h2"><b>Номерные знаки Украины с 2015 года (под Евро)</b></h2>
           <p class="samples__text">описание, если задано в админке, в карточке товара <br> (520х112 мм)</p>
           <ul class="row slider mobile-slider samples-slider">
-            <li class="col-md-2"><img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_2.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_3.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_4.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_2.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_3.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_4.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo"></li>
+            <li class="col-md-2">
+              <a href="img/samples/1_1.jpg" data-fancybox="images">
+                <img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo">
+              </a>  
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_1.jpg" data-fancybox="images">
+                <img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_2.jpg" data-fancybox="images">
+                <img src="img/samples/1_2.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_3.jpg" data-fancybox="images">
+                <img src="img/samples/1_3.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_4.jpg" data-fancybox="images">
+                <img src="img/samples/1_4.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_1.jpg" data-fancybox="images">
+                <img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_2.jpg" data-fancybox="images">
+                <img src="img/samples/1_2.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_3.jpg" data-fancybox="images">
+                <img src="img/samples/1_3.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_4.jpg" data-fancybox="images">
+                <img src="img/samples/1_4.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -40,10 +76,26 @@
           <h2 class="h2"><b>5-ти значный номер размером</b></h2>
           <p class="samples__text">(300х150 мм)</p>
           <ul class="row slider mobile-slider samples-slider">
-            <li class="col-md-2"><img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_2.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_3.jpg" title="map-photo" alt="map-photo"></li>
-            <li class="col-md-2"><img src="img/samples/1_4.jpg" title="map-photo" alt="map-photo"></li>
+            <li class="col-md-2">
+              <a href="img/samples/1_1.jpg" data-fancybox="images">
+                <img src="img/samples/1_1.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_2.jpg" data-fancybox="images">
+                <img src="img/samples/1_2.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_3.jpg" data-fancybox="images">
+                <img src="img/samples/1_3.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
+            <li class="col-md-2">
+              <a href="img/samples/1_4.jpg" data-fancybox="images">
+                <img src="img/samples/1_4.jpg" title="map-photo" alt="map-photo">
+              </a>
+            </li>
           </ul>
         </div>
       </div>
