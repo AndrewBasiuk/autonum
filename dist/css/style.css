@@ -1430,6 +1430,55 @@ b {
   font-size: 12px;
   text-decoration: none; }
 
+.type {
+  margin-top: 50px; }
+  .type__heading {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    margin-bottom: 34px; }
+  .type__item {
+    margin-bottom: 20px; }
+    .type__item img {
+      margin-bottom: 5px; }
+
+.old-type {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .old-type li {
+    width: 29%;
+    text-align: center;
+    margin-bottom: 35px; }
+
+.old-type-image {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  margin-bottom: 25px; }
+  .old-type-image img {
+    max-width: 100%;
+    max-height: 100%; }
+
 .head {
   position: relative;
   padding-bottom: 70px;
@@ -2959,7 +3008,18 @@ input[type="file"] {
 @media screen and (max-width: 599px) {
   .h1 {
     font-size: 20px;
-    padding: 0 10px; } }
+    padding: 0 10px; }
+  .type__item img {
+    display: block;
+    margin: 0 auto 5px auto; }
+  .old-type {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    .old-type li {
+      width: 45%; }
+  .old-type-image {
+    margin-bottom: 15px; } }
 
 @media screen and (max-width: 479px) {
   .list-wrap:last-child {

@@ -135,6 +135,23 @@
 		font-size: 20px;
 		padding: 0 10px;
 	}
+
+	.type__item img {
+		display: block;
+		margin: 0 auto 5px auto;
+	}
+
+	.old-type {
+		justify-content: space-around;
+
+		li {
+			width: 45%;
+		}
+	}
+
+	.old-type-image {
+		margin-bottom: 15px;
+	}
 }
 
 @media screen and (max-width: 479px) {
