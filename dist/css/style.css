@@ -2716,6 +2716,12 @@ input[type="file"] {
   font-size: 17px;
   margin-bottom: 34px; }
 
+.ramki .h2 {
+  margin-bottom: 25px; }
+
+.ramki .list {
+  margin: 0; }
+
 @media screen and (max-width: 990px) {
   .header__nav_bottom {
     width: 100%; }
