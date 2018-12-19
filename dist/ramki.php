@@ -88,10 +88,120 @@
             <p class="paragraph">
               На рекламное поле можно нанести логотип компании, рекламную информацию, контактные данные, информацию автоклуба и любую другую информацию по желанию заказчика.
             </p>
+            <h2 class="h2 h2_mt">
+              <b>Номерные рамки на заказ, методом шелкографии, изготовляются за 1 неделю.</b>
+            </h2>
+            <p class="paragraph list__heading">
+              <b>Для нанесения рекламы доступны автомобильные рамки 2-х типов:</b>
+            </p>
+            <ul class="list list_margin">
+              <li class="list__item">с поворотно-откидной нижней планкой (размер рекламного поля 505х20 мм)</li>
+              <li class="list__item">со съемной нижней планкой (размер рекламного поля 410х18 мм)</li>
+            </ul>
+            <div class="souvenir-slider-wrap">
+              <p class="paragraph">Примеры и образцы нанесения рекламы методом шелкографии:</p>
+              <ul class="row slider mobile-slider souvenir-slider">
+                <li class="col-md-3">
+                  <a href="img/ramki/ramki-slide-1.jpg" data-fancybox="images">
+                    <img src="img/ramki/ramki-slide-1.jpg" title="ramki-image" alt="ramki-image">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/ramki/ramki-slide-2.jpg" data-fancybox="images">
+                    <img src="img/ramki/ramki-slide-2.jpg" title="ramki-image" alt="ramki-image">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/ramki/ramki-slide-3.jpg" data-fancybox="images">
+                    <img src="img/ramki/ramki-slide-3.jpg" title="ramki-image" alt="ramki-image">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/ramki/ramki-slide-1.jpg" data-fancybox="images">
+                    <img src="img/ramki/ramki-slide-1.jpg" title="ramki-image" alt="ramki-image">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/ramki/ramki-slide-2.jpg" data-fancybox="images">
+                    <img src="img/ramki/ramki-slide-2.jpg" title="ramki-image" alt="ramki-image">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/ramki/ramki-slide-2.jpg" data-fancybox="images">
+                    <img src="img/ramki/ramki-slide-2.jpg" title="ramki-image" alt="ramki-image">
+                  </a>
+                </li>
+                <li class="col-md-3">
+                  <a href="img/ramki/ramki-slide-3.jpg" data-fancybox="images">
+                    <img src="img/ramki/ramki-slide-3.jpg" title="ramki-image" alt="ramki-image">
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    
+
+    <div class="flip-scroll">
+      <div class="container">
+        <table>
+          <thead>
+            <tr>
+              <th class="long">Тип рамки / количество цветов</th>
+              <th class="center-cotent numeric">Цена 1 шт <br> при заказе 100-499 шт</th>
+              <th class="center-cotent numeric">Цена 1 шт <br> при заказе от 500 шт</th>
+              <th class="center-cotent numeric">Срок <br> изготовления</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img src="img/ramka-long_2.jpg" title="ramka-image" alt="ramka-image"> 
+                <p>Рамка с рекламой (1 цвет)</p>
+              </td>
+              <td class="center-cotent numeric">1 евро + 8 грн</td>
+              <td class="center-cotent numeric">1 евро + 8 грн</td>
+              <td class="center-cotent numeric">1 неделя</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- <div class="flip-scroll">
+      <div class="container">
+        <table>
+          <thead>
+            <tr>
+              <th>Code</th>
+              <th>Company</th>
+              <th class="numeric">Price</th>
+              <th class="numeric">Change</th>
+              <th class="numeric">Change %</th>
+              <th class="numeric">Open</th>
+              <th class="numeric">High</th>
+              <th class="numeric">Low</th>
+              <th class="numeric">Volume</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>AAC</td>
+              <td>AUSTRALIAN AGRICULTURAL COMPANY LIMITED.</td>
+              <td class="numeric">$1.38</td>
+              <td class="numeric">-0.01</td>
+              <td class="numeric">-0.36%</td>
+              <td class="numeric">$1.39</td>
+              <td class="numeric">$1.39</td>
+              <td class="numeric">$1.38</td>
+              <td class="numeric">9,395</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div> -->
 
     <!-- <div class="content-block">
       <div class="container">

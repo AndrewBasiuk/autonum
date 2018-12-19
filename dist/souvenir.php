@@ -132,7 +132,7 @@
             </p>
             
             <div class="souvenir-slider-wrap">
-              <p class="paragraph"><b>Примеры и образцы сувенирных номеров:</b></p>
+              <p class="paragraph">Примеры и образцы сувенирных номеров:</p>
               <ul class="row slider mobile-slider souvenir-slider">
                 <li class="col-md-3">
                   <a href="img/samples/1_1.jpg" data-fancybox="images">
