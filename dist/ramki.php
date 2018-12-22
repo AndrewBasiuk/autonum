@@ -148,7 +148,7 @@
       <div class="container">
         <table>
           <thead>
-            <tr>
+            <tr class="table-head">
               <th class="long">Тип рамки / количество цветов</th>
               <th class="center-cotent numeric">Цена 1 шт <br> при заказе 100-499 шт</th>
               <th class="center-cotent numeric">Цена 1 шт <br> при заказе от 500 шт</th>
@@ -165,162 +165,20 @@
               <td class="center-cotent numeric">1 евро + 8 грн</td>
               <td class="center-cotent numeric">1 неделя</td>
             </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- <div class="flip-scroll">
-      <div class="container">
-        <table>
-          <thead>
             <tr>
-              <th>Code</th>
-              <th>Company</th>
-              <th class="numeric">Price</th>
-              <th class="numeric">Change</th>
-              <th class="numeric">Change %</th>
-              <th class="numeric">Open</th>
-              <th class="numeric">High</th>
-              <th class="numeric">Low</th>
-              <th class="numeric">Volume</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>AAC</td>
-              <td>AUSTRALIAN AGRICULTURAL COMPANY LIMITED.</td>
-              <td class="numeric">$1.38</td>
-              <td class="numeric">-0.01</td>
-              <td class="numeric">-0.36%</td>
-              <td class="numeric">$1.39</td>
-              <td class="numeric">$1.39</td>
-              <td class="numeric">$1.38</td>
-              <td class="numeric">9,395</td>
+              <td>
+                <img src="img/ramka-long_2.jpg" title="ramka-image" alt="ramka-image"> 
+                <p>Рамка с рекламой (1 цвет)</p>
+              </td>
+              <td class="center-cotent numeric">1 евро + 8 грн</td>
+              <td class="center-cotent numeric">1 евро + 8 грн</td>
+              <td class="center-cotent numeric">1 неделя</td>
             </tr>
           </tbody>
         </table>
       </div>
-    </div> -->
-
-    <!-- <div class="content-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 content-block-image">
-            <img src="img/avtononera.jpg" title="image" alt="image">
-          </div>
-          <div class="col-md-8">
-            <h2 class="h2">
-              <b>Современные автомобильные гос номера Украины, авто номера, виды:</b>
-            </h2>
-
-            <p class="paragraph">
-              В 2004 был утвержден новый вид авто номеров Украины, данный стандарт прописан и утвержден в ДСТУ 3650:2004 "Дорожный транспорт. Знаки номерные транспортных средств" с дополнениями в ДСТУ 4278:2006. Новые номера подразделяются на 12 типов, для каждого вида ТС средств закреплен свой вид номерного знака.
-            </p>
-            <p class="paragraph">
-              Новые номера авто получили 8 символов, 2 буквы вначале, затем 4 цифры и 2 буквы в конце: два первые символа обозначают региональную принадлежность ТС, 4 цифры порядковый номер при регистрации и две последние буквы это серия номеров. Слева на автомобильных номерах расположена государственная символика Украины, на сине-желтом фоне изображен "Трезуб" и символ UA, на номерах кроме белого фона может быть желтый фон - для автобусов, маршрутных такси, синий фон - номера МВД, красный фон - для транзитных номеров и черный фон - для Министерства обороны и МЧС. В новых номерах используются только латинские буквы для более удобной идентификации украинских номеров за границей. Автомобильный гос номер выполняется на алюминиевой пластине 1 мм, сверху расположен светоотражающий слой с защитными голограммными элементами, с обратной стороны номера должно быть клеймо выпустившего завода, размер номера 520 на 112 мм. 
-            </p>
-            <div class="type">
-              <p class="type__heading">Текущие типы номеров Украины:</p>
-              <div class="flex-column type__item">
-                <p class="paragraph"><b>1 тип:</b> номера для автомобилей, автобусов и прицепов, размер 520 на 112 мм</p>
-              </div>
-              <div class="flex-column type__item">
-                <img src="img/num_1.jpg" title="num-image" alt="num-image">
-                <p class="paragraph"><b>1.1 тип:</b> белый фон - выдается для автомобилей, прицепов, автобусов</p>
-              </div>
-              <div class="flex-column type__item">
-                <img src="img/num_1.jpg" title="num-image" alt="num-image">
-                <p class="paragraph"><b>1.2 тип:</b> белый фон - выдается для автомобилей, прицепов, автобусов</p>
-              </div>
-              <div class="flex-column type__item">
-                <img src="img/num_1.jpg" title="num-image" alt="num-image">
-                <p class="paragraph"><b>1.3 тип:</b> Американские номера: номера размером 300х150 мм для ТС с нестандартным местом для крепления номера, так называемые - американские номера. Данные номера авто, предназначены для автомобилей выпускавшихся для американского, арабского или японских рынков, у которых нестандартное место под номерной знак, отсюда и возникло название - американские номера. Американский номер является дополнительным номером, его необходимо заказывать отдельно, при этом возить с собой обычные длинные номера не обязательно, данный номер официально присутствует в ДСТУ и имеет все необходимые защитные элементы. Заказать такие автономера в Киеве можно через наш сайт или подъехав к нам в офис. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-
-    <div class="content-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 content-block-image">
-            <img src="img/old/img_1.jpg" title="image" alt="image">
-          </div>
-          <div class="col-md-8">
-            <h2 class="h2">
-              <b>Старые автономера с 1958 по 1977 год</b>
-            </h2>
-
-            <p class="paragraph">
-              В СССР в период с 1958 по 1977 год производство автономеров осуществлялось на черном фоне, а сами цифры красили белой краской. В таких номерах код региона регистрации автомобиля обозначался буквами в конце номера. Форма номеров для разных транспортных средств так же была разной: для автомобилей номер был длинный прямоугольный, а для мотоциклов и мопедов - квадратный, для прицепа был отдельный номер с приметкой "прицеп", а на спецтехнику выдавался особого вида номер на желтом фоне. 
-            </p>
-
-            <ul class="old-type">
-              <li>
-                <div class="old-type-image">
-                  <img src="img/old/old_1.jpg" title="num-image" alt="num-image">
-                </div>
-                <p class="paragraph">
-                  1946г. автомобильный номер
-                </p>
-              </li>
-              <li>
-                <div class="old-type-image">
-                  <img src="img/old/old_2.jpg" title="num-image" alt="num-image">
-                </div>
-                <p class="paragraph">
-                  1965-1977г. авто знаки на прицеп для спецтехники
-                </p>
-              </li>
-              <li>
-                <div class="old-type-image">
-                  <img src="img/old/old_3.jpg" title="num-image" alt="num-image">
-                </div>
-                <p class="paragraph">
-                  1965-1977г. автономера для спецтехники
-                </p>
-              </li>
-              <li>
-                <div class="old-type-image">
-                  <img src="img/old/old_4.jpg" title="num-image" alt="num-image">
-                </div>
-                <p class="paragraph">
-                  1946г. автомобильный номер
-                </p>
-              </li>
-              <li>
-                <div class="old-type-image">
-                  <img src="img/old/old_5.jpg" title="num-image" alt="num-image">
-                </div>
-                <p class="paragraph">
-                  1946г. автомобильный номер
-                </p>
-              </li>
-              <li>
-                <div class="old-type-image">
-                  <img src="img/old/old_6.jpg" title="num-image" alt="num-image">
-                </div>
-                <p class="paragraph">
-                  1946г. автомобильный номер
-                </p>
-              </li>
-              <li>
-                <div class="old-type-image">
-                  <img src="img/old/old_7.jpg" title="num-image" alt="num-image">
-                </div>
-                <p class="paragraph">
-                  1946г. автомобильный номер
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
+    
     <div class="ukraine-order">
       <div class="container">
         <div class="row">
@@ -381,6 +239,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 
     <script src="js/common.js"></script>
+    <script src="js/ramki.js"></script>
 
     <script src="js/custom.js"></script>
 

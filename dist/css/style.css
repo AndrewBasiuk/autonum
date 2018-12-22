@@ -2753,9 +2753,19 @@ input[type="file"] {
   font-size: 13px;
   font-weight: bold;
   vertical-align: middle; }
+  .flip-scroll td:first-child {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .flip-scroll img {
-  margin-right: 10%; }
+  margin-right: 10%;
+  max-width: 130px; }
 
 .flip-scroll p {
   max-width: 145px;
@@ -2820,15 +2830,6 @@ input[type="file"] {
     display: block;
     min-height: 1.25em;
     text-align: left; }
-  .flip-scroll .container {
-    overflow-x: scroll; }
-  .flip-scroll table {
-    min-width: 500px; }
-  .flip-scroll .long, .flip-scroll .numeric {
-    padding: 0; }
-  .flip-scroll td, .flip-scroll th {
-    height: 50px;
-    width: auto; }
   /* sort out borders */
   .flip-scroll th {
     border-bottom: 0;
@@ -2837,11 +2838,80 @@ input[type="file"] {
     border-left: 0;
     border-right: 0;
     border-bottom: 0; }
-  .flip-scroll tbody tr {
-    border-left: 1px solid #babcbf; }
   .flip-scroll th:last-child,
   .flip-scroll td:last-child {
-    border-bottom: 1px solid #babcbf; } }
+    border-bottom: 1px solid #babcbf; }
+  .flip-scroll {
+    margin-top: 40px; }
+    .flip-scroll .container {
+      overflow-x: scroll; }
+    .flip-scroll table {
+      border-collapse: collapse; }
+    .flip-scroll td, .flip-scroll th {
+      height: 50px;
+      width: auto;
+      font-size: 10px;
+      border-collapse: collapse; }
+    .flip-scroll .long {
+      width: 100%;
+      padding-right: 0;
+      text-align: center; }
+    .flip-scroll .numeric {
+      padding: 0 15px; }
+    .flip-scroll thead {
+      border-right: 1px solid #babcbf;
+      width: 110px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    .flip-scroll th {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 0 5px; }
+      .flip-scroll th:first-child {
+        border-top: 0; }
+    .flip-scroll tr {
+      border-right: 1px solid #babcbf; }
+      .flip-scroll tr:last-child {
+        border-right: 0; }
+    .flip-scroll td {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 0 7px; }
+      .flip-scroll td:first-child {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+    .flip-scroll img {
+      margin-right: 0;
+      margin-bottom: 5px; }
+    .flip-scroll p {
+      max-width: 100%; } }
 
 @media screen and (max-width: 990px) {
   .header__nav_bottom {

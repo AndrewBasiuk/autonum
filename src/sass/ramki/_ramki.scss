@@ -47,14 +47,15 @@
 		font-weight: bold;
 		vertical-align: middle;
 
-		// &:first-child {
-		// 	display: flex;
-		// 	align-items: center;
-		// }
+		&:first-child {
+			display: flex;
+			align-items: center;
+		}
 	}
 
 	img {
 		margin-right: 40/400*100%;
+		max-width: 130px;
 	}
 
 	p {
@@ -98,33 +99,94 @@
 	.flip-scroll tbody tr { display: inline-block; vertical-align: top; }
 	.flip-scroll td { display: block; min-height: 1.25em; text-align: left; }
  
+	/* sort out borders */
+ 
+	.flip-scroll th { border-bottom: 0; border-left: 0; }
+	.flip-scroll td { border-left: 0; border-right: 0; border-bottom: 0; }
+	
+	.flip-scroll th:last-child,
+	.flip-scroll td:last-child { border-bottom: 1px solid #babcbf; }
 
 	// custom
 	.flip-scroll {
+		margin-top: 40px;
+		
 		.container {
 			overflow-x: scroll;
 		}
 
 		table {
-			min-width: 500px;
+			// min-width: 500px;
+			border-collapse: collapse;
+
 		}
-		.long, .numeric {
-			// width: 200px;
-			padding: 0;
-		}
+
 		td, th {
 			height: 50px;
-			// width: 150px;
 			width: auto;
+			font-size: 10px;
+			border-collapse: collapse;
+		}
+
+		.long {
+			width: 100%;
+			padding-right: 0;
+			text-align: center;
+		}
+
+		.numeric {
+			padding: 0 15px;
+		}
+
+		// .table-head {
+		// 	width: 120px;
+		// 	box-sizing: border-box;
+		// }
+
+		thead {
+			border-right: 1px solid #babcbf;
+			width: 110px;
+			box-sizing: border-box;
+		}
+
+		th {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 5px;
+
+			&:first-child {
+				border-top: 0;
+			}
+		}
+
+		tr {
+			border-right: 1px solid #babcbf;
+			&:last-child {
+				border-right: 0;
+			}
+		}
+
+		td {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 7px;
+
+			&:first-child {
+				flex-direction: column;
+				justify-content: center;
+			}
+		}
+
+		img {
+			margin-right: 0;
+			margin-bottom: 5px;
+		}
+
+		p {
+			max-width: 100%;
 		}
 	}
 	// end__custom
- 
-	/* sort out borders */
- 
-	.flip-scroll th { border-bottom: 0; border-left: 0; }
-	.flip-scroll td { border-left: 0; border-right: 0; border-bottom: 0; }
-	.flip-scroll tbody tr { border-left: 1px solid #babcbf; }
-	.flip-scroll th:last-child,
-	.flip-scroll td:last-child { border-bottom: 1px solid #babcbf; }
 }
