@@ -18,6 +18,147 @@
     
     <?php include_once "includes/head.php"; ?>
 
+    <div class="table-wrap">
+      <div class="container">
+        <div class="table">
+          <div class="table-row table-head">
+            <div class="table-type">
+              <p class="table__text">Тип номера</p>
+            </div>
+            <div class="table-price">
+              <p class="table__text">Стоимость <br> 1 номера</p>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                Стоимость <br> комплекта
+              </p>
+            </div>
+            <div class="table-button">
+            </div>
+          </div>
+          <div class="table-row">
+            <div class="table-type">
+              <div class="table-image">
+                <img src="img/num_1.jpg" title="avto-num" alt="avto-num">
+              </div>
+              <div class="table-link">
+                <a href="#">Легковые, грузовые и прицепы  2004-2015</a>
+              </div>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <span class="table__text_mobile">1 шт - </span>
+                <span class="table__text_big"> 239 </span>
+                грн
+              </p>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <p class="table__text">
+                  <span class="table__text_mobile">2 шт - </span>
+                  <span class="table__text_big"> 239 </span>
+                  грн
+                </p>
+              </p>
+            </div>
+            <div class="table-button">
+              <button>заказать</button>
+            </div>
+          </div>
+          <div class="table-row">
+            <div class="table-type">
+              <div class="table-image">
+                <img src="img/num_2.jpg" title="avto-num" alt="avto-num">
+              </div>
+              <div class="table-link">
+                <a href="#">Легковые, грузовые и прицепы с 2015 (под Евро)</a>
+                <span>(300х150 мм)</span>
+              </div>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <span class="table__text_mobile">1 шт - </span>
+                <span class="table__text_big">239</span>
+                грн
+              </p>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <p class="table__text">
+                  <span class="table__text_mobile">2 шт - </span>
+                  <span class="table__text_big">239</span>
+                  грн
+                </p>
+              </p>
+            </div>
+            <div class="table-button">
+              <button>заказать</button>
+            </div>
+          </div>
+          <div class="table-row">
+            <div class="table-type">
+              <div class="table-image">
+                <img src="img/num_3.jpg" alt="avto-num" alt="avto-num">
+              </div>
+              <div class="table-link">
+                <a href="#">Американский номер  2004-2015</a>
+                <span>(300х150 мм)</span>
+              </div>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <span class="table__text_mobile">1 шт - </span>
+                <span class="table__text_big"> 239 </span>
+                грн
+              </p>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <p class="table__text">
+                  <span class="table__text_mobile">2 шт - </span>
+                  <span class="table__text_big"> 239 </span>
+                  грн
+                </p>
+              </p>
+            </div>
+            <div class="table-button">
+              <button>заказать</button>
+            </div>
+          </div>
+          <div class="table-row">
+            <div class="table-type">
+              <div class="table-image">
+                <img src="img/num_4.jpg" alt="avto-num" alt="avto-num">
+              </div>
+              <div class="table-link">
+                <a href="#">Польские номера</a>
+                <span>(универсальный шрифт, голограмма - иммитация, слева наклейка)</span>
+              </div>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <span class="table__text_mobile">1 шт - </span>
+                <span class="table__text_big">239</span>
+                грн
+              </p>
+            </div>
+            <div class="table-price">
+              <p class="table__text">
+                <p class="table__text">
+                  <span class="table__text_mobile">2 шт - </span>
+                  <span class="table__text_big">239</span>
+                  грн
+                </p>
+              </p>
+            </div>
+            <div class="table-button">
+              <button>заказать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="content-block content-block_attention">
       <div class="container">
         <div class="row">

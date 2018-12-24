@@ -334,6 +334,104 @@
       </div>
     </div>
 
+     <div class="content-block diplom-content-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 content-block-image">
+            <img src="img/diploma.jpg" title="doc-image" alt="doc-image">
+          </div>
+          <div class="col-md-8">
+            <h2 class="h2">
+              <b>Коды применяемые на дипломатических номерах</b>
+            </h2>
+
+            <p class="paragraph">
+              Дипломатические номера, выдаваемым консульствам, дипломатическим представительствам, международным организациям и семьям их персонала, начинаются с латинской буквы “D”, первые 3 цифры обозначают код страны (номера от 001 по 199), номера с 200-299 указывают код международной организации, номера с 300-399 код страны консульской организации, последние 3 цифры порядковый номера автомобиля, зарегистрированного за данной организацией. Таким образом можно определить регион по номеру дипломатических автономеров. 
+            </p>
+            
+            <div class="diplom-table-wrap">
+              <h2 class="h2"><b>Ниже в таблице предоставлены коды дипломатических номеров:</b></h2>
+              <table class="diplom-table">
+                <thead>
+                  <th class="column_1">Код</th>
+                  <th class="column_2">Дипломатическое представительство</th>
+                </thead>
+                <tbody>
+                  <tr class="diplom-table__row">
+                    <td class="column_1 code">001</td>
+                    <td class="column_2">Российская Федерация</td>
+                  </tr>
+                  <tr class="diplom-table__row">
+                    <td class="column_1 code">002</td>
+                    <td class="column_2">Соединенные Штаты Америки</td>
+                  </tr>
+                  <tr class="diplom-table__row">
+                    <td class="column_1 code">003</td>
+                    <td class="column_2">Китайская Народная Республика</td>
+                  </tr>
+                  <tr class="diplom-table__row">
+                    <td class="column_1 code">004</td>
+                    <td class="column_2">Соединенное Королевство Великобритании и Северной Ирландии</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-scroll flip-scroll-region">
+      <div class="container">
+        <table>
+          <thead>
+            <tr>
+              <th><b>Регион Украины</b></th>
+              <th class="center-cotent numeric"><b>с 2004 года буквенный код слева</b></th>
+              <th class="center-cotent numeric"><b>1995 - 2004 код реtгиона</b></th>
+              <th class="center-cotent numeric"><b>1995-2004 буквенный код региона</b></th>
+              <th class="center-cotent numeric"><b>1992 - 1995</b></th>
+              <th class="center-cotent numeric"><b>УРСР</b></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="flip-scroll__row">
+              <td class="long"></td>
+              <td class="center-cotent numeric"><img src="img/num_1.jpg" title="num-image" alt="num-image"></td>
+              <td class="center-cotent numeric"><img src="img/num_1.jpg" title="num-image" alt="num-image"></td>
+              <td class="center-cotent numeric"><img src="img/num_1.jpg" title="num-image" alt="num-image"></td>
+              <td class="center-cotent numeric"><img src="img/num_1.jpg" title="num-image" alt="num-image"></td>
+              <td class="center-cotent numeric"><img src="img/num_1.jpg" title="num-image" alt="num-image"></td>
+            </tr>
+            <tr class="flip-scroll__row">
+              <td class="long">Общегосударственные</td>
+              <td class="center-cotent numeric">II</td>
+              <td class="center-cotent numeric">-</td>
+              <td class="center-cotent numeric">-</td>
+              <td class="center-cotent numeric">-</td>
+              <td class="center-cotent numeric">-</td>
+            </tr>
+            <tr class="flip-scroll__row">
+              <td class="long">Ивано-Франковская область</td>
+              <td class="center-cotent numeric">АН, КН</td>
+              <td class="center-cotent numeric">05</td>
+              <td class="center-cotent numeric">ЕА, ЕВ, ЕК, ЕН, ЕО, ЕС</td>
+              <td class="center-cotent numeric">ЯН, ЯМ, ЯІ, ЯО</td>
+              <td class="center-cotent numeric">ДО, ДЦ, СЛ</td>
+            </tr>
+            <tr class="flip-scroll__row">
+              <td class="long">АР Крым</td>
+              <td class="center-cotent numeric">АК, КК</td>
+              <td class="center-cotent numeric">01</td>
+              <td class="center-cotent numeric">КО, КР, КТ</td>
+              <td class="center-cotent numeric">КР, МЯ, МХ</td>
+              <td class="center-cotent numeric">КР</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
     <div class="ukraine-order">
       <div class="container">
         <div class="row">

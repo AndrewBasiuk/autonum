@@ -17,7 +17,8 @@
 		border-top: 1px solid #d0cfcb;
 
 		.button {
-			top: 23px;
+			top: 15px;
+			right: 0;
 		}
 	}
 }
@@ -25,5 +26,14 @@
 @media screen and (max-width: 600px) {
 	.card-slider-wrap {
 		width: 98%;
+	}
+
+	.card-descript-top p {
+
+	}
+
+	.card-descript-list .paragraph:first-child {
+		width: 40%;
+		margin-right: 10%;
 	}
 }

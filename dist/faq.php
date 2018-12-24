@@ -110,7 +110,7 @@
           <img src="img/docs_mob_2.jpg" title="docs-image" alt="docs-image" class="docs__image_mob">
         </div>
 
-        <div class="content-block faq-block_2">
+        <div class="content-block content-block_gray faq-block_2">
           <h2 class="h2"><b>Не вижу голограмм на номерном знаке, как правильно смотреть:</b></h2>
           <div class="row">
             <div class="col-md-4 content-block-image">

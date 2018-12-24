@@ -67,12 +67,24 @@
           </div>
           <div class="contact-right">
             <p class="h2"><b>Карта проезда:</b></p>
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10160.798019972095!2d30.3879152!3d50.4560095!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfff9ae36f6904eeb!2z0JLQtdGC0LXRgNC40L3QsNGA0L3QsCDQsNC_0YLQtdC60LAg0L3QsCDQodCy0Y_RgtC-0YjQuNC90L4!5e0!3m2!1sru!2sua!4v1544696967122"  allowfullscreen></iframe>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4526.0550760057895!2d30.383796489446883!3d50.45669749314046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc8a9d673bf9%3A0x92dfc42331b74f9a!2z0KfQnyAi0JPQvtGB0LfQvdCw0LrQuCI!5e0!3m2!1sru!2sro!4v1545580020807" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <p class="h2"><b>Как нас найти:</b></p>
             <ul class="slider mobile-slider contact-slider">
-              <li><img src="img/contact/Layer-44.jpg" title="map-photo" alt="map-photo"></li>
-              <li><img src="img/contact/Layer-45.jpg" title="map-photo" alt="map-photo"></li>
-              <li><img src="img/contact/Layer-46.jpg" title="map-photo" alt="map-photo"></li>
+              <li>
+                <a href="img/contact/Layer-44.jpg" data-fancybox="images">
+                  <img src="img/contact/Layer-44.jpg" title="map-photo" alt="map-photo">
+                </a>
+                </li>
+              <li>
+                <a href="img/contact/Layer-45.jpg" data-fancybox="images">
+                  <img src="img/contact/Layer-45.jpg" title="map-photo" alt="map-photo">
+                </a>
+                </li>
+              <li>
+                <a href="img/contact/Layer-46.jpg" data-fancybox="images">
+                  <img src="img/contact/Layer-46.jpg" title="map-photo" alt="map-photo">
+                </a>
+                </li>
             </ul>
           </div>
         </div>

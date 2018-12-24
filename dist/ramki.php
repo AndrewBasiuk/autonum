@@ -156,7 +156,16 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr onclick="window.location.href='https://www.google.com'" class="flip-scroll__row">
+              <td>
+                <img src="img/ramka-long_2.jpg" title="ramka-image" alt="ramka-image"> 
+                <p>Рамка с рекламой (1 цвет)</p>
+              </td>
+              <td class="center-cotent numeric">1 евро + 8 грн</td>
+              <td class="center-cotent numeric">1 евро + 8 грн</td>
+              <td class="center-cotent numeric">1 неделя</td>
+            </tr>
+            <tr onclick="window.location.href='https://www.google.com'" class="flip-scroll__row">
               <td>
                 <img src="img/ramka-long_2.jpg" title="ramka-image" alt="ramka-image"> 
                 <p>Рамка с рекламой (1 цвет)</p>

@@ -14,3 +14,14 @@
 		margin-bottom: 34px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.souvenir-slider-wrap {
+		margin-top: 35px;
+		.paragraph {
+			font-size: 15px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+	}
+}
