@@ -1507,11 +1507,8 @@ b {
     font-size: 13px;
     font-weight: 500;
     vertical-align: middle; }
-  .diplom-table__row {
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s; }
-    .diplom-table__row:hover {
-      background-color: #CFDBF2; }
+  .diplom-table__row:hover {
+    background-color: #CFDBF2; }
   .diplom-table .column_1 {
     width: 50px;
     text-align: center; }
@@ -1531,7 +1528,7 @@ b {
   border-bottom: 1px dotted #b8b8b8;
   color: #000;
   font-family: Verdana, sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   vertical-align: middle; }
 
 .flip-scroll td {
@@ -1552,10 +1549,7 @@ b {
             align-items: center; }
 
 .flip-scroll__row {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  padding: 8px 0;
-  cursor: pointer; }
+  padding: 8px 0; }
   .flip-scroll__row:hover {
     background-color: #CFDBF2; }
 
@@ -1577,7 +1571,8 @@ b {
   padding: 0 25px; }
 
 .flip-scroll .center-cotent {
-  text-align: center; }
+  text-align: center;
+  width: 18.5%; }
 
 .flip-scroll-region td {
   width: 140px; }
@@ -1595,136 +1590,6 @@ b {
 
 .flip-scroll-region img {
   margin: 8px 0; }
-
-@media only screen and (max-width: 800px) {
-  .flip-scroll .cf:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0; }
-  .flip-scroll * html .cf {
-    zoom: 1; }
-  .flip-scroll *:first-child + html .cf {
-    zoom: 1; }
-  .flip-scroll table {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0; }
-  .flip-scroll th,
-  .flip-scroll td {
-    margin: 0;
-    vertical-align: top; }
-  .flip-scroll th {
-    text-align: left; }
-  .flip-scroll table {
-    display: block;
-    position: relative;
-    width: 100%; }
-  .flip-scroll thead {
-    display: block;
-    float: left; }
-  .flip-scroll tbody {
-    display: block;
-    width: auto;
-    position: relative;
-    overflow-x: auto;
-    white-space: nowrap; }
-  .flip-scroll thead tr {
-    display: block; }
-  .flip-scroll th {
-    display: block;
-    text-align: right; }
-  .flip-scroll tbody tr {
-    display: inline-block;
-    vertical-align: top; }
-  .flip-scroll td {
-    display: block;
-    min-height: 1.25em;
-    text-align: left; }
-  /* sort out borders */
-  .flip-scroll th {
-    border-bottom: 0;
-    border-left: 0; }
-  .flip-scroll td {
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0; }
-  .flip-scroll th:last-child,
-  .flip-scroll td:last-child {
-    border-bottom: 1px solid #babcbf; }
-  .flip-scroll {
-    margin-top: 40px; }
-    .flip-scroll .container {
-      overflow-x: scroll; }
-    .flip-scroll table {
-      border-collapse: collapse; }
-    .flip-scroll td, .flip-scroll th {
-      height: 50px;
-      width: auto;
-      font-size: 10px;
-      border-collapse: collapse; }
-    .flip-scroll .long {
-      width: 100%;
-      padding-right: 0;
-      text-align: center; }
-    .flip-scroll .numeric {
-      padding: 0 15px; }
-    .flip-scroll thead {
-      border-right: 1px solid #babcbf;
-      width: 110px;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box; }
-    .flip-scroll th {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      padding: 0 5px; }
-      .flip-scroll th:first-child {
-        border-top: 0; }
-    .flip-scroll tr {
-      border-right: 1px solid #babcbf; }
-      .flip-scroll tr:last-child {
-        border-right: 0; }
-    .flip-scroll td {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      padding: 0 7px; }
-      .flip-scroll td:first-child {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-            -ms-flex-pack: center;
-                justify-content: center; }
-    .flip-scroll img {
-      margin-right: 0;
-      margin-bottom: 5px; }
-    .flip-scroll p {
-      max-width: 100%; } }
 
 .head {
   position: relative;
@@ -3279,7 +3144,18 @@ input[type="file"] {
   .article__heading {
     text-align: center; }
   .ukraine-order {
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  .flip-scroll {
+    margin-top: 40px; }
+    .flip-scroll .container {
+      overflow-x: scroll; }
+    .flip-scroll table {
+      width: 767px; }
+    .flip-scroll td, .flip-scroll th {
+      font-size: 12px;
+      border-collapse: collapse; }
+    .flip-scroll .numeric {
+      padding: 0 15px; } }
 
 @media screen and (max-width: 599px) {
   .h1 {

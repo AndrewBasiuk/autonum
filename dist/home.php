@@ -386,12 +386,12 @@
         <table>
           <thead>
             <tr>
-              <th><b>Регион Украины</b></th>
-              <th class="center-cotent numeric"><b>с 2004 года буквенный код слева</b></th>
-              <th class="center-cotent numeric"><b>1995 - 2004 код реtгиона</b></th>
-              <th class="center-cotent numeric"><b>1995-2004 буквенный код региона</b></th>
-              <th class="center-cotent numeric"><b>1992 - 1995</b></th>
-              <th class="center-cotent numeric"><b>УРСР</b></th>
+              <th>Регион Украины</th>
+              <th class="center-cotent numeric">с 2004 года буквенный код слева</th>
+              <th class="center-cotent numeric">1995 - 2004 код реtгиона</th>
+              <th class="center-cotent numeric">1995-2004 буквенный код региона</th>
+              <th class="center-cotent numeric">1992 - 1995</th>
+              <th class="center-cotent numeric">УРСР</th>
             </tr>
           </thead>
           <tbody>
