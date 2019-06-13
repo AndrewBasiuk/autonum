@@ -1,0 +1,26 @@
+.articles {
+	padding: 65px 0 88px 0;
+	background-color: #E7E6E2;
+
+	.h2 {
+		font-size: 16px;
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	.paragraph {
+		margin: 15px 0;
+	}
+}
+
+.articles__item {
+	margin-bottom: 100px;
+}
+
+.articles-descript {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+// @media screen and (max-width: )

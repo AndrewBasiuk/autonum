@@ -1,0 +1,148 @@
+.calc {
+	background-color: #BBBAB5;
+	padding-bottom: 40px;
+
+	&__heading {
+		color: #000;
+		font-family: Arial, sans-serif;
+		font-size: 22px;
+		text-align: center;
+	}
+
+	&__text {
+		text-align: center;
+		margin: 15px 0;
+	}
+
+	.button {
+		width: 96px;
+	    text-align: center;
+	    font-family: Verdana, sans-serif;
+	    font-size: 12px;
+	    color: #fff;
+	    line-height: 23px;
+	    border: none;
+	    background-color: #737E8E;
+	    cursor: pointer;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
+	    position: relative;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    &:hover {
+	    	background-color: #D36B38;
+	    }
+	}
+}
+
+.calc-input {
+	margin: 45px auto 22px auto;
+	width: 560px;
+	padding: 10px 15px 10px 60px;
+	border: 2px solid #000;
+	border-radius: 12px;
+	position: relative;
+	box-sizing: border-box;
+	background-color: #fff;
+
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	form {
+		width: 477px;
+	}
+
+	input {
+		width: 100%;
+		border: 1px solid #dedede;
+		text-align: center;
+		color: #000;
+		font-family: Arial, sans-serif;
+		font-size: 70px;
+		font-weight: bold;
+		text-transform: uppercase;
+
+		&::-webkit-input-placeholder {color: #e3e3e3;};
+		&::-moz-placeholder          {color: #e3e3e3;};
+		&:-moz-placeholder           {color: #e3e3e3;};
+		&:-ms-input-placeholder      {color: #e3e3e3;};
+
+	}
+}
+
+.color-block {
+	position: relative;
+
+	&:before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 100%;
+		background-color: #25E77C;
+		content: "";
+		z-index: -1;
+	}
+	&:after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 50%;
+		height: 100%;
+		background-color: #EF6F6F;
+		content: "";
+		z-index: -1;
+	}
+
+	.green, .red {
+		padding: 22px 15px 34px 15px;
+	}
+}
+
+.color-block-heading {
+	margin-bottom: 23px;
+
+	.paragraph {padding-left: 0;}
+}
+
+.imennie-content {
+	padding-top: 22px;
+	padding-bottom: 25px;
+
+	.h2 {
+		margin-bottom: 25px;
+	}
+}
+
+.steps {
+
+	li {
+		display: flex;
+		margin-bottom: 40px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.num {
+		width: 42px;
+		height: 42px;
+		line-height: 42px;
+		text-align: center;
+		font-family: Arial, sans-serif;
+		font-size: 26px;
+		background-color: #009174;
+		border-radius: 50%;
+		color: #fff;
+		margin-right: 30px;
+	}
+
+	.paragraph {
+		width: 536/617*100%;
+	}
+}
+
