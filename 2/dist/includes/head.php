@@ -2,10 +2,6 @@
 	<header class="header">
 		<div class="container">
 			<div class="row">
-				<div class="hamburger">
-					<img src="img/icons/icon_menu_gamburger.png" title="hamburger-icon" alt="hamburger-icon">
-					<span>МЕНЮ</span>
-				</div>
 				<div class="nav-wrap">
 					<nav class="header__nav">
 						<ul>
@@ -35,7 +31,7 @@
 
 	<div class="head-middle">
 		<div class="container">
-			<div class="row justify-content-between head-midlle">
+			<div class="row justify-content-between head-middle__container">
 				<div class="row col-12 col-md-4 head-middle_left">
 					<div class="col-12 col-md-9 logo">
 						<img src="img/logo.png" alt="logo">
@@ -99,25 +95,39 @@
 			</div>
 
 			<nav class="nav-mobile">
-				<p class="nav-mobile__heading"></p>
-				<ul>
+				<div class="hamburger">
+					<img src="img/icons/icon_menu_gamburgerr.png" title="hamburger-icon" alt="hamburger-icon">
+						<span>МЕНЮ</span>
+				</div>
+				<ul class="nav-mobile-list">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Дубликаты номеров</a></li>
+					<li><a href="#">Изготовление номеров</a></li>
+					<li><a href="#">Востановление номеров</a></li>
+					<li><a href="#">Утяны номер</a></li>
+					<li><a href="#">Американский размер</a></li>
+					<li><a href="#">Образцы</a></li>
+					<li><a href="#">Цены</a></li>
 					<li><a href="#">Оплата</a></li>
 					<li><a href="#">Доставка</a></li>
-					<li><a href="#">Необходимые документы</a></li>
+					<li><a href="#">Неоходимые документы</a></li>
 					<li><a href="#">Как заказать</a></li>
 					<li><a href="#">Номера регионов, типы номеров</a></li>
 					<li><a href="#">Новости</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li>
+						<a href="#">
+							<img class="nav-mobile__flag" src="img/flag-UA.png" title="flag" alt="ua-icon">
+							Украинский язык
+						</a>
+					</li>
 				</ul>
-				<ul class="header__nav_mobile">
-					<li><a href="#">Заказ Онлайн</a></li>
-					<li><a href="#">Дубликаты номеров</a></li>
-					<li><a href="#">Утеря номеров?</a></li>
-					<li><a href="#">Востановление номеров</a></li>
-					<li><a href="#">Американский размер</a></li>
-					<li><a href="#">Сувенирные номера</a></li>
-					<li><a href="#">Именные номера</a></li>
-					<li><a href="#">Блатные номера</a></li>
-					<li><a href="#">Рамки</a></li>
+
+				<ul class="social social_mob">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#"><i class="fab fa-vk"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fas fa-envelope"></i></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -126,7 +136,7 @@
 	<div class="head-bottom">
 		<div class="container">
 			<div class="row">
-				<nav class="col-12 header__nav_bottom">
+				<nav class="col-12 nav_bottom">
 					<ul>
 						<li><a href="#"><i class="fas fa-home"></i></a></li>
 						<li><a href="#">Дубликаты номеров</a></li>
@@ -137,7 +147,6 @@
 						<li><a href="#">Образцы</a></li>
 						<li><a href="#">Цены</a></li>
 						<li><a href="#">Контакты</a></li>
-						<!-- <li><a href="#">Рамки</a></li> -->
 					</ul>
 				</nav>
 			</div>
@@ -150,7 +159,6 @@
 				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 				<li><a href="#"><i class="fab fa-vk"></i></a></li>
 				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
 				<li><a href="#"><i class="fas fa-envelope"></i></a></li>
 			</ul>
 		</div>

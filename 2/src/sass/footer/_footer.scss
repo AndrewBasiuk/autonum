@@ -1,66 +1,52 @@
 .footer {
-	padding: 25px 0;
-	background-color: $yellow;
+	padding: 21px 0 26px 0;
+	background-color: $gray;
 	position: relative;
 	overflow: hidden;
 
 	&__logo {
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 	}
 
 	&__copy {
 		color: #000;
-		font-family: Verdana, sans-serif;
-		font-size: 13px;
+		font-family: "RobotoLight", Arial, sans-serif;
+		font-size: 14px;
+		text-transform: uppercase;
 	}
 }
 
-.decore-image {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
+.footer-block_right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	position: static;
 }
 
 .footer-contact {
-	margin-bottom: 88px;
+	margin-bottom: 30px;
+	
 	li {
-		display: flex;
 		margin-bottom: 17px;
+		text-align: left;
 
 		&:last-child {
 			margin-bottom: 0;
 		}
 	}
 
-	i {
-		font-size: 15px;
-		margin-right: 13px;
-		color: #856805;
-		margin-top: 1px;
-	}
-	.fa-phone {
-		/*transform: rotateX(-180deg);*/
-	}
-
-	a {
+	a, p {
+		display: block;
+		text-align: right;
 		color: #000;
-		font-family: Verdana, sans-serif;
+		font-family: "RobotoLight", Arial, sans-serif;
 		font-size: 14px;
-		font-weight: bold;
-	}
-
-	p {
-		color: #000;
-		font-family: Verdana, sans-serif;
-		font-size: 13px;
-		line-height: 1.3;
-		font-weight: bold;
+		font-weight: 700;
+		line-height: 16px;
 	}
 }
 
 .footer-link-list {
-	margin-top: 10px;
 	margin-bottom: 30px;
 	&:last-child {
 		margin-bottom: 0;
@@ -68,17 +54,14 @@
 }
 
 @media screen and (max-width: 768px) {
-	.footer-block_1 {
-		width: 250px;
-		margin: 55px auto 0 auto;
+	.footer-block_2 {
+		margin-top: 23px;
 	}
 
 	.footer__copy {
-		text-align: center;
-	}
-
-	.footer-contact {
-		margin-bottom: 60px;
+		position: absolute;
+		right: 15px;
+		bottom: 30px;
 	}
 
 	.decore-image {

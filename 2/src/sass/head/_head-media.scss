@@ -1,6 +1,6 @@
 @media screen and (max-width: 990px) {
 	.head-middle {
-		padding: 20px 15px;
+		padding: 20px 0px;
 	}
 	.head-middle_right {
 		justify-content: flex-end;
@@ -16,6 +16,10 @@
 		margin-left: 0;
 	}
 
+	.nav_bottom a {
+		padding: 0 5px;
+	}
+
 	.lang {
 		display: none;
 	}
@@ -26,7 +30,7 @@
 		padding-bottom: 30px;
 	}
 
-	.hamburger, .hamburger-close, .mobile-contact {
+	.hamburger {
 		display: block;
 	}
 
@@ -51,113 +55,25 @@
 		justify-content: center;
 	}
 
-	.header__nav_top {
-		width: 100%;
-		order: 1;
-
-		ul {
-			flex-direction: column;
-			align-items: flex-start;
-			height: auto;
-			width: 100%;
-		}
-
-		li {
-			width: 100%;
-			border-bottom: 1px solid #999;
-		}
-
-		a {
-			padding: 16px;
-			width: 100%;
-			display: inline-block;
-			font-size: 0.9rem;
-			text-transform: uppercase;
-		}
-
-		.header__nav_mobile {
-			display: block;
-		}
-	}
-
-	.mobile-wrap {
-		min-height: 100vh;
-		height: auto;
-	}
-
-	.lang {
-		order: 2;
-		width: 100%;
-		box-sizing: border-box;
-
-		ul {
-			position: static;
-			width: 100%;
-			background-color: #585858;
-			transform: translateX(0);
-			box-shadow: none;
-
-			&:after {
-				display: none;
-			}
-		}
-
-		li, li:last-child {
-			border-bottom: 1px solid #999;
-		}
-
-		a {
-			padding: 20px 0 20px 40px;
-			font-size: 0.9rem;
-			text-align: left;
-			color: #fff;
-			opacity: 0.6;
-		}
-
-		button {
-			padding: 20px;
-			width: 100%;
-			font-size: 1rem;
-			text-transform: uppercase;
-			border-bottom: 1px solid #999;
-
-			&:after {
-				display: none;
-			}
-		}
-	}
-
-	.header__nav_bottom {
+	.nav_bottom {
 		display: none;
 	}
-	.header__nav_mobile {
+
+	.head-middle__container {
+		margin-bottom: 17px;	
+	}
+
+	.nav-mobile {
 		display: block;
 	}
 
-	.soc-wrap {
-		display: none;
-	}
-	.soc-wrap_mobile {
-		display: block;
-	}
 	.social {
-		float: none;
+		display: none;
+	}
+	.social_mob {
+		display: flex;
+		margin-top: 14px;
 		margin-bottom: 0;
-		width: 250px;
-		margin: 0 auto;
-
-		li {
-			border-bottom: 0;
-		}
-
-		a {
-			padding: 16px 0;
-		}
-
-		i {
-			color: #fff;
-			font-size: 1.2rem;
-		}
 	}
 }
 
@@ -179,15 +95,12 @@
 		}
 	}
 
-	.nav-wrap {
-		width: 100%;
+	.head-middle {
+		padding: 20px 0;
+	}
+	
+	h1 {
+		margin-top: 30px;
 	}
 
-	.logo {
-		display: none;
-	}
-
-	.logo_mob {
-		display: block;
-	}
 }

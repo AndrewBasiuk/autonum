@@ -1,29 +1,28 @@
 
 function mobileSlickInit() {
-	var screenWidth = window.innerWidth;
-  	if(screenWidth <= 767) {
-		$('.mobile-slider').slick({
-		    autoplay: false,
-		    slidesToShow: 1,
-		  	slidesToScroll: 1,
-		  	speed: 1200,
-		  	autoplaySpeed: 500,
-		  	arrows: false,
-		  	dots: true
-		});
-	}
+	// var screenWidth = window.innerWidth;
+  	// if(screenWidth <= 767) {
+	// 	$('.mobile-slider').slick({
+	// 	    autoplay: false,
+	// 	    slidesToShow: 1,
+	// 	  	slidesToScroll: 1,
+	// 	  	speed: 1200,
+	// 	  	autoplaySpeed: 500,
+	// 	  	arrows: false,
+	// 	  	dots: true
+	// 	});
+	// }
 }
 
 // menu
 $(".hamburger").on("click", function() {
-	$(".nav-wrap").css("left", "0");
-	// $("body").css("overflow", "hidden")
-});
-
-$(".hamburger-close").on("click", function() {
-	$(".nav-wrap").css("left", "-100%");
+	console.log("dsv");
+	$(".nav-mobile-list").slideToggle();
 });
 // end__menu
+
+console.log("dsv");
+
 
 //lang open
 $(".lang").on("click", function() {
