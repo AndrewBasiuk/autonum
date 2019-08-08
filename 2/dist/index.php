@@ -18,6 +18,9 @@
     
     <?php include_once "includes/head.php"; ?>
 
+    <?php include_once "includes/block-links.php"; ?>    
+    <?php include_once "includes/block-sertificates.php"; ?>
+    <?php include_once "includes/block-region.php"; ?>
     
 
     <?php include_once "includes/footer.php"; ?>

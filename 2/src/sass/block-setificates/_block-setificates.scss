@@ -1,0 +1,21 @@
+
+.sertificates {
+    padding: 40px 0 70px 0;
+
+    .h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    img {
+        max-width: 170px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sertificates {
+        img {
+            margin: 0 auto;
+        }
+    }
+}

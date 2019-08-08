@@ -1,5 +1,5 @@
 body {
-	background-color: #f6f6f6;
+	background-color: #fff;
 	font-family: Arial, sans-serif,
 }
 
@@ -28,10 +28,9 @@ b {
 .h2 {
 	width: 100%;
 	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 22px;
-	margin-bottom: 60px;
-
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
 	b {
 		width: 100%;
 	}
@@ -270,36 +269,6 @@ b {
 	}
 }
 
-.ukraine-order {
-	padding: 80px 0 114px 0;
-
-	.h2 {
-		margin-bottom: 27px;
-	}
-}
-
-.city-link-list {
-	li {
-		margin-bottom: 4px;
-
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
-
-	a {
-		color: #000;
-		font-family: Verdana, sans-serif;
-		font-size: 13px;
-		transition: all 0.3s;
-		text-decoration: underline;
-
-		&:hover {
-			text-decoration: none;
-		}
-	}
-}
-
 .slider {
     .slick-dots {
         position: absolute;
@@ -310,21 +279,21 @@ b {
         display: flex;
 
         li {
-            margin: 0 7px;
-            background-color: #fff; 
+            margin: 0 3px;
+            background-color: #DDDCDA; 
             border-radius: 50%;
             box-sizing: border-box;
-            width: 15px;
-            height: 15px; 
+            width: 10px;
+            height: 10px; 
         }
 
         button {
             position: relative;
-            background-color: #fff;
+            background-color: #DDDCDA;
             border: none;
             border-radius: 50%;
-            width: 15px;
-            height: 15px;
+            width: 10px;
+            height: 10px;
             outline: none;
             content: "";
 
@@ -334,7 +303,7 @@ b {
         }
 
         .slick-active button {
-            background-color: #AEACA6; 
+            background-color: #3285DB; 
         }
     }
 }

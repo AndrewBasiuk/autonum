@@ -51,6 +51,11 @@
 	&:last-child {
 		margin-bottom: 0;
 	}
+
+	li {
+		padding-left: 0;
+		&:before {display: none;}
+	}
 }
 
 @media screen and (max-width: 768px) {

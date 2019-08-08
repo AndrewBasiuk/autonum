@@ -1,0 +1,56 @@
+
+
+.region {
+	padding: 60px 0 114px 0;
+
+	.h2 {
+		margin-bottom: 27px;
+	}
+}
+
+.city-link-list {
+	li {
+        margin-bottom: 5px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        position: relative;
+
+        &:before {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background-color: #659ACF;
+            position: absolute;
+            top: 6px;
+            left: 0;
+            content: "";
+        }
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		color: #000;
+		font-family: "RobotoLight", Arial, sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+		transition: all 0.3s;
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .ukraine-order {
+		padding-bottom: 85px;
+	}
+}
