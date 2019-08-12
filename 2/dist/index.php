@@ -17,7 +17,9 @@
   <body>
     
     <?php include_once "includes/head.php"; ?>
-
+  
+    <?php include_once "includes/table_numbers.php"; ?>    
+    <?php include_once "includes/text-block-1.php"; ?>         
     <?php include_once "includes/block-links.php"; ?>    
     <?php include_once "includes/block-sertificates.php"; ?>
     <?php include_once "includes/block-region.php"; ?>

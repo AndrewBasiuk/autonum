@@ -12,7 +12,9 @@
 
 @import 'common/common.scss';
 @import 'head/head.scss';
+@import 'table_numbers/table-numbers';
 @import 'block-links/block-links.scss';
+@import 'text-block/text-block.scss';
 @import 'block-setificates/block-setificates.scss';
 @import 'block_region/region.scss';
 @import 'footer/footer.scss';
@@ -21,6 +23,7 @@
 
 @import 'common/common-media.scss';
 @import 'head/head-media.scss';
+@import 'table_numbers/table-numbers-media';
 @import 'footer/footer-media.scss';
 
 

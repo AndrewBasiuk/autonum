@@ -1,0 +1,125 @@
+
+.numbers {
+    background-color: #efefef;
+    padding: 19px 0 58px 0;
+}
+
+.numbers__heading {
+    color: #000000;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.numbers-list {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    &:before {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        content: "";
+    }
+}
+.numbers-list__item {
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #CECECE;
+    border-right: 1px solid #CECECE;
+    width: 25%;
+    box-sizing: border-box;
+    transition: all 0.2s;
+
+    &:nth-child(4n) {border-right: 0}
+
+    &:hover {
+        background-color: #F4FAFF;
+        z-index: 2;
+        box-shadow: 1px 1px 10px 2px rgba(0,0,0, 0.2);
+    }
+}
+.numbers-list__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+} 
+.numbers-list__heading {
+    min-height: 70px;
+    color: #414141;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+.numbers-list__size {
+    position: relative;
+    color: #7d7d7d;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    height: 28px;
+    margin-bottom: 22px;
+
+    a {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 12px;
+        color: #0756a5;
+        font-family: "Roboto", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+.numbers-list__order {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #777777;
+    height: 36px;
+
+    a {
+        width: 83px;
+        line-height: 32px;
+        background-color: #4caf50;
+        text-align: center;
+        color: #ffffff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: all 0.2s;
+
+        &:hover {
+            // opacity: 0.8;
+            background-color: green;
+        }
+    }
+}
+.numbers-list__price {
+    span {
+        margin-left: 10px;
+        color: #000;
+        font-weight: bold;
+    }
+}

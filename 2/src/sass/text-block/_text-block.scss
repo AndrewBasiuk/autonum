@@ -1,0 +1,31 @@
+
+.text-block {
+    padding: 39px 0 220px 0;
+}
+
+.text-block__heading {
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+
+.text-block__image {
+    display: flex;
+    justify-content: center;
+}
+
+.text-block-list {
+    margin: 36px 0 28px 0; 
+}
+
+@media screen and (max-width: 768px) {
+    .text-block__image {
+        margin-bottom: 50px;
+    }
+    .text-block {
+        padding: 35px 0 70px 0;
+    }
+
+    .text-block__heading {
+        margin-bottom: 30px;
+    }
+}
