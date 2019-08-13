@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom-style.css">
 
-
     <title>avtonum</title>
   </head>
   <body>
@@ -19,7 +18,11 @@
     <?php include_once "includes/head.php"; ?>
   
     <?php include_once "includes/table_numbers.php"; ?>    
-    <?php include_once "includes/text-block-1.php"; ?>         
+    <?php include_once "includes/text-block-1.php"; ?>
+    <?php include_once "includes/text-block-2.php"; ?>
+    <?php include_once "includes/text-block-3.php"; ?>
+    <?php include_once "includes/text-block-4.php"; ?>
+    <?php include_once "includes/region-table.php"; ?>    
     <?php include_once "includes/block-links.php"; ?>    
     <?php include_once "includes/block-sertificates.php"; ?>
     <?php include_once "includes/block-region.php"; ?>
@@ -35,8 +38,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 
     <script src="js/common.js"></script>
-    <script src="js/home.js"></script>
-
     <script src="js/custom.js"></script>
 
 

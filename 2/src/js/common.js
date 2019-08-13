@@ -1,18 +1,25 @@
 
 function mobileSlickInit() {
-	var screenWidth = window.innerWidth;
-  	if(screenWidth <= 767) {
-		$('.mobile-slider').slick({
-		    autoplay: false,
-		    slidesToShow: 1,
-		  	slidesToScroll: 1,
-		  	speed: 1200,
-		  	autoplaySpeed: 500,
-		  	arrows: false,
-		  	dots: true
-		});
+	if ($('.mobile-slider')) {
+		var screenWidth = window.innerWidth;
+		if (screenWidth <= 767) {
+			$('.mobile-slider').slick({
+				autoplay: false,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				speed: 1200,
+				autoplaySpeed: 500,
+				arrows: false,
+				dots: true
+			});
+		}
 	}
 }
+
+mobileSlickInit();
+$(window).resize(function () {
+	mobileSlickInit();
+});
 
 // menu
 $(".hamburger").on("click", function() {

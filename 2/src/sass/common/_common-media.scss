@@ -116,49 +116,11 @@
 		margin-bottom: 20px;
 	}
 
-
-	.flip-scroll {
-		margin-top: 40px;
-		
-		.container {
-			overflow-x: scroll;
-		}
-
-		table {
-			width: 767px;
-		}
-
-		td, th {
-			font-size: 12px;
-			border-collapse: collapse;
-		}
-
-		.numeric {
-			padding: 0 15px;
-		}
-	}
 }
 
 @media screen and (max-width: 599px) {
 	.h1 {
 		padding: 0 10px;
-	}
-
-	.type__item img {
-		display: block;
-		margin: 0 auto 5px auto;
-	}
-
-	.old-type {
-		justify-content: space-around;
-
-		li {
-			width: 45%;
-		}
-	}
-
-	.old-type-image {
-		margin-bottom: 15px;
 	}
 
 	.diplom-table-wrap {

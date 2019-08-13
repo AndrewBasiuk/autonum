@@ -1,0 +1,158 @@
+.flip-scroll {
+	tr {
+		border-bottom: 1px dotted #b8b8b8;
+	}
+
+	th {
+		padding: 18px 0;
+		border-top: 1px dotted #b8b8b8;
+		border-bottom: 1px dotted #b8b8b8;
+		color: #000;
+		font-family: "Roboto", Arial, sans-serif;
+		font-size: 14px;
+        vertical-align: middle;
+        
+        &:first-child {
+            padding-left: 0;
+        }
+	}
+
+	td {
+		padding: 10px 0 5px 0;
+		color: #000;
+		font-family: "RobotoLight", Arial, sans-serif;
+		font-size: 14px;
+		vertical-align: middle;
+
+		&:first-child {
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	&__row {
+		padding: 8px 0;
+
+		&:hover {
+			background-color: #CFDBF2;
+		}
+	}
+
+	img {
+		// margin-right: 40/400*100%;
+		max-width: 125px;
+	}
+
+	p {
+		max-width: 145px;
+		text-align: center;
+	}
+	
+	.long {
+		width: 135/930*100%;
+		padding-right: 25px;
+        box-sizing: border-box;	
+        
+        &_big {
+            font-size: 16px;
+        }
+	}
+
+	.numeric {
+		padding: 0 25px;
+	}
+
+	.center-cotent {
+		text-align: center;
+	}
+}
+
+.region-table {
+    padding: 20px 0 30px 0;
+
+    th {
+        padding: 10px 20px 5px 20px;
+        font-weight: 500;
+    }
+
+    &__heading {
+        margin-bottom: 27px;
+    }
+
+	td {
+		width: 130px;
+	}
+
+	.long {
+		width: 187px;
+		padding-right: 0;
+    }
+
+	.flip-scroll__row {
+		cursor: default;
+	}
+
+	.numeric {
+		padding: 0 10px;
+	}
+
+	img {
+		margin: 8px 0;
+	}
+}
+
+.diplom-table-wrap {
+	margin-top: 54px;
+	.h2 {
+		font-size: 17px;
+		margin-bottom: 20px;
+	}
+}
+.diplom-table {
+	width: 100%;
+
+	thead {
+		border-top: 1px dotted #b8b8b8;
+		border-bottom: 1px dotted #b8b8b8;
+	}
+
+	tr {
+		border-bottom: 1px dotted #b8b8b8;
+	}
+
+	th {
+		padding: 10px 0;
+		font-family: Verdana, sans-serif;
+		font-size: 12px;
+		font-weight: 600;
+		opacity: 0.8;
+	}
+
+	td {
+		padding: 8px 0;
+		font-family: Verdana, sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+		vertical-align: middle;
+	}
+
+	&__row {
+		&:hover {
+			background-color: #CFDBF2;
+		}
+	}
+
+	.column_1 {
+		width: 50px;
+		text-align: center;
+	}
+	.column_2 {
+		padding-left: 30px;
+		box-sizing: border-box;
+	}
+
+
+	.code {
+		font-weight: 700;
+	}
+}
