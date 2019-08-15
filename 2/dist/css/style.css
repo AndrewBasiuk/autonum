@@ -2198,13 +2198,24 @@ b {
   .news-list__item:last-child {
     margin-bottom: 0; }
 
-.news-content .date {
-  margin-bottom: 20px; }
+.news-content {
+  padding: 22px 0; }
+  .news-content .date {
+    margin-bottom: 20px; }
+  .news-content__image img {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
 
-.news-content__image img {
-  width: 100%;
-  display: block;
-  margin: 0 auto; }
+@media screen and (max-width: 767px) {
+  .news-list .h2, .news-content .h2 {
+    text-align: left; }
+  .news-list__image, .news-content__image {
+    margin-bottom: 17px; }
+  .news-list__image img {
+    max-width: 210px; }
+  .news-list__item {
+    margin-bottom: 70px; } }
 
 .thank-you {
   padding: 20px 0 50px 0; }
