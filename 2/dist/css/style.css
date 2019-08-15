@@ -1108,6 +1108,9 @@ b {
   margin-bottom: 20px;
   line-height: 1.3; }
 
+.text_blue {
+  color: #0756a5; }
+
 .no-mb {
   margin-bottom: 0; }
 
@@ -1399,6 +1402,38 @@ b {
   font-family: Verdena, sans-serif;
   font-size: 12px;
   text-decoration: none; }
+
+.samples {
+  padding: 60px 0 150px 0; }
+  .samples a {
+    display: inline-block;
+    width: 100%; }
+  .samples .h2 {
+    margin-bottom: 0;
+    text-align: left; }
+  .samples__text {
+    line-height: 1.4;
+    color: #7d7d7d;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px; }
+
+.samples-block-1 {
+  margin-bottom: 95px; }
+
+.samples-slider {
+  margin-top: 14px; }
+  .samples-slider li {
+    margin-bottom: 32px; }
+  .samples-slider .no-mb {
+    margin-bottom: 0; }
+  .samples-slider img {
+    width: 100%; }
+
+@media screen and (max-width: 676px) {
+  .samples__heading {
+    text-align: left; }
+  .samples-slider li {
+    margin-bottom: 0; } }
 
 .head {
   position: relative;
@@ -2020,10 +2055,16 @@ b {
   padding: 22px 0; }
   .types-wrap__image {
     margin-top: 97px; }
+  .types-wrap__image_mob {
+    display: none;
+    max-width: 290px;
+    margin: 30px auto 40px auto; }
   .types-wrap__heading {
+    font-size: 22px;
     margin-bottom: 70px; }
 
 .types__heading {
+  font-size: 22px;
   margin-bottom: 12px; }
 
 .types__item {
@@ -2034,8 +2075,19 @@ b {
 .types__item_top {
   margin-top: 40px; }
 
+.old-type-wrap {
+  padding: 22px 0; }
+
+.old-type-wrap__image img {
+  display: block;
+  margin: 0 auto; }
+
+.old-type-wrap__heading {
+  font-size: 22px;
+  margin-bottom: 30px; }
+
 .old-type {
-  margin-top: 50px;
+  margin-top: 39px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2050,7 +2102,11 @@ b {
   .old-type li {
     width: 29%;
     text-align: center;
-    margin-bottom: 35px; }
+    margin-bottom: 32px; }
+  .old-type .paragraph {
+    font-size: 14px;
+    max-width: 150px;
+    margin: 0 auto; }
 
 .old-type-image {
   width: 100%;
@@ -2072,10 +2128,25 @@ b {
     max-width: 100%;
     max-height: 100%; }
 
+@media screen and (max-width: 767px) {
+  .types-wrap {
+    padding: 22px 0; }
+    .types-wrap__image {
+      display: none; }
+    .types-wrap__image_mob {
+      display: block; } }
+
 @media screen and (max-width: 599px) {
   .type__item img {
     display: block;
     margin: 0 auto 5px auto; }
+  .old-type-wrap {
+    padding: 22px 0; }
+  .old-type-wrap__image img {
+    max-width: 290px;
+    margin-bottom: 35px; }
+  .old-type-wrap__heading {
+    margin-bottom: 25px; }
   .old-type {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
@@ -2084,6 +2155,59 @@ b {
       width: 45%; }
   .old-type-image {
     margin-bottom: 15px; } }
+
+.page-404 {
+  padding: 20px 0 200px 0; }
+
+.page-404__image img {
+  display: block;
+  margin: 0 auto; }
+
+@media screen and (max-width: 767px) {
+  .page-404__image {
+    margin-bottom: 50px; } }
+
+.thank-you {
+  padding: 20px 0 50px 0; }
+
+.thank-you__image img {
+  display: block;
+  margin: 0 auto; }
+
+@media screen and (max-width: 767px) {
+  .page-404__image {
+    margin-bottom: 50px; } }
+
+.deliver-block .h2 {
+  margin-bottom: 15px; }
+
+.deliver-block__image img {
+  display: block;
+  margin: 0 auto; }
+
+.deliver-block__map {
+  width: 100%;
+  margin-top: 42px; }
+
+.deliver-block-list .list__item {
+  margin-bottom: 15px; }
+  .deliver-block-list .list__item:last-child {
+    margin-bottom: 0; }
+  .deliver-block-list .list__item:after {
+    left: 4px; }
+
+.deliver-block {
+  margin-bottom: 100px; }
+
+@media screen and (max-width: 767px) {
+  .deliver-block .h2 {
+    margin-bottom: 25px; }
+  .deliver-block__image img {
+    margin-bottom: 35px; }
+  .deliver-block__map {
+    margin-top: 20px; }
+  .deliver-block {
+    margin-bottom: 50px; } }
 
 .sertificates {
   padding: 40px 0 70px 0; }
@@ -2435,9 +2559,9 @@ b {
 @media screen and (max-width: 480px) {
   .numbers-list__item {
     min-height: 300px;
-    padding: 7px; }
+    padding: 15px; }
   .numbers-list__image {
-    height: 80px; }
+    height: 100px; }
   .numbers-list__heading {
     height: 51px;
     font-size: 14px; }

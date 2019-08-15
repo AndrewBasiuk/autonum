@@ -1,0 +1,14 @@
+
+.page-404 {
+    padding: 20px 0 200px 0;
+}
+.page-404__image img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .page-404__image {
+        margin-bottom: 50px;
+    }
+}

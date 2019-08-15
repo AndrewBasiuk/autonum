@@ -8,7 +8,9 @@
                 <h2 class="h2 types-wrap__heading">
                     <b>Типы и виды украинский и советских номерных знаков.</b>
                 </h2>
-
+                <div class="types-wrap__image types-wrap__image_mob">
+                    <img src="img/types-img.jpg" title="types-image" alt="types-image">
+                </div>
                 <div class="types">
                     <p class="h2 types__heading"><b>Автомобильные номера с 2004 года</b></p>
                     <p class="paragraph">
@@ -33,6 +35,84 @@
                         <p class="paragraph">1.3 тип: Американские номера: номера размером 300х150 мм для ТС с нестандартным местом для крепления номера, так называемые - американские номера. Данные номера авто, предназначены для автомобилей выпускавшихся для американского, арабского или японских рынков, у которых нестандартное место под номерной знак, отсюда и возникло название - американские номера. Американский номер является дополнительным номером, его необходимо заказывать отдельно, при этом возить с собой обычные длинные номера не обязательно, данный номер официально присутствует в ДСТУ и имеет все необходимые защитные элементы. Заказать такие автономера в Киеве можно через наш сайт или подъехав к нам в офис. </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="old-type-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 old-type-wrap__image">
+                <img src="img/old/img_1.jpg" title="image" alt="image">
+            </div>
+            <div class="col-md-8">
+                <h2 class="h2 old-type-wrap__heading">
+                    <b>Старые автономера с 1958 по 1977 год</b>
+                </h2>
+
+                <p class="paragraph no-mb">
+                    В СССР в период с 1958 по 1977 год производство автономеров осуществлялось на черном фоне, а сами цифры красили белой краской. В таких номерах код региона регистрации автомобиля обозначался буквами в конце номера. Форма номеров для разных транспортных средств так же была разной: для автомобилей номер был длинный прямоугольный, а для мотоциклов и мопедов - квадратный, для прицепа был отдельный номер с приметкой "прицеп", а на спецтехнику выдавался особого вида номер на желтом фоне. 
+                </p>
+
+                <ul class="old-type">
+                    <li>
+                        <div class="old-type-image">
+                            <img src="img/old/old_1.jpg" title="num-image" alt="num-image">
+                        </div>
+                        <p class="paragraph">
+                            1946г. автомобильный номер
+                        </p>
+                    </li>
+                    <li>
+                        <div class="old-type-image">
+                            <img src="img/old/old_2.jpg" title="num-image" alt="num-image">
+                        </div>
+                        <p class="paragraph">
+                            1965-1977г. авто знаки на прицеп для спецтехники
+                        </p>
+                    </li>
+                    <li>
+                        <div class="old-type-image">
+                            <img src="img/old/old_3.jpg" title="num-image" alt="num-image">
+                        </div>
+                        <p class="paragraph">
+                            1965-1977г. автономера для спецтехники
+                        </p>
+                    </li>
+                    <li>
+                        <div class="old-type-image">
+                            <img src="img/old/old_4.jpg" title="num-image" alt="num-image">
+                        </div>
+                        <p class="paragraph">
+                            1946г. автомобильный номер
+                        </p>
+                    </li>
+                    <li>
+                        <div class="old-type-image">
+                            <img src="img/old/old_5.jpg" title="num-image" alt="num-image">
+                        </div>
+                        <p class="paragraph">
+                            1946г. автомобильный номер
+                        </p>
+                    </li>
+                    <li>
+                        <div class="old-type-image">
+                            <img src="img/old/old_6.jpg" title="num-image" alt="num-image">
+                        </div>
+                        <p class="paragraph">
+                            1946г. автомобильный номер
+                        </p>
+                    </li>
+                    <li>
+                        <div class="old-type-image">
+                            <img src="img/old/old_7.jpg" title="num-image" alt="num-image">
+                        </div>
+                        <p class="paragraph">
+                            1946г. автомобильный номер
+                        </p>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

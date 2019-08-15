@@ -17,11 +17,15 @@
     
     <?php include_once "includes/head.php"; ?>
   
+    <?php include_once "includes/404.php"; ?>
+    <?php include_once "includes/thank-you.php"; ?>
+    <?php include_once "includes/obrazcy.php"; ?>
     <?php include_once "includes/table_numbers.php"; ?>    
     <?php include_once "includes/text-block-1.php"; ?>
     <?php include_once "includes/text-block-2.php"; ?>
     <?php include_once "includes/text-block-3.php"; ?>
     <?php include_once "includes/text-block-4.php"; ?>
+    <?php include_once "includes/deliver.php"; ?>
     <?php include_once "includes/region-table.php"; ?>    
     <?php include_once "includes/block-links.php"; ?>    
     <?php include_once "includes/block-sertificates.php"; ?>

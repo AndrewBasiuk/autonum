@@ -1,0 +1,60 @@
+
+.deliver-block {
+    .h2 {
+        margin-bottom: 15px;
+    } 
+
+    &__image img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__map {
+        width: 100%;
+        margin-top: 42px;
+    }
+}
+
+.deliver-block-list {
+    .list__item {
+        margin-bottom: 15px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:after {
+            left: 4px;
+        }
+    }
+}
+
+
+.deliver-block {
+    margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .deliver-block {
+        .h2 {
+            margin-bottom: 25px;
+        } 
+
+        &__image img {
+            margin-bottom: 35px;
+        }
+
+        &__map {
+            margin-top: 20px;
+        }
+    }
+
+    .deliver-block {
+        margin-bottom: 50px;
+    }
+}
+
+
+
