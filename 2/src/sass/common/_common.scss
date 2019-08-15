@@ -41,9 +41,14 @@ b {
 	margin-bottom: 20px;
 	line-height: 1.3;
 }
-
+.text_regular {
+	font-family: "Roboto", Arial, sans-serif;
+}
 .text_blue {
 	color: #0756a5;
+}
+.underline {
+	text-decoration: underline;
 }
 
 .no-mb {
@@ -223,6 +228,12 @@ b {
 	span {
 		text-decoration: underline;
 	}
+}
+
+.date {
+	font-family: "RobotoLight", Arial, sans-serif;
+	font-size: 14px;
+	color: #575757;
 }
 
 .slider {

@@ -36,8 +36,8 @@
 				<img class="footer__logo" src="img/logo.png" title="logo" alt="logo">
 				<ul class="footer-contact">
 					<li>
-                        <a href="tel:+380974555577">(096) 190-40-15</a>
-                        <a href="tel:+380974555577">(044) 353-91-00</a>
+                        <a href="tel:+380961904015">(096) 190-40-15</a>
+                        <a href="tel:+380443539100">(044) 353-91-00</a>
 					</li>
 					<li>
                         <a href="mailto:info@gosznak.com.ua">info@gosznak.com.ua</a>
