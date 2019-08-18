@@ -97,7 +97,7 @@
 			<nav class="nav-mobile">
 				<div class="hamburger">
 					<img src="img/icons/icon_menu_gamburgerr.png" title="hamburger-icon" alt="hamburger-icon">
-						<span>МЕНЮ</span>
+						<span>Меню</span>
 				</div>
 				<ul class="nav-mobile-list">
 					<li><a href="#">Главная</a></li>
