@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom-style.css">
 
-    <title>avtonum</title>
+    <title>avtonum2</title>
   </head>
   <body>
     
     <?php include_once "includes/head.php"; ?>
   
-    <?php include_once "includes/table_numbers.php"; ?>    
+    <?php include_once "includes/zakaz.php"; ?>    
+    <?php /*include_once "includes/table_numbers.php"; ?>    
     <?php include_once "includes/text-block-1.php"; ?>
     <?php include_once "includes/text-block-2.php"; ?>
     <?php include_once "includes/text-block-3.php"; ?>
@@ -34,7 +35,7 @@
     <?php include_once "includes/region-table.php"; ?>    
     <?php include_once "includes/block-links.php"; ?>    
     <?php include_once "includes/block-sertificates.php"; ?>
-    <?php include_once "includes/block-region.php"; ?>
+    <?php include_once "includes/block-region.php"; */?>
     
 
     <?php include_once "includes/footer.php"; ?>

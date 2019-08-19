@@ -27,7 +27,14 @@
         content: "";
     }
 }
+.numbers-list__checkbox {
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+}
 .numbers-list__item {
+    position: relative;
     padding: 15px;
     background-color: #fff;
     border-bottom: 1px solid #CECECE;
@@ -42,6 +49,10 @@
         background-color: #F4FAFF;
         z-index: 2;
         box-shadow: 1px 1px 10px 2px rgba(0,0,0, 0.2);
+    }
+
+    &_active {
+        background-color: #cde5fd;
     }
 }
 .numbers-list__image {

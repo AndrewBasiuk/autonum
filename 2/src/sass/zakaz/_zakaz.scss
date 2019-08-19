@@ -1,0 +1,119 @@
+
+.order {
+    .h2 {
+        text-align: left;
+    }
+}
+
+.order_top {
+    padding: 19px 40px;
+    background-color: #efefef;
+}
+
+
+.order__title-wrap {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+    .error {
+        margin-left: 9px;
+    }
+}
+
+.order-type {
+    margin-bottom: 70px;
+
+    .numbers-list__item {
+        padding-top: 20px;
+    }
+
+    .numbers-list__order {
+        align-items: flex-start;
+    }
+}
+
+.star {
+    display: inline;
+    color: #e70000;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.error {
+    position: relative;
+    display: inline-block;
+    padding: 8px 11px 6px 11px;
+    background-color: #C61319;
+    color: #fff;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.radio {
+    display: none;
+    
+    & + label {
+        position: relative;
+        content: " ";
+        width: 18px;
+        height: 18px;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 2px solid #a09f9c;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    & + label:before {
+        opacity: 0;
+        position: absolute;
+        content: " ";
+        width: 9px;
+        height: 9px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #1655D6;
+        border-radius: 50%;
+    }
+
+    &:checked + label:before {
+        opacity: 1;
+    }
+}
+
+.checkbox {
+    display: none;
+    
+    & + label {
+        position: relative;
+        content: " ";
+        width: 18px;
+        height: 18px;
+        background-color: #fff;
+        border-radius: 2px;
+        border: 2px solid #a09f9c;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    & + label:before {
+        opacity: 0;
+        position: absolute;
+        content: " ";
+        width: 18px;
+        height: 18px;
+        top: 0px;
+        left: 0px;
+        /*background-color: #1655D6;*/
+        background: url(../img/check.png) no-repeat;
+        border-radius: 2px;
+    }
+
+    &:checked + label:before {
+        opacity: 1;
+    }
+}

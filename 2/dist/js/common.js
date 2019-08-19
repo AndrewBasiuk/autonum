@@ -85,13 +85,15 @@ $(".table-row").hover(
 	}
 );
 var screenWidth = window.innerWidth;
-$(".table-row").on("click",function() {
+$(".order-type li").on("click",function() {
+	$(".order-type li").removeClass("numbers-list__item_active");
+	$(this).addClass("numbers-list__item_active");
 	$(this).find(".radio").prop("checked", true);
 
-	if($(this).find(".checkbox").prop("checked") == false) {
-		$(this).find(".checkbox").prop("checked", true);
-	} else if($(this).find(".checkbox").prop("checked") == true) {
-		$(this).find(".checkbox").prop("checked", false);
-	}
+	// if($(this).find(".checkbox").prop("checked") == false) {
+	// 	$(this).find(".checkbox").prop("checked", true);
+	// } else if($(this).find(".checkbox").prop("checked") == true) {
+	// 	$(this).find(".checkbox").prop("checked", false);
+	// }
 });
 //end__change table row background
