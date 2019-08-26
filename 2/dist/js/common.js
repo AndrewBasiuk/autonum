@@ -97,3 +97,16 @@ $(".order-type li").on("click",function() {
 	// }
 });
 //end__change table row background
+
+// select
+$(".small-select select").on("click", function(e) {
+	var select = $(this);
+	var value = select.find("option:selected").text();
+	
+	if(value > 0) {
+		select.addClass("selected");
+	} else {
+		select.removeClass("selected");
+	}
+});
+// end__select

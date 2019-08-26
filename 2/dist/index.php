@@ -17,7 +17,7 @@
     
     <?php include_once "includes/head.php"; ?>
   
-    <?php include_once "includes/zakaz.php"; ?>    
+    <?php include_once "includes/zakaz.php";?>    
     <?php /*include_once "includes/table_numbers.php"; ?>    
     <?php include_once "includes/text-block-1.php"; ?>
     <?php include_once "includes/text-block-2.php"; ?>

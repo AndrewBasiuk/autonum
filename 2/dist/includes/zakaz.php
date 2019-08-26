@@ -2,7 +2,7 @@
 <div class="order order_top">
     <div class="container">
         <div class="order__title-wrap">
-            <span class="h2">Выберете тип номерного знака:</span> 
+            <span class="h2"><b>Выберете тип номерного знака:</b></span> 
             <span class="star">*</span>
             <span class="error">не выбран тип номерного знака</span>
         </div>
@@ -184,282 +184,128 @@
         </ul>
 
         <div class="order__title-wrap">
-            <span class="h2">Рамка / крепление под номерной знак:</span> 
+            <span class="h2"><b>Рамка / крепление под номерной знак:</b></span> 
         </div>
-        <ul class="numbers-list order-borders">
+        <ul class="numbers-list order-frameworks">
             <li class="numbers-list__item">
                 <div class="numbers-list__checkbox">
-                    <input type="checkbox" class="checkbox" id="1_1">
-                    <label for="1_1"></label>
+                    <input type="checkbox" class="checkbox" id="2_1">
+                    <label for="2_1"></label>
                 </div>
                 <div class="numbers-list__image">
-                    <img src="img/num_type/num_1.png" alt="num" type="num">
+                    <img src="img/ramki/ramka_dlinnaya.png" alt="frameworks" type="frameworks">
                 </div>
                 <p class="numbers-list__heading">
-                    <span>Мотономер, под мериканский размер (слева наклейка)</span>
+                    <span>Рамка для номерного знака</span>
                 </p>
                 <div class="numbers-list__size">
-                    <p>2004-2015</p>
+                    <p>без надписей</p>
                 </div>
-                <div class="numbers-list__order">
-                    <div class="numbers-list__price">
-                        <p>1шт<span>250 грн</span></p>
-                        <p>2шт<span>400 грн</span></p>
-                    </div>
+                <div class="small-select">
+                  <select name="" id="">
+                    <option value="">0</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                  </select>
+                  <p class="small-select__price"><b>0грн</b></p>
                 </div>
             </li>
             <li class="numbers-list__item">
                 <div class="numbers-list__checkbox">
-                    <input type="checkbox" class="checkbox" id="1_2">
-                    <label for="1_2"></label>
+                    <input type="checkbox" class="checkbox" id="2_2">
+                    <label for="2_2"></label>
                 </div>
                 <div class="numbers-list__image">
-                    <img src="img/num_type/num_2.png" alt="num" type="num">
+                    <img src="img/ramki/ramka_USA.png" alt="frameworks" type="frameworks">
                 </div>
                 <p class="numbers-list__heading">
-                    <span>Легковые, грузовые и прицепы  (под Евро)</span>
+                    <span>Рамка под американский, арабский размер</span>
                 </p>
                 <div class="numbers-list__size">
-                    <p>2004-2015</p>
                     <p>300x150 мм</p>
                 </div>
-                <div class="numbers-list__order">
-                    <div class="numbers-list__price">
-                        <p>1шт<span>250 грн</span></p>
-                    </div>
+                <div class="small-select">
+                  <select name="" id="">
+                    <option value="">0</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                  </select>
+                  <p class="small-select__price"><b>0грн</b></p>
                 </div>
             </li>
         </ul>
     </div>
 </div>
 
+<div class="order order_middle">
+  <div class="container">
+    <div class="order__row">
+      <p class="h2 label"><b>Количество номеров:</b></p>
+      <div class="order__input-wrap">
+        <div class="big-select">
+          <select name="" id="">
+            <option value="">0</option>
+            <option value="">1</option>
+            <option value="">2</option>
+          </select>
+        </div>
+        <span class="error">в таком количестве данный тип номеров не изготовляется</span>
+      </div>
+    </div>
+
+    <div class="order__row">
+      <div class="label-wrap">
+        <label for="3_1" class="h2 label"><b>Номерной знак:</b></label>
+        <span class="star">*</span>
+      </div>
+      <div class="order__input-wrap">
+        <input id="3_1" class="input input_long" type="text" placeholder="который заказываете, например АА 1234 АА">
+        <span class="error">поле незаполнено</span>
+      </div>
+    </div>
+
+    <div class="order__row">
+      <div class="label-wrap">
+        <label for="3_2" class="h2 label"><b>Ваше имя:</b></label>
+        <span class="star">*</span>
+      </div>
+      <div class="order__input-wrap">
+        <input id="3_2" class="input input_long" type="text" placeholder="для доставки по Украине ФИО напишите полностью">
+        <span class="error">поле незаполнено</span>
+      </div>
+    </div>
+
+    <div class="order__row">
+      <div class="label-wrap">
+        <label for="3_3" class="h2 label"><b>E-mail:</b></label>
+      </div>
+      <div class="order__input-wrap">
+        <input id="3_3" class="input input_long" type="email" placeholder="не обязательно">
+        <span class="error">поле незаполнено</span>
+      </div>
+    </div>
+
+    <input type="file">
+
+    <div class="order__row">
+      <div class="label-wrap">
+        <label for="3_4" class="h2 label"><b>Контактный телефон:</b></label>
+        <span class="star">*</span>
+      </div>
+      <div class="order__input-wrap">
+        <input id="3_4" class="input input_long" type="tel">
+        <span class="error">поле незаполнено</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
 
 <div class="table-wrap">
-      <div class="container">
-        <div class="table table_check">
-          <div class="table-heading">
-            <p class="label">Выберите тип номерного знака <span class="star">*</span></p>
-            <span class="error">Выберите тип номеров</span>
-          </div>
-          <div class="table-row table-head">
-            <div class="table-type">
-              <p class="table__text">Тип номера</p>
-            </div>
-            <div class="table-price">
-              <p class="table__text">Стоимость <br> 1 номера</p>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                Стоимость <br> комплекта
-              </p>
-            </div>
-          </div>
-          <div class="table-row">
-            <div class="table-type">
-              <div class="checkbox-wrap">
-                <input type="radio" name="num-type" class="radio" id="1">
-                <label for="1"></label>
-              </div>
-              <div class="table-image">
-                <img src="img/num_1.jpg" title="avto-num" alt="avto-num">
-              </div>
-              <div class="table-link">
-                <a href="#">Легковые, грузовые и прицепы  2004-2015</a>
-              </div>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <span class="table__text_mobile">1 шт - </span>
-                <span class="table__text_big"> 239 </span>
-                грн
-              </p>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <p class="table__text">
-                  <span class="table__text_mobile">2 шт - </span>
-                  <span class="table__text_big"> 239 </span>
-                  грн
-                </p>
-              </p>
-            </div>
-          </div>
-          <div class="table-row">
-            <div class="table-type">
-              <div class="checkbox-wrap">
-                <input type="radio" name="num-type" class="radio" id="2">
-                <label for="2"></label>
-              </div>
-              <div class="table-image">
-                <img src="img/num_2.jpg" title="avto-num" alt="avto-num">
-              </div>
-              <div class="table-link">
-                <a href="#">Легковые, грузовые и прицепы с 2015 (под Евро)</a>
-                <span>(300х150 мм)</span>
-              </div>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <span class="table__text_mobile">1 шт - </span>
-                <span class="table__text_big">239</span>
-                грн
-              </p>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <p class="table__text">
-                  <span class="table__text_mobile">2 шт - </span>
-                  <span class="table__text_big">239</span>
-                  грн
-                </p>
-              </p>
-            </div>
-          </div>
-          <div class="table-row">
-            <div class="table-type">
-              <div class="checkbox-wrap">
-                <input type="radio" name="num-type" class="radio" id="3">
-                <label for="3"></label>
-              </div>
-              <div class="table-image">
-                <img src="img/num_3.jpg" alt="avto-num" alt="avto-num">
-              </div>
-              <div class="table-link">
-                <a href="#">Американский номер  2004-2015</a>
-                <span>(300х150 мм)</span>
-              </div>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <span class="table__text_mobile">1 шт - </span>
-                <span class="table__text_big"> 239 </span>
-                грн
-              </p>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <p class="table__text">
-                  <span class="table__text_mobile">2 шт - </span>
-                  <span class="table__text_big"> 239 </span>
-                  грн
-                </p>
-              </p>
-            </div>
-          </div>
-          <div class="table-row">
-            <div class="table-type">
-              <div class="checkbox-wrap">
-                <input type="radio" name="num-type" class="radio" id="4">
-                <label for="4"></label>
-              </div>
-              <div class="table-image">
-                <img src="img/num_4.jpg" alt="avto-num" alt="avto-num">
-              </div>
-              <div class="table-link">
-                <a href="#">Польские номера</a>
-                <span>(универсальный шрифт, голограмма - иммитация, слева наклейка)</span>
-              </div>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <span class="table__text_mobile">1 шт - </span>
-                <span class="table__text_big">239</span>
-                грн
-              </p>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <p class="table__text">
-                  <span class="table__text_mobile">2 шт - </span>
-                  <span class="table__text_big">239</span>
-                  грн
-                </p>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="table table_check">
-          <div class="table-heading table-heading__frame">
-            <p class="label">Рамка / крепление:</p>
-          </div>
-          <div class="table-row table-head">
-            <div class="table-type">
-              <p class="table__text">Тип рамки</p>
-            </div>
-            <div class="table-price">
-              <p class="table__text">Количество</p>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                Цена
-              </p>
-            </div>
-          </div>
-          <div class="table-row frame_mob">
-            <div class="table-type">
-              <div class="checkbox-wrap">
-                <input type="checkbox" class="checkbox" id="1_1">
-                <label for="1_1"></label>
-              </div>
-              <div class="table-image">
-                <img src="img/ramka-long.jpg" title="avto-num" alt="avto-num">
-              </div>
-              <div class="table-link">
-                <a href="#">Рамка для номерного знака - без надписей</a>
-              </div>
-            </div>
-            <div class="table-price small-select-wrap">
-              <select name="" id="">
-                <option value="">0</option>
-                <option value="">1</option>
-                <option value="">2</option>
-              </select>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <p class="table__text">
-                  <span class="table__text_big"> 60 </span>
-                  грн
-                </p>
-              </p>
-            </div>
-          </div>
-          <div class="table-row frame_mob">
-            <div class="table-type">
-              <div class="checkbox-wrap">
-                <input type="checkbox" class="checkbox" id="2_1">
-                <label for="2_1"></label>
-              </div>
-              <div class="table-image">
-                <img src="img/ramka-amer.jpg" title="avto-num" alt="avto-num">
-              </div>
-              <div class="table-link">
-                <a href="#">Рамка для амер, японских, арабских номеров - без надписей</a>
-                <span>(300х150 мм)</span>
-              </div>
-            </div>
-            <div class="table-price small-select-wrap">
-             <select name="" id="">
-                <option value="">0</option>
-                <option value="">1</option>
-                <option value="">2</option>
-              </select>
-            </div>
-            <div class="table-price">
-              <p class="table__text">
-                <p class="table__text">
-                  <span class="table__text_big">0</span>
-                  грн
-                </p>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    
     <form class="form">
       <div class="container">
         <div class="form-block">

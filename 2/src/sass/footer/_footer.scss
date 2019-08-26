@@ -27,7 +27,7 @@
 	margin-bottom: 30px;
 	
 	li {
-		margin-bottom: 17px;
+		margin-bottom: 20px;
 		text-align: left;
 
 		&:last-child {
@@ -47,14 +47,19 @@
 }
 
 .footer-link-list {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	&:last-child {
 		margin-bottom: 0;
 	}
 
 	li {
 		padding-left: 0;
+		margin-bottom: 3px;
 		&:before {display: none;}
+	}
+
+	a {
+		font-size: 14px;
 	}
 }
 
