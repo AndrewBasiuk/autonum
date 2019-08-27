@@ -23,12 +23,9 @@ $(window).resize(function () {
 
 // menu
 $(".hamburger").on("click", function() {
-	console.log("dsv");
 	$(".nav-mobile-list").slideToggle();
 });
 // end__menu
-
-console.log("dsv");
 
 
 //lang open
@@ -77,3 +74,29 @@ $(".small-select select").on("click", function(e) {
 	}
 });
 // end__select
+
+// files
+var filesCount = 1;
+
+function setFileName(){
+	$(".files-browse__item input").on("change", function () {
+		var text = $(this).siblings(".files-browse__text")[0];
+		$(text).text(this.files[0].name);
+	});
+};
+setFileName();
+
+$(".files-browse__bottom").on("click", function () {
+	filesCount++;
+
+	$(".files-browse__top").append(
+		'<div class="files-browse__item">' +
+			'<label for="file_' + filesCount + '"> Обзор...</label>' +
+			'<input id="file_' + filesCount + '" type="file">' +
+			'<p class="files-browse__text">Файл не выбран</p>' +
+        '</div>'
+	);
+
+	setFileName();
+});
+// end__files
