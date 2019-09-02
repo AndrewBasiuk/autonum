@@ -40,9 +40,10 @@
                         <a href="tel:+380443539100">(044) 353-91-00</a>
 					</li>
 					<li>
-                        <a href="mailto:info@gosznak.com.ua">info@gosznak.com.ua</a>
+                        <a class="underline"    href="mailto:info@gosznak.com.ua">info@gosznak.com.ua</a>
 					</li>
-					<li>
+					<li class="footer__loc">
+						<img src="img/loc-icon.png" alt="loc-icon" alt="title">
 						<p>Украина, г.Киев <br> пл. Героев Бреста 1</p>
 					</li>
 					<li>

@@ -44,6 +44,17 @@
 		font-weight: 700;
 		line-height: 16px;
 	}
+
+	.underline:hover {
+		text-decoration: none;
+	}
+}
+.footer__loc {
+	display: flex;
+
+	img {
+		margin-right: 10px;
+	}
 }
 
 .footer-link-list {

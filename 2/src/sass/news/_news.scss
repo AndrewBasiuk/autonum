@@ -3,8 +3,17 @@
     padding: 22px 0;
 
     .h2 {
-        text-decoration: underline;
         margin-bottom: 7px;
+    }
+
+    a {
+        color: #000;
+        font-weight: 600;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
     }
 
     .date {

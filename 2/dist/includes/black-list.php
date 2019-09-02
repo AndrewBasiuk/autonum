@@ -11,21 +11,21 @@
         <ol class="black-list">
             <li class="black-list__item">
                 <span class="paragraph black-list__number">1.</span>
-                <span class="paragraph black-list__text">
+                <a href="#" class="paragraph black-list__text">
                     Гончарук Сергей Леонидович, 050-926-18-70, 000-62 II (11 регион) (00062II), yil@mail.ru
-                </span>
+                </a>
             </li>
             <li class="black-list__item">
                 <span class="paragraph black-list__number">2.</span>
-                <span class="paragraph black-list__text">
+                <a href="#" class="paragraph black-list__text">
                     Василенко Александр Викторович, (066) 008-79-97, JFO 338 (JFO338)
-                </span>
+                </a>
             </li>
             <li class="black-list__item">
                 <span class="paragraph black-list__number">23.</span>
-                <span class="paragraph black-list__text">
+                <a href="#" class="paragraph black-list__text">
                     Василенко Александр Викторович, (066) 008-79-97, JFO 338 (JFO338)
-                </span>
+                </a>
             </li>
         </ol>
     </div>

@@ -32,7 +32,7 @@
                 </p>
 
                 <p class="autor">
-                    Автор статьи: <span>Slowinski Vitali</span>
+                    Автор статьи: <a href="#">Slowinski Vitali</a>
                 </p>
             </div>
         </div>

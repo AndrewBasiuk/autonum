@@ -80,9 +80,13 @@
     font-family: "Roboto", Arial, sans-serif;
     font-size: 12px;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 1;
     height: 28px;
     margin-bottom: 22px;
+
+    p {
+        margin-bottom: 5px;
+    }
 
     a {
         position: absolute;
@@ -111,19 +115,24 @@
     height: 36px;
 
     a {
+        display: inline-block;
         width: 83px;
         line-height: 32px;
         background-color: #4caf50;
         text-align: center;
         color: #ffffff;
         font-size: 14px;
-        text-transform: uppercase;
         font-weight: bold;
         transition: all 0.2s;
+        background-color: #4caf50;
+        border-top: 2px solid rgba(#fff , 0.4);
+        border-left: 2px solid rgba(#fff , 0.4);
+        border-bottom: 2px solid #3A873D;
+        border-right: 2px solid #3A873D;
+        box-sizing: border-box;
 
         &:hover {
-            // opacity: 0.8;
-            background-color: green;
+            border-color: #4caf50;
         }
     }
 }

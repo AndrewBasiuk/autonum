@@ -41,7 +41,7 @@
         </div>
 
         <div class="row contact-block__row_bottom">
-            <div class="col-md-5 contact-block__item">
+            <div class="col-md-5 contact-block__item contact-block__item_nomb">
                 <p class="h2 contact__heading"><b>Адрес:</b></p>
                 <div class="paragraph">
                     Украина, г.Киев

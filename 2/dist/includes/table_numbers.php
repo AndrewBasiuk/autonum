@@ -2,7 +2,7 @@
 
 <div class="numbers">
     <div class="container">
-        <p class="numbers__heading">Стоимость дубликатов номерных знаков</p>
+        <p class="numbers__heading"><b>Стоимость дубликатов номерных знаков</b></p>
         <ul class="numbers-list">
             <li class="numbers-list__item">
                 <div class="numbers-list__image">

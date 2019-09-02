@@ -27,7 +27,10 @@
         margin-bottom: 0;
     }
 
+    
+
     &__text {
+        color: #000;
         display: inline-block;
         margin-bottom: 0;
         position: relative;
@@ -39,6 +42,12 @@
             left: 0;
             background-color: #000;
             content: "";
+        }
+    }
+    &__text:hover {
+        color: #000;
+        &:before {
+            display: none;
         }
     }
 }

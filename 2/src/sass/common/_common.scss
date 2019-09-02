@@ -46,6 +46,7 @@ b {
 }
 .text_blue {
 	color: #0756a5;
+	font-weight: 600;
 }
 .underline {
 	text-decoration: underline;
@@ -97,12 +98,17 @@ b {
 
 .autor	{
 	margin: 50px 0 0 0;
-	color: #000;
-	font-family: "RobotoLight", Arial, sans-serif;
-	font-size: 15px;
-	line-height: 1.3;
-	span {
+	a {
+		font-family: "RobotoLight", Arial, sans-serif;
+		font-size: 15px;
+		line-height: 1.3;
+		color: #000;
 		text-decoration: underline;
+	}
+
+	a:hover {
+		color: #979797;
+		text-decoration: none;
 	}
 }
 
