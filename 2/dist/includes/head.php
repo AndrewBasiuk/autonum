@@ -12,17 +12,6 @@
 							<li><a href="#">Номера регионов, типы номеров</a></li>
 							<li><a href="#">Новости</a></li>
 						</ul>
-						<ul class="header__nav_mobile">
-							<li><a href="#">Заказ Онлайн</a></li>
-							<li><a href="#">Дубликаты номеров</a></li>
-							<li><a href="#">Утеря номеров?</a></li>
-							<li><a href="#">Востановление номеров</a></li>
-							<li><a href="#">Американский размер</a></li>
-							<li><a href="#">Сувенирные номера</a></li>
-							<li><a href="#">Именные номера</a></li>
-							<li><a href="#">Блатные номера</a></li>
-							<li><a href="#">Рамки</a></li>
-						</ul>
 					</nav>
 				</div>
 			</div>
@@ -71,9 +60,7 @@
 								</a>
 							</li>
 							<li class="contact__phone">
-								<a href="#">
-									<span class="contact__phone_small">067</span>196-40-15
-								</a>
+								<span class="contact__phone_small">067</span>196-40-15
 							</li>
 						</ul>
 						<ul class="contact_bottom">
@@ -83,9 +70,7 @@
 								</a>
 							</li>
 							<li class="contact__phone">
-								<a href="#">
-									<span class="contact__phone_small">067</span>196-40-15
-								</a>
+								<span class="contact__phone_small">067</span>196-40-15
 							</li>
 						</ul>
 						<div class="contact_bottom"></div>
@@ -93,8 +78,8 @@
 					<a href="#" class="head__order">Он-лайн заказ</a>
 				</div>
 			</div>
-
-			<nav class="nav-mobile">
+		</div>
+		<nav class="nav-mobile">
 				<div class="hamburger">
 					<img src="img/icons/icon_menu_gamburgerr.png" title="hamburger-icon" alt="hamburger-icon">
 						<span>Меню</span>
@@ -130,7 +115,6 @@
 					<li><a href="#"><i class="fas fa-envelope"></i></a></li>
 				</ul>
 			</nav>
-		</div>
 	</div>
 
 	<div class="head-bottom">
@@ -163,7 +147,7 @@
 			</ul>
 		</div>
 
-		<h1 class="h1"><b>Заказать изготовление номеров и автомобильных номерных знаков (автономеров) с <br> доставкой по Киеву, всей Украине. Купить или сделать номера машины в Киеве.</b></h1>
+		<h1 class="h1">Заказать изготовление номеров и автомобильных номерных знаков (автономеров) с <br> доставкой по Киеву, всей Украине. Купить или сделать номера машины в Киеве.</h1>
 	</div>
 
 </section>

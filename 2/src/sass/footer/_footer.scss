@@ -51,6 +51,7 @@
 }
 .footer__loc {
 	display: flex;
+	align-items: flex-start;
 
 	img {
 		margin-right: 10px;
@@ -88,5 +89,9 @@
 	.decore-image {
 		width: 200%;
 		max-width: 200%;
+	}
+
+	.footer__loc img {
+		margin-right: 5px;
 	}
 }

@@ -43,38 +43,7 @@ gulp.task('common-js', function() {
 });
 // Common
 
-// Home
-gulp.task('home-js', function() {
-	return gulp.src([
-		'src/js/home.js'
-		])
-	.pipe(concat('home.js'))
-	//.pipe(uglify())
-	.pipe(gulp.dest('dist/js'));
-});
-// Home
 
-// zakaz-imennie
-gulp.task('zakaz_imennie-js', function() {
-	return gulp.src([
-		'src/js/zakaz_imennie.js'
-		])
-	.pipe(concat('zakaz_imennie.js'))
-	//.pipe(uglify())
-	.pipe(gulp.dest('dist/js'));
-});
-// zakaz-imennie
-
-// zakaz-imennie
-gulp.task('card-js', function() {
-	return gulp.src([
-		'src/js/card.js'
-		])
-	.pipe(concat('card.js'))
-	//.pipe(uglify())
-	.pipe(gulp.dest('dist/js'));
-});
-// zakaz-imennie
 
 // contact
 gulp.task('contact-js', function() {
@@ -88,11 +57,7 @@ gulp.task('contact-js', function() {
 // contact
 
 gulp.task('js', [
-	'common-js',
-	'home-js',
-	'zakaz_imennie-js',
-	'card-js',
-	'contact-js'
+	'common-js'
 	], function() {
 	return gulp.src([
 		'src/js/common.js',

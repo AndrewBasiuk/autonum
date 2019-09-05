@@ -117,7 +117,7 @@
 
 // contact
 .header__contact {
-	max-width: 202px;
+	max-width: 203px;
 	margin-right: 45px;
 }
 .contact_top, .contact_bottom {
@@ -141,11 +141,10 @@
 	}
 }
 .contact__phone {
-	a {
-		color: #000000;
-		font-size: 20px;
-		font-weight: 600;
-	}
+	color: #000000;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: "Roboto", Arial, sans-serif;
 }
 .contact__phone_small {
 	color: #7c7977;
@@ -168,7 +167,8 @@
 
 	&:hover {
 		color: #fff;
-		border-color: #4caf50;
+		border-color: #338637;
+		background-color: #338637;
 	}
 }
 
@@ -254,11 +254,12 @@
 .h1 {
 	color: #000;
 	font-family: Arial, sans-serif;
-	font-size: 21px;
+	font-size: 25px;
 	line-height: 24px;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 500;
 	letter-spacing: 0;
+	margin: 0 -30px;
 }
 
 .nav-mobile {
@@ -303,5 +304,125 @@
 	width: 23px;
 }
 
+@media screen and (max-width: 990px) {
+	.head .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.head-middle {
+		padding: 20px 0px;
+	}
+	.head-middle_right {
+		justify-content: flex-end;
+	}
+	.head-middle_left {
+		padding: 0px;
+	}
+
+	.logo {
+		text-align: center;
+		padding: 0;
+		margin-bottom: 24px;
+	}
+
+	.header__contact {
+		margin-left: 0;
+	}
+
+	.nav_bottom a {
+		padding: 0 5px;
+		font-size: 14px;
+	}
+
+	.lang {
+		display: none;
+	}
+
+	.h1 {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.head {
+		padding-bottom: 30px;
+	}
+
+	.logo img {
+		width: 315px;
+	}
+
+	.h1 {
+		margin-top: 30px;
+	}
+
+	.hamburger {
+		display: block;;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.head-middle_right {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.header__contact {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.contact_top {
+		margin-bottom: 5px;
+	}
+	.contact_bottom {
+		justify-content: center;
+	}
+
+	.nav_bottom {
+		display: none;
+	}
+
+	.head-middle__container {
+		margin: 0 0 17px 0;	
+	}
+
+	.head-middle_left {
+		margin: 0 auto;
+	}
+
+	.nav-mobile {
+		display: block;
+	}
+
+	.social {
+		display: none;
+	}
+	.social_mob {
+		display: flex;
+		margin-top: 14px;
+		margin-bottom: 0;
+		padding-right: 15px;
+	}
+}
+
+
+@media screen and (max-width: 599px) {
+	.header {
+		position: static;
+
+		.container {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+
+	.head-middle {
+		padding: 20px 0;
+	}
+}
 /*END__HEAD*/
 

@@ -156,3 +156,27 @@
 		font-weight: 700;
 	}
 }
+
+
+
+@media screen and (max-width: 940px) {
+    .flip-scroll {
+		margin-top: 40px;
+		
+		.container {
+			overflow-x: scroll;
+		}
+
+		table {
+			width: 100%;
+		}
+
+		td, th {
+            border-collapse: collapse;
+        }
+        
+        .numeric {
+            padding: 0 12px;
+        }
+	}
+}

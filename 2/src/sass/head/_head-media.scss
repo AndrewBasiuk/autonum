@@ -39,10 +39,9 @@
 		padding-bottom: 30px;
 	}
 
-	// .head .row {
-	// 	margin-left: -15px;
-	// 	margin-right: -15px;
-	// }
+	.logo img {
+		width: 315px;
+	}
 
 	.h1 {
 		margin-top: 30px;
@@ -50,8 +49,8 @@
 
 	.hamburger {
 		display: block;
-		margin-left: -15px;
-		margin-right: -15px;
+		// margin-left: -15px;
+		// margin-right: -15px;
 	}
 
 	.header {
@@ -98,6 +97,7 @@
 		display: flex;
 		margin-top: 14px;
 		margin-bottom: 0;
+		padding-right: 15px;
 	}
 }
 
