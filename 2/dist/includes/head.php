@@ -109,10 +109,10 @@
 				</ul>
 
 				<ul class="social social_mob">
-					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="#"><i class="fab fa-vk"></i></a></li>
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fas fa-envelope"></i></a></li>
+					<li data-sharer="facebook"><i class="fab fa-facebook-f"></i></li>
+					<li data-sharer="vk"><i class="fab fa-vk"></i></li>
+					<li data-sharer="twitter"><i class="fab fa-twitter"></i></li>
+					<li><a href="mailto:info@gosznak.com.ua"><i class="fas fa-envelope"></i></a></li>
 				</ul>
 			</nav>
 	</div>
@@ -140,10 +140,10 @@
 	<div class="container">
 		<div class="row justify-content-end soc-wrap">
 			<ul class="col-2 social">
-				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a href="#"><i class="fab fa-vk"></i></a></li>
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fas fa-envelope"></i></a></li>
+				<li data-sharer="facebook"><i class="fab fa-facebook-f"></i></li>
+				<li data-sharer="vk"><i class="fab fa-vk"></i></li>
+				<li data-sharer="twitter"><i class="fab fa-twitter"></i></li>
+				<li><a href="mailto:info@gosznak.com.ua"><i class="fas fa-envelope"></i></a></li>
 			</ul>
 		</div>
 

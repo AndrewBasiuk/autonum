@@ -100,3 +100,18 @@ $(".files-browse__bottom").on("click", function () {
 	setFileName();
 });
 // end__files
+
+
+// share button
+(function () {
+
+
+	var items = $(".social li");
+	var pageLink = window.location.href;
+
+
+	for (var i = 0; i < items.length; i++) {
+		$(items[i]).attr("data-url", pageLink);
+	}
+}());
+// share button

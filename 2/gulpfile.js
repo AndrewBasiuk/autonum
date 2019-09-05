@@ -31,7 +31,7 @@ gulp.task('common-js', function() {
 	return gulp.src([
 		'src/js/libs/jquery.js',
 		//'src/js/libs/popper.js',
-		//'src/js/libs/bootstrap.min.js',
+		'src/js/libs/sharer.min.js',
 		'src/js/libs/slick.min.js',
 		'src/js/libs/jquery.fancybox.min.js',
 
