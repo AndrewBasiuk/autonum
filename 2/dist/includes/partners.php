@@ -3,16 +3,22 @@
         <p class="h2">Наши партнеры:</p>
         <div class="row">
             <div class="col-md-3 partners__item">
-                <img src="img/partner_1.jpg" alt="partner-image" partner="partner-image">
-                <a href="#">avtonomera.net.ua <br> автономера</a>
+                <a href="#">
+                    <img src="img/partner_1.jpg" alt="partner-image" partner="partner-image">
+                    <span>avtonomera.net.ua <br> автономера</span>
+                </a>
             </div>
             <div class="col-md-3 partners__item">
-                <img src="img/partner_1.jpg" alt="partner-image" partner="partner-image">
-                <a href="#">dublikaty-nomerov.avtonomera.net.ua <br> дубликат номеров</a>
+                <a href="#">
+                    <img src="img/partner_1.jpg" alt="partner-image" partner="partner-image">
+                    <span>dublikaty-nomerov.avtonomera.net.ua <br> дубликат номеров</span>
+                </a>
             </div>
             <div class="col-md-3 partners__item">
-                <img src="img/partner_2.jpg" alt="partner-image" partner="partner-image">
-                <a href="#">avtocivilka.net.ua <br> осаго онлайн</a>
+                <a href="#">
+                    <img src="img/partner_2.jpg" alt="partner-image" partner="partner-image">
+                    <span>avtocivilka.net.ua <br> осаго онлайн</span>
+                </a>
             </div>
         </div>
     </div>

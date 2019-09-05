@@ -1253,13 +1253,13 @@ b {
   .partners__item img {
     margin-bottom: 15px;
     width: 100%; }
-  .partners__item a {
+  .partners__item span {
     color: #000000;
     font-family: "Roboto", Arial, sans-serif;
     font-size: 14px;
     text-decoration: underline; }
-    .partners__item a:hover {
-      text-decoration: none; }
+  .partners__item a:hover span {
+    text-decoration: none; }
 
 @media screen and (max-width: 767px) {
   .partners {

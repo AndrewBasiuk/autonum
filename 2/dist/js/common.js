@@ -141,11 +141,8 @@ $(".files-browse__bottom").on("click", function () {
 
 // share button
 (function () {
-
-
 	var items = $(".social li");
 	var pageLink = window.location.href;
-
 
 	for (var i = 0; i < items.length; i++) {
 		$(items[i]).attr("data-url", pageLink);
