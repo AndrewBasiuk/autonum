@@ -117,8 +117,8 @@
 
 // contact
 .header__contact {
-	max-width: 203px;
-	margin-right: 45px;
+	max-width: 210px;
+	margin-right: 39px;
 }
 .contact_top, .contact_bottom {
 	display: flex;
@@ -324,12 +324,6 @@
 		padding: 0px;
 	}
 
-	.logo {
-		text-align: center;
-		padding: 0;
-		margin-bottom: 24px;
-	}
-
 	.header__contact {
 		margin-left: 0;
 	}
@@ -337,10 +331,6 @@
 	.nav_bottom a {
 		padding: 0 5px;
 		font-size: 14px;
-	}
-
-	.lang {
-		display: none;
 	}
 
 	.h1 {
@@ -353,6 +343,12 @@
 		padding-bottom: 30px;
 	}
 
+	.logo {
+		text-align: center;
+		padding: 0;
+		margin-bottom: 24px;
+	}
+	
 	.logo img {
 		width: 315px;
 	}
@@ -398,9 +394,14 @@
 		margin: 0 auto;
 	}
 
+	.lang {
+		display: none;
+	}
+
 	.nav-mobile {
 		display: block;
 	}
+
 
 	.social {
 		display: none;
