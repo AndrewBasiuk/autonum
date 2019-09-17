@@ -111,4 +111,11 @@ $(".files-browse__bottom").on("click", function () {
 		$(items[i]).attr("data-url", pageLink);
 	}
 }());
+
+// fb_sharer
+$(".fb-js").on("click", function() {
+	window.open('https://www.facebook.com/sharer/sharer.php?app_id=966242223397117&sdk=joey&u=https://dublikaty-nomera.ru/&display=popup&src=share_button','name','width=600,height=400')
+	return false; 
+})
+
 // share button

@@ -1525,7 +1525,8 @@ b {
   display: -ms-flexbox;
   display: flex; }
   .contact_top a, .contact_bottom a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: inherit; }
 
 .contact_top {
   margin-bottom: 7px; }

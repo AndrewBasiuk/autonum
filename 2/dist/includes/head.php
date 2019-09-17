@@ -60,8 +60,9 @@
 								</a>
 							</li>
 							<li class="contact__phone">
-								<span class="contact__phone_small">067</span>196-40-15
-							</li>
+								<a href="#">
+									<span class="contact__phone_small">067</span>196-40-15
+								</a>							</li>
 						</ul>
 						<ul class="contact_bottom">
 							<li class="contact__item">
@@ -70,7 +71,9 @@
 								</a>
 							</li>
 							<li class="contact__phone">
-								<span class="contact__phone_small">067</span>196-40-15
+								<a href="#">
+									<span class="contact__phone_small">067</span>196-40-15
+								</a>
 							</li>
 						</ul>
 						<div class="contact_bottom"></div>
@@ -109,7 +112,8 @@
 				</ul>
 
 				<ul class="social social_mob">
-					<li data-sharer="facebook"><i class="fab fa-facebook-f"></i></li>
+					<!-- <li data-sharer="facebook"><i class="fab fa-facebook-f"></i></li> -->
+					<li class="fb-js"><i class="fab fa-facebook-f"></i></li>
 					<li data-sharer="vk"><i class="fab fa-vk"></i></li>
 					<li data-sharer="twitter"><i class="fab fa-twitter"></i></li>
 					<li><a href="mailto:info@gosznak.com.ua"><i class="fas fa-envelope"></i></a></li>
@@ -140,7 +144,8 @@
 	<div class="container">
 		<div class="row justify-content-end soc-wrap">
 			<ul class="col-2 social">
-				<li data-sharer="facebook"><i class="fab fa-facebook-f"></i></li>
+				<!-- <li data-sharer="facebook"><i class="fab fa-facebook-f"></i></li> -->
+				<li class="fb-js"><i class="fab fa-facebook-f"></i></li>
 				<li data-sharer="vk"><i class="fab fa-vk"></i></li>
 				<li data-sharer="twitter"><i class="fab fa-twitter"></i></li>
 				<li><a href="mailto:info@gosznak.com.ua"><i class="fas fa-envelope"></i></a></li>
