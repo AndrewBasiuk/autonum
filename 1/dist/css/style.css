@@ -1922,6 +1922,28 @@ b {
   font-weight: bold; }
 
 /*END__HEAD*/
+.video-block {
+  padding: 27px 0; }
+
+.video-block iframe {
+  display: block;
+  max-width: 375px;
+  height: 211px;
+  margin: 0 auto; }
+
+.video-block_paragraph {
+  margin-bottom: 0; }
+  .video-block_paragraph:last-child {
+    margin-top: 20px; }
+
+@media screen and (max-width: 767px) {
+  .video {
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 360px) {
+  .video-block iframe {
+    width: 290px; } }
+
 .footer {
   padding: 25px 0;
   background-color: #F8CD38;
