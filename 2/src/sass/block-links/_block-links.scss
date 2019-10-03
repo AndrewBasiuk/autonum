@@ -20,20 +20,19 @@
 		&:last-child {
 			margin-bottom: 0;
 		}
-	}
-
-	a {
+    }
+    
+    p {
         padding-left: 24px;
-        max-width: 380px;
+        // max-width: 380px;
         display: inline-block;
         position: relative;
 		color: #fff;
 		font-family: "RobotoLight", Arial, sans-serif;
         font-size: 15px;
         line-height: 20px;
-		transition: all 0.3s;
-        text-decoration: underline;
-        
+        position: relative;
+
         &:before {
             width: 7px;
             height: 7px;
@@ -44,6 +43,15 @@
             left: 0;
             content: "";
         }
+    }
+
+	a {
+        font-family: "RobotoLight", Arial, sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        color: #fff;
+		transition: all 0.3s;
+        text-decoration: underline;
 
 		&:hover {
 			text-decoration: none;

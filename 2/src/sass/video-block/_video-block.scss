@@ -1,0 +1,31 @@
+.video-block {
+    padding: 27px 0;
+    background-color: #f4f4f4;
+}
+
+.video-block iframe {
+    display: block;
+    max-width: 375px;
+    height: 211px;
+    margin: 0 auto;
+}
+
+.video-block_paragraph {
+    margin-bottom: 0;
+
+    &:last-child {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .video-block iframe {
+        width: 290px;
+    }
+}

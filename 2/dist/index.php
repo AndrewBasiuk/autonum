@@ -4,6 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:image" content="https://new.gosznak.com.ua/images/og-image-01.jpg"> 
+    <!-- <meta property="og:image" content="https://dublikaty-nomera.ru/images/og-image-01.jpg"> -->
+    <meta name="description" content="Сайт об HTML и создании сайтов"> 
 
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
@@ -17,6 +20,7 @@
     
     <?php include_once "includes/head.php"; ?>
 
+    <?php include_once "includes/video.php"; ?>    
     <?php include_once "includes/partners.php"; ?>    
     <?php include_once "includes/zakaz.php"; ?>    
     <?php include_once "includes/table_numbers.php"; ?>    
