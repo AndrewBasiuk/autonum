@@ -5,12 +5,13 @@
 
 .video-block iframe {
     display: block;
+    width: 100%;
     max-width: 375px;
     height: 211px;
     margin: 0 auto;
 }
 
-.video-block_paragraph {
+.video-block__paragraph {
     margin-bottom: 0;
 
     &:last-child {
@@ -19,13 +20,19 @@
 }
 
 @media screen and (max-width: 767px) {
-    .video {
+    .video-block__video {
         margin-bottom: 20px;
+    }
+
+    .video-block iframe {
+        width: 100%;
+        max-width: none;
     }
 }
 
-@media screen and (max-width: 360px) {
-    .video-block iframe {
-        width: 290px;
-    }
-}
+// @media screen and (max-width: 500px) {
+//     .video-block iframe {
+//         width: 100%;
+//         max-width: 420px;
+//     }
+// }

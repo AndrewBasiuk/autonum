@@ -1,6 +1,10 @@
 .samples {
 	padding: 60px 0 150px 0;
 
+	.container {
+		overflow: hidden;
+	}
+
 	a {
 		display: inline-block;
 		width: 100%;

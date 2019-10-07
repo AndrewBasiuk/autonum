@@ -1248,22 +1248,22 @@ b {
 
 .video-block iframe {
   display: block;
+  width: 100%;
   max-width: 375px;
   height: 211px;
   margin: 0 auto; }
 
-.video-block_paragraph {
+.video-block__paragraph {
   margin-bottom: 0; }
-  .video-block_paragraph:last-child {
+  .video-block__paragraph:last-child {
     margin-top: 20px; }
 
 @media screen and (max-width: 767px) {
-  .video {
-    margin-bottom: 20px; } }
-
-@media screen and (max-width: 360px) {
+  .video-block__video {
+    margin-bottom: 20px; }
   .video-block iframe {
-    width: 290px; } }
+    width: 100%;
+    max-width: none; } }
 
 .partners {
   padding: 20px 0 45px 0;
@@ -1381,6 +1381,8 @@ b {
 
 .samples {
   padding: 60px 0 150px 0; }
+  .samples .container {
+    overflow: hidden; }
   .samples a {
     display: inline-block;
     width: 100%; }

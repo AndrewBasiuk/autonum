@@ -21,22 +21,24 @@
     <div class="video-block">
       <div class="container">
           <div class="row">
-              <div class="col-md-5 video">
+              <div class="col-md-5">
                   <iframe src="https://www.youtube.com/embed/aG_MxFOMDBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div class="col-md-7">
-                  <p class="paragraph video-block_paragraph">
+                <div class="video-block__text-block">
+                  <p class="paragraph video-block__paragraph">
                       Дубликаты номеров - что это? 
                   </p>
-                  <p class="paragraph video-block_paragraph">
+                  <p class="paragraph video-block__paragraph">
                       В каком случае можно их заказывать и насколько это законно. 
                   </p>
-                  <p class="paragraph video-block_paragraph">
+                  <p class="paragraph video-block__paragraph">
                       Как это происходит и что необходимо для заказа. 
                   </p>
-                  <p class="paragraph video-block_paragraph">
+                  <p class="paragraph video-block__paragraph">
                       Смотрите в нашем видео.
                   </p>
+                </div>
               </div>
           </div>
       </div>
@@ -454,6 +456,26 @@
           </tbody>
         </table>
       </div>
+    </div>
+
+    <div class="sertificates">
+      <div class="container">
+        <h2 class="h2">
+            <b>Наши сертификаты и документы:</b>
+        </h2>
+        <div class="row slider mobile-slider sertificates-slider">
+            <div class="sertificates-slider__item">
+                <a href="img/sert-1@2x.jpg" data-fancybox="images">
+                    <img src="img/sert-1@2x.jpg" title="sertificates_image" alt="sertificates_image">
+                </a>
+            </div>
+            <div class="sertificates-slider__item">
+                <a href="img/sert-2@2x.jpg" data-fancybox="images">
+                    <img src="img/sert-2@2x.jpg" title="sertificates_image" alt="sertificates_image">
+                </a>
+            </div>
+        </div>
+        </div>
     </div>
 
     <div class="ukraine-order">
