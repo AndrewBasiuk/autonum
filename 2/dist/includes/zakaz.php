@@ -303,7 +303,7 @@
               <div class="files-browse__top">
                 <div class="files-browse__item">
                   <label for="file_1">Обзор...</label>
-                  <input id="file_1" type="file">
+                  <input id="file_1" name="file1" type="file">
                   <p class="files-browse__text">Файл не выбран</p>
                 </div>
               </div>
