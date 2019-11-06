@@ -86,13 +86,14 @@ function setFileName(){
 };
 setFileName();
 
-$(".files-browse__bottom").on("click", function () {
+$(".files-browse__bottom").on("click", function (e) {
 	filesCount++;
+	
 
 	$(".files-browse__top").append(
 		'<div class="files-browse__item">' +
-			'<label for="file_' + filesCount + '"> Обзор...</label>' +
-			'<input id="file_' + filesCount + '" name="file' + filesCount + '" type="file">' +
+			'<label for="file' + filesCount + '"> Обзор...</label>' +
+			'<input id="file' + filesCount + '" name="file' + filesCount + '" type="file">' +
 			'<p class="files-browse__text">Файл не выбран</p>' +
         '</div>'
 	);
